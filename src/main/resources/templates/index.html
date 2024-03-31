@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script th:src="@{/js/index.js}"></script>
+    <script async defer
+            th:src="|https://maps.googleapis.com/maps/api/js?key=#{google.api.key}&callback=initMap|">
+    </script>
+</head>
+<body>
+<div id="map" style="width:400px;height:400px;"></div>
+</body>
+</html>

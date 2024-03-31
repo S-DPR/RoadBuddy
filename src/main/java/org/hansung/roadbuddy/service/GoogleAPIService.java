@@ -1,13 +1,16 @@
 package org.hansung.roadbuddy.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.hansung.roadbuddy.dto.Coordinate;
-import org.hansung.roadbuddy.enums.GoogleDirectionMode;
+import org.hansung.roadbuddy.dto.google.AddressSearchReqDto;
+import org.hansung.roadbuddy.dto.google.GoogleDirectionReqDto;
+import org.hansung.roadbuddy.dto.google.GeocodingReqDto;
+import org.hansung.roadbuddy.enums.HttpMethods;
+import org.hansung.roadbuddy.generic.GenericAPIService;
+import org.hansung.roadbuddy.generic.GenericRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.Map;
 
 @Service
@@ -22,30 +25,23 @@ public class GoogleAPIService extends GenericAPIService {
         this.apiKey = apiKey;
     }
 
-    public Map getAddressCoordinates(String address) {
-        Map<String, String> params = getParamMap();
-        params.put("address", address);
-        return sendRequest(geoCodingEndpoint, params);
+    public Map getAddressCoordinates(GeocodingReqDto geocodingReqDto) {
+        setKey(geocodingReqDto);
+        return sendRequest(geoCodingEndpoint, HttpMethods.GET, geocodingReqDto);
     }
 
-    public Map getSimilarAddressList(String address) {
-        Map<String, String> params = getParamMap();
-        params.put("input", address);
-        params.put("type", "geocode");
-        return sendRequest(googlePlaceEndpoint, params);
+    public Map getSimilarAddressList(AddressSearchReqDto addressSearchReqDto) {
+        setKey(addressSearchReqDto);
+        return sendRequest(googlePlaceEndpoint, HttpMethods.GET, addressSearchReqDto);
     }
 
-    public Map getDirection(GoogleDirectionMode mode, Coordinate origin, Coordinate destination) {
-        Map<String, String> params = getParamMap();
-        params.put("origin", origin.toString());
-        params.put("destination", destination.toString());
-        params.put("mode", mode.name());
-        return sendRequest(googleDirectionsEndpoint, params);
+    public Map getDirection(GoogleDirectionReqDto directionReqDto) {
+        setKey(directionReqDto);
+        return sendRequest(googleDirectionsEndpoint, HttpMethods.GET, directionReqDto);
     }
 
-    private Map<String, String> getParamMap() {
-        Map<String, String> params = new HashMap<>();
-        params.put("key", apiKey);
-        return params;
+    @Override
+    protected void setKey(GenericRequestDTO source) {
+        source.setApiKey(apiKey);
     }
 }
