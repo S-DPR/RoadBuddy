@@ -6,9 +6,10 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Coordinate {
-    double longitude;
-    double latitude;
-    public String toString() {
-        return latitude+","+longitude;
+    private Double longitude;
+    private Double latitude;
+
+    public String toGoogleString() {
+        return latitude + "," + longitude;
     }
 }
