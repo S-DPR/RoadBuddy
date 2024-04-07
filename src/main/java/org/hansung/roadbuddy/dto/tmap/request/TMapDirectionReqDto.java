@@ -1,7 +1,8 @@
-package org.hansung.roadbuddy.dto.tmap;
+package org.hansung.roadbuddy.dto.tmap.request;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 import org.hansung.roadbuddy.dto.Coordinate;
 import org.hansung.roadbuddy.generic.GenericPostRequestDTO;
 
@@ -10,12 +11,14 @@ import java.util.Map;
 
 @Setter
 @Getter
+@ToString
 public class TMapDirectionReqDto extends GenericPostRequestDTO {
     private Coordinate start;
     private Coordinate end;
     private String reqCoordType = "WGS84GEO";
     private String startName = "출발지";
     private String endName = "도착지";
+    private Long searchOption = 30L;
 
     public String getApiKeyDisplayName() {
         return "appKey";
@@ -31,6 +34,7 @@ public class TMapDirectionReqDto extends GenericPostRequestDTO {
         map.put("reqCoordType", reqCoordType);
         map.put("startName", startName);
         map.put("endName", endName);
+        map.put("searchOption", searchOption.toString());
         return map;
     }
 }
