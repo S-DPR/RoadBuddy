@@ -1,4 +1,4 @@
-package org.hansung.roadbuddy.dto.google;
+package org.hansung.roadbuddy.dto.google.request;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,14 +9,16 @@ import java.util.Map;
 
 @Setter
 @Getter
-public class GeocodingReqDto extends GenericRequestDTO {
-    private String address;
+public class AddressSearchReqDto extends GenericRequestDTO {
+    private String input;
+    private String type = "geocode";
 
     @Override
     public Map<String, String> toMap() {
         Map<String, String> map = new HashMap<>();
         map.put("key", getApiKey());
-        map.put("address", getAddress());
+        map.put("input", input);
+        map.put("type", type);
         return map;
     }
 }
