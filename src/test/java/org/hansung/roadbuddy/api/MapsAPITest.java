@@ -14,6 +14,7 @@ import org.hansung.roadbuddy.dto.tmap.request.TMapDirectionReqDto;
 import org.hansung.roadbuddy.dto.tmap.response.tmapDirections.TMapDirectionsResDto;
 import org.hansung.roadbuddy.service.GoogleAPIService;
 import org.hansung.roadbuddy.service.TMapAPIService;
+import org.hansung.roadbuddy.utilService.DtoParseUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -65,9 +66,9 @@ class MapsAPITest {
         System.out.println("ret.toString() = " + ret.toString());
 
         List<LatLng> routes = new ArrayList<>();
-        Steps res = Steps.featureToSteps(ret.getFeatures().get(0));
+        Steps res = DtoParseUtils.featureToSteps(ret.getFeatures().get(0));
         ret.getFeatures().forEach(i -> {
-            routes.addAll(Steps.extractCoordinationInGeometry(i.getGeometry()));
+            routes.addAll(DtoParseUtils.extractLatLngInGeometry(i.getGeometry()));
         });
         res.setPolyline(new Polyline(PolylineEncoding.encode(routes)));
         System.out.println(res);

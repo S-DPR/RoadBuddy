@@ -1,12 +1,16 @@
 package org.hansung.roadbuddy.dto.tmap.response.tmapDirections;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.google.maps.internal.PolylineEncoding;
+import com.google.maps.model.LatLng;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import org.hansung.roadbuddy.deserialization.TMapCoordinatesDeserializer;
 import org.hansung.roadbuddy.dto.Coordinate;
+import org.hansung.roadbuddy.dto.google.response.googleDirections.Polyline;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Setter
@@ -19,18 +23,12 @@ public class Geometry {
 
     public Coordinate getFirstCoordinate() {
         List<Double> coord = coordinates.get(0);
-        return listToCoordinate(coord);
+        return Coordinate.listToCoordinate(coord);
     }
 
     public Coordinate getLastCoordinate() {
         List<Double> coord = coordinates.get(coordinates.size()-1);
-        return listToCoordinate(coord);
+        return Coordinate.listToCoordinate(coord);
     }
 
-    private Coordinate listToCoordinate(List<Double> coord) {
-        Coordinate coordinate = new Coordinate();
-        coordinate.setLongitude(coord.get(0));
-        coordinate.setLatitude(coord.get(1));
-        return coordinate;
-    }
 }

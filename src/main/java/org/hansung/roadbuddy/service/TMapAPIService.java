@@ -14,6 +14,7 @@ import org.hansung.roadbuddy.dto.tmap.request.TMapDirectionReqDto;
 import org.hansung.roadbuddy.enums.HttpMethods;
 import org.hansung.roadbuddy.generic.GenericAPIService;
 import org.hansung.roadbuddy.generic.GenericRequestDTO;
+import org.hansung.roadbuddy.utilService.DtoParseUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -96,13 +97,12 @@ public class TMapAPIService extends GenericAPIService {
         TMapDirectionReqDto tMapDirectionReqDto = new TMapDirectionReqDto();
         tMapDirectionReqDto.setStart(Coordinate.routesCoordinateToCoordinate(step.getStart_location()));
         tMapDirectionReqDto.setEnd(Coordinate.routesCoordinateToCoordinate(step.getEnd_location()));
-
         TMapDirectionsResDto tMapDirectionsResDto = getDirection(tMapDirectionReqDto);
 
         List<LatLng> routes = new ArrayList<>();
-        Steps res = Steps.featureToSteps(tMapDirectionsResDto.getFeatures().get(0)); // feature의 0번째는 항상 전체를 아우르는 overview
+        Steps res = DtoParseUtils.featureToSteps(tMapDirectionsResDto.getFeatures().get(0)); // feature의 0번째는 항상 전체를 아우르는 overview
         tMapDirectionsResDto.getFeatures().forEach(i -> {
-            routes.addAll(Steps.extractCoordinationInGeometry(i.getGeometry()));
+            routes.addAll(DtoParseUtils.extractLatLngInGeometry(i.getGeometry()));
         });
         res.setPolyline(new Polyline(PolylineEncoding.encode(routes)));
 
