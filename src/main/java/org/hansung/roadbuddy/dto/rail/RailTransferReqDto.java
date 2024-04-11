@@ -14,7 +14,7 @@ public class RailTransferReqDto extends GenericRequestDTO {
     //쿼리 파라미터
     private String serviceKey;
     private String format;
-    private String railOprIsttCd; //철더운영기관코드
+    private String railOprIsttCd; //철도운영기관코드
     private String lnCd; //환승 이전 호선
     private String stinCd; //환승할 역 코드
     private String prevStinCd; //환승 이전역 코드
