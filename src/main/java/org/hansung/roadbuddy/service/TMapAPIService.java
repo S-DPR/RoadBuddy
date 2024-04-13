@@ -58,8 +58,8 @@ public class TMapAPIService extends GenericAPIService {
                     }
                 });
                 leg.setSteps(newSteps);
-                leg.setTotalDistance();
-                leg.setTotalTime();
+                leg.updateTotalDistance();
+                leg.updateTotalTime();
             });
 //            route.updateOverviewPolyline();
         });
@@ -70,30 +70,19 @@ public class TMapAPIService extends GenericAPIService {
         if (steps.getTravel_mode().equals("WALKING")) {
             steps = walkingStepChanger(steps);
         }
-        if (steps == null) return null;
-
         List<Steps> newSteps = new ArrayList<>();
-        if (steps.getSteps() != null) {
-            steps.getSteps().forEach( step -> {
-                if (step.getTravel_mode().equals("WALKING")) {
-                    try {
-                        Steps change = walkingStepChanger(step);
-                        if (change != null) {
-                            step = change;
-                        }
-                    } catch (JsonProcessingException e) {
-                        throw new RuntimeException(e);
-                    }
-                }
-                newSteps.add(step);
-            });
+        for (Steps step: steps.getSteps()) {
+            if (step.getTravel_mode().equals("WALKING")) {
+                step = walkingStepChanger(step);
+            }
+            newSteps.add(step);
         }
         steps.setSteps(newSteps);
         return steps;
     }
 
     private Steps walkingStepChanger(Steps step) throws JsonProcessingException {
-        if (step.getStart_location().equals(step.getEnd_location())) return null;
+        if (step.getStart_location().equals(step.getEnd_location())) return step;
         TMapDirectionReqDto tMapDirectionReqDto = new TMapDirectionReqDto();
         tMapDirectionReqDto.setStart(Coordinate.routesCoordinateToCoordinate(step.getStart_location()));
         tMapDirectionReqDto.setEnd(Coordinate.routesCoordinateToCoordinate(step.getEnd_location()));
