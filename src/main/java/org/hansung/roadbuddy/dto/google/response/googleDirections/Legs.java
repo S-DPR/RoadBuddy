@@ -20,7 +20,7 @@ public class Legs {
     private RoutesCoordinate start_location;
     private List<Steps> steps;
 
-    public void setTotalDistance() {
+    public void updateTotalDistance() {
         if (steps == null || steps.isEmpty()) return;
         distance.setValueAndText(steps.stream().mapToLong(i -> {
             i.updateDistance();
@@ -28,7 +28,7 @@ public class Legs {
         }).sum());
     }
 
-    public void setTotalTime() {
+    public void updateTotalTime() {
         if (steps == null || steps.isEmpty()) return;
         duration.setValueAndText(steps.stream().mapToLong(i -> {
             i.updateDuration();
