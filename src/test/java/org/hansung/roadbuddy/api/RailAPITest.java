@@ -1,5 +1,6 @@
 package org.hansung.roadbuddy.api;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.hansung.roadbuddy.dto.rail.RailTransferReqDto;
 import org.hansung.roadbuddy.service.RailAPIService;
 import org.junit.jupiter.api.Test;
@@ -15,7 +16,7 @@ public class RailAPITest {
     private RailAPIService railAPIService;
 
     @Test
-    public void 환승이동경로검색(){
+    public void 환승이동경로검색() throws JsonProcessingException {
         RailTransferReqDto railTransferReqDto = new RailTransferReqDto();
         railTransferReqDto.setFormat("json");
         railTransferReqDto.setRailOprIsttCd("S1");

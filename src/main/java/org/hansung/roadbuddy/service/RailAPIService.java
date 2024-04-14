@@ -1,5 +1,6 @@
 package org.hansung.roadbuddy.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.hansung.roadbuddy.dto.rail.RailTransferReqDto;
 import org.hansung.roadbuddy.enums.HttpMethods;
@@ -24,9 +25,9 @@ public class RailAPIService extends GenericAPIService {
         this.apiKey = apiKey;
     }
 
-    public Map getRailTransfer(RailTransferReqDto railTransferReqDto){
+    public Map getRailTransfer(RailTransferReqDto railTransferReqDto) throws JsonProcessingException {
         setKey(railTransferReqDto);
-        return sendRequest(railEndpoint, HttpMethods.GET, railTransferReqDto);
+        return objectMapper.readValue(sendRequest(railEndpoint, HttpMethods.GET, railTransferReqDto), Map.class);
     }
 
 

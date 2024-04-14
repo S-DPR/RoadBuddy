@@ -1,5 +1,6 @@
 package org.hansung.roadbuddy.restController;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.hansung.roadbuddy.dto.rail.RailTransferReqDto;
 import org.hansung.roadbuddy.generic.GenericRestController;
 import org.hansung.roadbuddy.service.RailAPIService;
@@ -11,16 +12,16 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/maps")
+@RequestMapping("/subway")
 public class RailRestController extends GenericRestController {
 
     private RailAPIService railAPIService;
 
     RailRestController(RailAPIService railAPIService) { this.railAPIService = railAPIService;}
 
-    @GetMapping("/railtransfer")
-    public ResponseEntity getRailTransfer(RailTransferReqDto railTransferReqDto){
-        Map ret = wrapServiceResponse(railTransferReqDto, railAPIService::getRailTransfer);
+    @GetMapping("/transfer")
+    public ResponseEntity getRailTransfer(RailTransferReqDto railTransferReqDto) throws JsonProcessingException {
+        Map ret = railAPIService.getRailTransfer(railTransferReqDto);
         return toResponse(ret);
     }
 
