@@ -40,6 +40,6 @@ public class MapsRestController extends GenericRestController {
     @GetMapping("/directions")
     public ResponseEntity getDirection(GoogleDirectionReqDto directionReqDto) throws JsonProcessingException {
         GoogleDirectionResDto googleDirectionResDto = googleAPIService.getDirection(directionReqDto);
-        return toResponse(tMapAPIService.convertGoogleWalkToTMapWalkDirection(googleDirectionResDto));
+        return toResponse(tMapAPIService.updateWalkingStepsInGoogleDirection(googleDirectionResDto));
     }
 }
