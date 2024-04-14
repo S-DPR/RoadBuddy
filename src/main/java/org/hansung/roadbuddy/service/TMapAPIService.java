@@ -8,7 +8,6 @@ import org.hansung.roadbuddy.dto.Coordinate;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.GoogleDirectionResDto;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.Polyline;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.Steps;
-import org.hansung.roadbuddy.dto.tmap.response.tmapDirections.Properties;
 import org.hansung.roadbuddy.dto.tmap.response.tmapDirections.TMapDirectionsResDto;
 import org.hansung.roadbuddy.dto.tmap.request.TMapDirectionReqDto;
 import org.hansung.roadbuddy.enums.HttpMethods;
@@ -21,6 +20,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class TMapAPIService extends GenericAPIService {
@@ -39,66 +39,65 @@ public class TMapAPIService extends GenericAPIService {
         return objectMapper.readValue(response, TMapDirectionsResDto.class);
     }
 
-    public GoogleDirectionResDto convertGoogleWalkToTMapWalkDirection(GoogleDirectionResDto googleDirectionResDto) {
-        GoogleDirectionResDto ret = new GoogleDirectionResDto();
-        ret.setGeocoded_waypoints(googleDirectionResDto.getGeocoded_waypoints());
-        ret.setRoutes(googleDirectionResDto.getRoutes());
-
-        ret.getRoutes().forEach(route -> {
-            List<Steps> newSteps = new ArrayList<>();
+    public GoogleDirectionResDto updateWalkingStepsInGoogleDirection(GoogleDirectionResDto googleDirectionResDto) {
+        googleDirectionResDto.getRoutes().forEach(route -> {
             route.getLegs().forEach(leg -> {
-                leg.getSteps().forEach(step -> {
-                    try {
-                        step = walkingStepFinder(step);
-                    } catch (JsonProcessingException e) {
-                        throw new RuntimeException(e);
-                    }
-                    if (step != null) {
-                        newSteps.add(step);
-                    }
-                });
-                leg.setSteps(newSteps);
+                List<Steps> updatedSteps = leg.getSteps().stream().map(step -> {
+                        try {
+                            return "WALKING".equals(step.getTravel_mode()) ? updateWalkingSteps(step) : step;
+                        } catch (JsonProcessingException e) {
+                            throw new RuntimeException("Error updating walking steps", e);
+                        }
+                    }).collect(Collectors.toList());
+                leg.setSteps(updatedSteps);
                 leg.updateTotalDistance();
                 leg.updateTotalTime();
             });
-//            route.updateOverviewPolyline();
         });
-        return ret;
+        return googleDirectionResDto;
     }
 
-    private Steps walkingStepFinder(Steps steps) throws JsonProcessingException {
-        if (steps.getTravel_mode().equals("WALKING")) {
-            steps = walkingStepChanger(steps);
-        }
+    private Steps updateWalkingSteps(Steps steps) throws JsonProcessingException {
         List<Steps> newSteps = new ArrayList<>();
         for (Steps step: steps.getSteps()) {
             if (step.getTravel_mode().equals("WALKING")) {
-                step = walkingStepChanger(step);
+                step = updateWalkingSteps(step);
             }
             newSteps.add(step);
         }
         steps.setSteps(newSteps);
+        if (steps.getTravel_mode().equals("WALKING")) {
+            steps = walkingStepChanger(steps);
+        }
         return steps;
     }
 
     private Steps walkingStepChanger(Steps step) throws JsonProcessingException {
         if (step.getStart_location().equals(step.getEnd_location())) return step;
+        TMapDirectionsResDto tMapDirectionsResDto = stepToTMapDirection(step);
+
+        // feature의 0번째는 항상 전체를 아우르는 overview
+        Steps res = DtoParseUtils.featureToSteps(tMapDirectionsResDto.getFeatures().get(0));
+        res.setPolyline(getPolylineUsingFeatures(tMapDirectionsResDto));
+
+        // 세부 steps 설정
+        res.setSteps(DtoParseUtils.featuresToSteps(tMapDirectionsResDto.getFeatures()));
+        return res;
+    }
+
+    private TMapDirectionsResDto stepToTMapDirection(Steps step) throws JsonProcessingException {
         TMapDirectionReqDto tMapDirectionReqDto = new TMapDirectionReqDto();
         tMapDirectionReqDto.setStart(Coordinate.routesCoordinateToCoordinate(step.getStart_location()));
         tMapDirectionReqDto.setEnd(Coordinate.routesCoordinateToCoordinate(step.getEnd_location()));
-        TMapDirectionsResDto tMapDirectionsResDto = getDirection(tMapDirectionReqDto);
+        return getDirection(tMapDirectionReqDto);
+    }
 
+    private Polyline getPolylineUsingFeatures(TMapDirectionsResDto tMapDirectionsResDto) {
         List<LatLng> routes = new ArrayList<>();
-        Steps res = DtoParseUtils.featureToSteps(tMapDirectionsResDto.getFeatures().get(0)); // feature의 0번째는 항상 전체를 아우르는 overview
         tMapDirectionsResDto.getFeatures().forEach(i -> {
             routes.addAll(DtoParseUtils.extractLatLngInGeometry(i.getGeometry()));
         });
-        res.setPolyline(new Polyline(PolylineEncoding.encode(routes)));
-
-        Properties properties = tMapDirectionsResDto.getFeatures().get(0).getProperties();
-        res.getDistance().setValueAndText(properties.getTotalDistance());
-        res.getDuration().setValueAndText(properties.getTotalTime());
-        return res;
+        return new Polyline(PolylineEncoding.encode(routes));
     }
 
     @Override
