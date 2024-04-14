@@ -6,6 +6,8 @@ import lombok.Setter;
 import lombok.ToString;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.RoutesCoordinate;
 
+import java.util.List;
+
 @Setter
 @Getter
 @EqualsAndHashCode
@@ -22,6 +24,13 @@ public class Coordinate {
         Coordinate coordinate = new Coordinate();
         coordinate.setLatitude(routesCoordinate.getLat());
         coordinate.setLongitude(routesCoordinate.getLng());
+        return coordinate;
+    }
+
+    public static Coordinate listToCoordinate(List<Double> coord) {
+        Coordinate coordinate = new Coordinate();
+        coordinate.setLongitude(coord.get(0));
+        coordinate.setLatitude(coord.get(1));
         return coordinate;
     }
 }

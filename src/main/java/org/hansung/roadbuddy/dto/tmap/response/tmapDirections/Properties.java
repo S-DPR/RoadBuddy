@@ -24,15 +24,6 @@ public class Properties {
     private Long turnType;
     private String pointType;
 
-    public String timeToString() {
-        long min = (totalTime + 59) / 60;
-        long hour = min / 60;
-        min = min % 60;
-
-        if (hour > 0) {
-            return String.format("%d시간\n%d분", hour, min);
-        } else {
-            return String.format("%d분", min);
-        }
-    }
+    private Long distance;
+    private Long time;
 }

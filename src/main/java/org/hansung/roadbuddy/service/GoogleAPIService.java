@@ -1,9 +1,11 @@
 package org.hansung.roadbuddy.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.hansung.roadbuddy.dto.google.AddressSearchReqDto;
-import org.hansung.roadbuddy.dto.google.GoogleDirectionReqDto;
-import org.hansung.roadbuddy.dto.google.GeocodingReqDto;
+import org.hansung.roadbuddy.dto.google.request.AddressSearchReqDto;
+import org.hansung.roadbuddy.dto.google.request.GoogleDirectionReqDto;
+import org.hansung.roadbuddy.dto.google.request.GeocodingReqDto;
+import org.hansung.roadbuddy.dto.google.response.googleDirections.GoogleDirectionResDto;
 import org.hansung.roadbuddy.enums.HttpMethods;
 import org.hansung.roadbuddy.generic.GenericAPIService;
 import org.hansung.roadbuddy.generic.GenericRequestDTO;
@@ -25,19 +27,22 @@ public class GoogleAPIService extends GenericAPIService {
         this.apiKey = apiKey;
     }
 
-    public Map getAddressCoordinates(GeocodingReqDto geocodingReqDto) {
+    public Map getAddressCoordinates(GeocodingReqDto geocodingReqDto) throws JsonProcessingException {
         setKey(geocodingReqDto);
-        return sendRequest(geoCodingEndpoint, HttpMethods.GET, geocodingReqDto);
+        String response = sendRequest(geoCodingEndpoint, HttpMethods.GET, geocodingReqDto);
+        return objectMapper.readValue(response, Map.class);
     }
 
-    public Map getSimilarAddressList(AddressSearchReqDto addressSearchReqDto) {
+    public Map getSimilarAddressList(AddressSearchReqDto addressSearchReqDto) throws JsonProcessingException {
         setKey(addressSearchReqDto);
-        return sendRequest(googlePlaceEndpoint, HttpMethods.GET, addressSearchReqDto);
+        String response = sendRequest(googlePlaceEndpoint, HttpMethods.GET, addressSearchReqDto);
+        return objectMapper.readValue(response, Map.class);
     }
 
-    public Map getDirection(GoogleDirectionReqDto directionReqDto) {
+    public GoogleDirectionResDto getDirection(GoogleDirectionReqDto directionReqDto) throws JsonProcessingException {
         setKey(directionReqDto);
-        return sendRequest(googleDirectionsEndpoint, HttpMethods.GET, directionReqDto);
+        String response = sendRequest(googleDirectionsEndpoint, HttpMethods.GET, directionReqDto);
+        return objectMapper.readValue(response, GoogleDirectionResDto.class);
     }
 
     @Override

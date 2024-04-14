@@ -1,7 +1,6 @@
 package org.hansung.roadbuddy.generic;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import org.hansung.roadbuddy.enums.HttpMethods;
 
 import java.io.IOException;
@@ -17,7 +16,8 @@ public abstract class GenericAPIService {
     protected final ObjectMapper objectMapper;
     protected GenericAPIService(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
-        this.objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
+//        this.objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
+//        objectMapper.setPropertyNamingStrategy(PropertyNamingStrategy.SNAKE_CASE);
     }
     private String sendGetHttpRequest(String endpoint, String params) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
@@ -25,7 +25,6 @@ public abstract class GenericAPIService {
                 .uri(URI.create(endpoint + "?" + params))
                 .GET()
                 .build();
-        System.out.println(endpoint + "?" + params);
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         return response.body();
     }
@@ -53,16 +52,22 @@ public abstract class GenericAPIService {
         return paramJoiner.toString();
     }
 
-    protected Map sendRequest(String endpoint, HttpMethods methods, GenericRequestDTO dto) {
+    protected String sendRequest(String endpoint, HttpMethods methods, GenericRequestDTO dto) {
         try {
-            String ret = "";
             switch (methods) {
-                case GET ->
-                        ret = sendGetHttpRequest(endpoint, queryParamMapToString(dto.toMap()));
-                case POST ->
-                        ret = sendPostHttpRequest(endpoint, objectMapper.writeValueAsString(dto.toMap()), (GenericPostRequestDTO) dto);
+                case GET -> {
+                    return sendGetHttpRequest(endpoint, queryParamMapToString(dto.toMap()));
+                }
+                case POST -> {
+                    return sendPostHttpRequest(
+                            endpoint,
+                            objectMapper.writeValueAsString(dto.toMap()),
+                            (GenericPostRequestDTO) dto);
+                }
+                default -> {
+                    return null;
+                }
             }
-            return objectMapper.readValue(ret, Map.class);
         } catch (InterruptedException | IOException e) {
             throw new RuntimeException(e);
         }

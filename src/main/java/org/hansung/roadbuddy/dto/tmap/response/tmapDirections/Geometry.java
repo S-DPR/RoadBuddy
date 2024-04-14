@@ -18,19 +18,15 @@ public class Geometry {
     List<List<Double>> coordinates;
 
     public Coordinate getFirstCoordinate() {
+        if (coordinates.isEmpty()) return null;
         List<Double> coord = coordinates.get(0);
-        return listToCoordinate(coord);
+        return Coordinate.listToCoordinate(coord);
     }
 
     public Coordinate getLastCoordinate() {
+        if (coordinates.isEmpty()) return null;
         List<Double> coord = coordinates.get(coordinates.size()-1);
-        return listToCoordinate(coord);
+        return Coordinate.listToCoordinate(coord);
     }
 
-    private Coordinate listToCoordinate(List<Double> coord) {
-        Coordinate coordinate = new Coordinate();
-        coordinate.setLongitude(coord.get(0));
-        coordinate.setLatitude(coord.get(1));
-        return coordinate;
-    }
 }
