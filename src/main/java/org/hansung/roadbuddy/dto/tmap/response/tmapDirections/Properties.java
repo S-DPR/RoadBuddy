@@ -23,4 +23,7 @@ public class Properties {
     private String facilityName;
     private Long turnType;
     private String pointType;
+
+    private Long distance;
+    private Long time;
 }
