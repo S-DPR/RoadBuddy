@@ -1,6 +1,6 @@
 package org.hansung.roadbuddy.dto.rail.response;
 
-import org.hansung.roadbuddy.dto.google.response.googleDirections.GoogleDirectionResDto;
+import org.hansung.roadbuddy.dto.google.response.googleDirections.Routes;
 
-public class DirectionsTransferResDto extends GoogleDirectionResDto {
+public class DirectionsTransferResDto extends Routes {
 }
