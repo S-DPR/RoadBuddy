@@ -39,16 +39,17 @@ public class TMapAPIService extends GenericAPIService {
         return objectMapper.readValue(response, TMapDirectionsResDto.class);
     }
 
+    // GoogleDirectionResDto 받아 WALKING 부분 업데이트
     public GoogleDirectionResDto updateWalkingStepsInGoogleDirection(GoogleDirectionResDto googleDirectionResDto) {
         googleDirectionResDto.getRoutes().forEach(route -> {
             route.getLegs().forEach(leg -> {
                 List<Steps> updatedSteps = leg.getSteps().stream().map(step -> {
-                        try {
-                            return "WALKING".equals(step.getTravel_mode()) ? updateWalkingSteps(step) : step;
-                        } catch (JsonProcessingException e) {
-                            throw new RuntimeException("Error updating walking steps", e);
-                        }
-                    }).collect(Collectors.toList());
+                    try {
+                        return "WALKING".equals(step.getTravel_mode()) ? updateWalkingSteps(step) : step;
+                    } catch (JsonProcessingException e) {
+                        throw new RuntimeException(e);
+                    }
+                }).collect(Collectors.toList());
                 leg.setSteps(updatedSteps);
                 leg.updateTotalDistance();
                 leg.updateTotalTime();
@@ -57,21 +58,21 @@ public class TMapAPIService extends GenericAPIService {
         return googleDirectionResDto;
     }
 
+    // steps를 중 WALKING인 부분 업데이트 함수 호출. 내부 Steps도 재귀적으로 탐색
     private Steps updateWalkingSteps(Steps steps) throws JsonProcessingException {
-        List<Steps> newSteps = new ArrayList<>();
-        for (Steps step: steps.getSteps()) {
-            if (step.getTravel_mode().equals("WALKING")) {
-                step = updateWalkingSteps(step);
+        List<Steps> newSteps = steps.getSteps().stream().map(step -> {
+            try {
+                return step.getTravel_mode().equals("WALKING") ? updateWalkingSteps(step) : step;
+            } catch (JsonProcessingException e) {
+                throw new RuntimeException("JSON 관련 에러 발생", e); // TODO RTE던지긴 좀 그렇지 ㅋㅋ
             }
-            newSteps.add(step);
-        }
+        }).toList();
+        steps = walkingStepChanger(steps);
         steps.setSteps(newSteps);
-        if (steps.getTravel_mode().equals("WALKING")) {
-            steps = walkingStepChanger(steps);
-        }
         return steps;
     }
 
+    // 실제 steps 변환 함수
     private Steps walkingStepChanger(Steps step) throws JsonProcessingException {
         if (step.getStart_location().equals(step.getEnd_location())) return step;
         TMapDirectionsResDto tMapDirectionsResDto = stepToTMapDirection(step);
@@ -85,6 +86,7 @@ public class TMapAPIService extends GenericAPIService {
         return res;
     }
 
+    // location 양 끝점 사용해 TMapDirections 호출, 결과 반환
     private TMapDirectionsResDto stepToTMapDirection(Steps step) throws JsonProcessingException {
         TMapDirectionReqDto tMapDirectionReqDto = new TMapDirectionReqDto();
         tMapDirectionReqDto.setStart(Coordinate.routesCoordinateToCoordinate(step.getStart_location()));
@@ -92,6 +94,7 @@ public class TMapAPIService extends GenericAPIService {
         return getDirection(tMapDirectionReqDto);
     }
 
+    // Walking Polyline 생성
     private Polyline getPolylineUsingFeatures(TMapDirectionsResDto tMapDirectionsResDto) {
         List<LatLng> routes = new ArrayList<>();
         tMapDirectionsResDto.getFeatures().forEach(i -> {
