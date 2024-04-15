@@ -1,4 +1,4 @@
-package org.hansung.roadbuddy.dto.rail;
+package org.hansung.roadbuddy.dto.rail.request;
 
 import lombok.Getter;
 import lombok.Setter;

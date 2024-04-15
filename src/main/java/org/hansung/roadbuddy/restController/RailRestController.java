@@ -1,7 +1,7 @@
 package org.hansung.roadbuddy.restController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.hansung.roadbuddy.dto.rail.RailTransferReqDto;
+import org.hansung.roadbuddy.dto.rail.request.RailTransferReqDto;
 import org.hansung.roadbuddy.generic.GenericRestController;
 import org.hansung.roadbuddy.service.RailAPIService;
 import org.springframework.http.ResponseEntity;
