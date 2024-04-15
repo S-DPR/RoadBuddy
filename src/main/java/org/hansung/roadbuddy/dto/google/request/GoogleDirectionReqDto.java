@@ -16,7 +16,7 @@ public class GoogleDirectionReqDto extends GenericRequestDTO {
     private Coordinate origin;
     private Coordinate destination;
     private String mode = "transit";
-    private Boolean alternatives = false; // TODO TRUE로 해야함
+    private Boolean alternatives = true; // TODO TRUE로 해야함
 
     @Override
     public Map<String, String> toMap() {
