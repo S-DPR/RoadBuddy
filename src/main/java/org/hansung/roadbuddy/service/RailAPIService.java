@@ -2,7 +2,7 @@ package org.hansung.roadbuddy.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.hansung.roadbuddy.dto.rail.RailTransferReqDto;
+import org.hansung.roadbuddy.dto.rail.request.RailTransferReqDto;
 import org.hansung.roadbuddy.enums.HttpMethods;
 import org.hansung.roadbuddy.generic.GenericAPIService;
 import org.hansung.roadbuddy.generic.GenericRequestDTO;
