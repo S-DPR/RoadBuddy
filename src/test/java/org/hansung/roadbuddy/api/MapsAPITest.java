@@ -80,7 +80,7 @@ class MapsAPITest {
         directionReqDto.setOrigin(좌표저장소.한성대학교.getCoordinate());
         directionReqDto.setDestination(좌표저장소.마곡나루.getCoordinate());
         GoogleDirectionResDto ret = googleAPIService.getDirection(directionReqDto);
-        ret = tMapAPIService.convertGoogleWalkToTMapWalkDirection(ret);
+        ret = tMapAPIService.updateWalkingStepsInGoogleDirection(ret);
         System.out.println("ret = " + ret);
 //        System.out.println("ret.getRoutes().get(0).getOverview_polyline().getPoints() = " + ret.getRoutes().get(0).getOverview_polyline().getPoints());
     }
