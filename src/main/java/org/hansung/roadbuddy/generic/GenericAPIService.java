@@ -1,6 +1,7 @@
 package org.hansung.roadbuddy.generic;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import org.hansung.roadbuddy.enums.HttpMethods;
 
 import java.io.IOException;
@@ -13,11 +14,12 @@ import java.util.Map;
 import java.util.StringJoiner;
 
 public abstract class GenericAPIService {
+    private final String apiKey;
     protected final ObjectMapper objectMapper;
-    protected GenericAPIService(ObjectMapper objectMapper) {
+    protected volatile XmlMapper xmlMapper;
+    protected GenericAPIService(ObjectMapper objectMapper, String apiKey) {
         this.objectMapper = objectMapper;
-//        this.objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
-//        objectMapper.setPropertyNamingStrategy(PropertyNamingStrategy.SNAKE_CASE);
+        this.apiKey = apiKey;
     }
     private String sendGetHttpRequest(String endpoint, String params) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
@@ -73,5 +75,7 @@ public abstract class GenericAPIService {
         }
     }
 
-    protected abstract void setKey(GenericRequestDTO dto);
+    protected void setKey(GenericRequestDTO dto) {
+        dto.setApiKey(apiKey);
+    };
 }

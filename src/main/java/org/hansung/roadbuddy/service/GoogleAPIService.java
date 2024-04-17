@@ -17,14 +17,12 @@ import java.util.Map;
 
 @Service
 public class GoogleAPIService extends GenericAPIService {
-    private final String apiKey;
     private final String geoCodingEndpoint = "https://maps.googleapis.com/maps/api/geocode/json";
     private final String googlePlaceEndpoint = "https://maps.googleapis.com/maps/api/place/autocomplete/json";
     private final String googleDirectionsEndpoint = "https://maps.googleapis.com/maps/api/directions/json";
     @Autowired
     GoogleAPIService(ObjectMapper objectMapper, @Value("${api.key.google}") String apiKey) {
-        super(objectMapper);
-        this.apiKey = apiKey;
+        super(objectMapper, apiKey);
     }
 
     public Map getAddressCoordinates(GeocodingReqDto geocodingReqDto) throws JsonProcessingException {
@@ -43,10 +41,5 @@ public class GoogleAPIService extends GenericAPIService {
         setKey(directionReqDto);
         String response = sendRequest(googleDirectionsEndpoint, HttpMethods.GET, directionReqDto);
         return objectMapper.readValue(response, GoogleDirectionResDto.class);
-    }
-
-    @Override
-    protected void setKey(GenericRequestDTO source) {
-        source.setApiKey(apiKey);
     }
 }

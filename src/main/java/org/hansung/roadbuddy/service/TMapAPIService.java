@@ -24,13 +24,11 @@ import java.util.stream.Collectors;
 
 @Service
 public class TMapAPIService extends GenericAPIService {
-    private final String apiKey;
     private final String tMapDirectionEndpoint = "https://apis.openapi.sk.com/tmap/routes/pedestrian?version=1&callback=function";
 
     @Autowired
     TMapAPIService(ObjectMapper objectMapper, @Value("${api.key.tmap}") String apiKey) {
-        super(objectMapper);
-        this.apiKey = apiKey;
+        super(objectMapper, apiKey);
     }
 
     public TMapDirectionsResDto getDirection(TMapDirectionReqDto tMapCoordinate) throws JsonProcessingException {
@@ -103,8 +101,4 @@ public class TMapAPIService extends GenericAPIService {
         return new Polyline(PolylineEncoding.encode(routes));
     }
 
-    @Override
-    protected void setKey(GenericRequestDTO dto) {
-        dto.setApiKey(apiKey);
-    }
 }
