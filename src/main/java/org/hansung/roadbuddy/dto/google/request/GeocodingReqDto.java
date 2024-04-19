@@ -11,12 +11,14 @@ import java.util.Map;
 @Getter
 public class GeocodingReqDto extends GenericRequestDTO {
     private String address;
+    private String language = "ko";
 
     @Override
     public Map<String, String> toMap() {
         Map<String, String> map = new HashMap<>();
         map.put("key", getApiKey());
-        map.put("address", getAddress());
+        map.put("address", address);
+        map.put("language", language);
         return map;
     }
 }
