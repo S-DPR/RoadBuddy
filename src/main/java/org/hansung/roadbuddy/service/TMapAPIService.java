@@ -12,28 +12,36 @@ import org.hansung.roadbuddy.dto.tmap.response.tmapDirections.TMapDirectionsResD
 import org.hansung.roadbuddy.dto.tmap.request.TMapDirectionReqDto;
 import org.hansung.roadbuddy.enums.HttpMethods;
 import org.hansung.roadbuddy.generic.GenericAPIService;
-import org.hansung.roadbuddy.generic.GenericRequestDTO;
 import org.hansung.roadbuddy.utilService.DtoParseUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.net.http.HttpRequest;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
 public class TMapAPIService extends GenericAPIService {
+    private final String apiKey;
     private final String tMapDirectionEndpoint = "https://apis.openapi.sk.com/tmap/routes/pedestrian?version=1&callback=function";
 
     @Autowired
     TMapAPIService(ObjectMapper objectMapper, @Value("${api.key.tmap}") String apiKey) {
-        super(objectMapper, apiKey);
+        super(objectMapper, null);
+        this.apiKey = apiKey;
+    }
+
+    @Override
+    protected HttpRequest.Builder createHttpRequestBuilder() {
+        return HttpRequest.newBuilder()
+                .header("appKey", apiKey);
     }
 
     public TMapDirectionsResDto getDirection(TMapDirectionReqDto tMapCoordinate) throws JsonProcessingException {
         setKey(tMapCoordinate);
-        String response = sendRequest(tMapDirectionEndpoint, HttpMethods.POST, tMapCoordinate);
+        String response = sendRequest(tMapDirectionEndpoint, HttpMethods.POST, createHttpRequestBuilder(), tMapCoordinate);
         return objectMapper.readValue(response, TMapDirectionsResDto.class);
     }
 
