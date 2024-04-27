@@ -12,8 +12,7 @@ import java.util.Map;
 public class RailTransferReqDto extends GenericRequestDTO {
 
     //쿼리 파라미터
-    private String serviceKey;
-    private String format;
+    private String format = "json";
     private String railOprIsttCd; //철도운영기관코드
     private String lnCd; //환승 이전 호선
     private String stinCd; //환승할 역 코드
