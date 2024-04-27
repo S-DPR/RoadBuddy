@@ -46,10 +46,7 @@ public class GoogleAPIService extends GenericAPIService {
 
     public GoogleDirectionResDto getDirection(GoogleDirectionReqDto directionReqDto) throws JsonProcessingException {
         setKey(directionReqDto);
-        if (cache.containsKey(directionReqDto)) return (GoogleDirectionResDto) cache.get(directionReqDto);
         String response = sendRequest(googleDirectionsEndpoint, directionReqDto);
-        GoogleDirectionResDto ret = objectMapper.readValue(response, GoogleDirectionResDto.class);
-        cache.putIfAbsent(directionReqDto, ret);
-        return ret;
+        return objectMapper.readValue(response, GoogleDirectionResDto.class);
     }
 }
