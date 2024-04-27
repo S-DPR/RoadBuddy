@@ -34,9 +34,12 @@ public class NaverAPIService extends GenericAPIService {
     }
 
     public Map getGeocoding(NaverGeocodingReqDto naverGeocodingReqDto) throws JsonProcessingException {
+        if (cache.containsKey(naverGeocodingReqDto)) return (Map) cache.get(naverGeocodingReqDto);
         String response = sendRequest(geocodingEndpoint, HttpMethods.GET, createHttpRequestBuilder(), naverGeocodingReqDto);
         System.out.println("response = " + response);
-        return objectMapper.readValue(response, Map.class);
+        Map ret = objectMapper.readValue(response, Map.class);
+        cache.putIfAbsent(naverGeocodingReqDto, ret);
+        return ret;
     }
 
     public PlaceSearchResDto updatePlaceSearchItemsGeocoding(PlaceSearchResDto placeSearchResDto) throws JsonProcessingException {
