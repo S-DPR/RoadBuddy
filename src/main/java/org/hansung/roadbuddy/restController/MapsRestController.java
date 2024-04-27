@@ -14,6 +14,7 @@ import org.hansung.roadbuddy.service.GoogleAPIService;
 import org.hansung.roadbuddy.service.NaverAPIService;
 import org.hansung.roadbuddy.service.NaverOpenAPIService;
 import org.hansung.roadbuddy.service.TMapAPIService;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -68,7 +69,12 @@ public class MapsRestController extends GenericRestController {
 
     @GetMapping("/directions")
     public ResponseEntity getDirection(GoogleDirectionReqDto directionReqDto) throws JsonProcessingException {
-        GoogleDirectionResDto googleDirectionResDto = googleAPIService.getDirection(directionReqDto);
-        return toResponse(tMapAPIService.updateWalkingStepsInGoogleDirection(googleDirectionResDto));
+        try {
+            System.out.println("directionReqDto = " + directionReqDto);
+            GoogleDirectionResDto googleDirectionResDto = googleAPIService.getDirection(directionReqDto);
+            return toResponse(tMapAPIService.updateWalkingStepsInGoogleDirection(googleDirectionResDto));
+        } catch (NullPointerException e) {
+            return new ResponseEntity(Map.of("status", "무료 서비스 사용량 부족 의심"), HttpStatus.SERVICE_UNAVAILABLE);
+        }
     }
 }
