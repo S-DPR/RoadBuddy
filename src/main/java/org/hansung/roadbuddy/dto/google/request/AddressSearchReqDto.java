@@ -11,6 +11,7 @@ import java.util.Map;
 @Getter
 public class AddressSearchReqDto extends GenericRequestDTO {
     private String input;
+    private String language = "ko";
     private String type = "geocode";
 
     @Override

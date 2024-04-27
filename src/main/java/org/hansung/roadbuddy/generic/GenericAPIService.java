@@ -21,9 +21,9 @@ public abstract class GenericAPIService {
         this.objectMapper = objectMapper;
         this.apiKey = apiKey;
     }
-    private String sendGetHttpRequest(String endpoint, String params) throws IOException, InterruptedException {
+    private String sendGetHttpRequest(String endpoint, HttpRequest.Builder httpRequest, String params) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
+        HttpRequest request = httpRequest
                 .uri(URI.create(endpoint + "?" + params))
                 .GET()
                 .build();
@@ -31,12 +31,11 @@ public abstract class GenericAPIService {
         return response.body();
     }
 
-    private String sendPostHttpRequest(String endpoint, String jsonBody, GenericPostRequestDTO dto) throws IOException, InterruptedException {
+    private String sendPostHttpRequest(String endpoint, HttpRequest.Builder httpRequest, String jsonBody) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
+        HttpRequest request = httpRequest
                 .uri(URI.create(endpoint))
                 .header("Content-Type", "application/json")
-                .header(dto.getApiKeyDisplayName(), dto.getApiKey())
                 .POST(HttpRequest.BodyPublishers.ofString(jsonBody))
                 .build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
@@ -54,17 +53,17 @@ public abstract class GenericAPIService {
         return paramJoiner.toString();
     }
 
-    protected String sendRequest(String endpoint, HttpMethods methods, GenericRequestDTO dto) {
+    protected String sendRequest(String endpoint, HttpMethods methods, HttpRequest.Builder httpRequest, GenericRequestDTO dto) {
         try {
             switch (methods) {
                 case GET -> {
-                    return sendGetHttpRequest(endpoint, queryParamMapToString(dto.toMap()));
+                    return sendGetHttpRequest(endpoint, httpRequest, queryParamMapToString(dto.toMap()));
                 }
                 case POST -> {
                     return sendPostHttpRequest(
                             endpoint,
-                            objectMapper.writeValueAsString(dto.toMap()),
-                            (GenericPostRequestDTO) dto);
+                            httpRequest,
+                            objectMapper.writeValueAsString(dto.toMap()));
                 }
                 default -> {
                     return null;
@@ -78,4 +77,10 @@ public abstract class GenericAPIService {
     protected void setKey(GenericRequestDTO dto) {
         dto.setApiKey(apiKey);
     };
+    protected String sendRequest(String endpoint, GenericRequestDTO dto) {
+        return sendRequest(endpoint, HttpMethods.GET, createHttpRequestBuilder(), dto);
+    }
+    protected HttpRequest.Builder createHttpRequestBuilder() {
+        return HttpRequest.newBuilder().GET();
+    }
 }

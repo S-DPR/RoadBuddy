@@ -7,17 +7,17 @@ import org.hansung.roadbuddy.generic.GenericRequestDTO;
 import java.util.HashMap;
 import java.util.Map;
 
-@Setter
 @Getter
-public class GeocodingReqDto extends GenericRequestDTO {
-    private String address;
+@Setter
+public class TextSearchReqDto extends GenericRequestDTO {
     private String language = "ko";
+    private String query;
 
     @Override
     public Map<String, String> toMap() {
         Map<String, String> map = new HashMap<>();
         map.put("key", getApiKey());
-        map.put("address", address);
+        map.put("query", query);
         map.put("language", language);
         return map;
     }
