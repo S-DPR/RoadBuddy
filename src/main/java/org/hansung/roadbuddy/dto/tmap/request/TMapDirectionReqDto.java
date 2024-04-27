@@ -1,5 +1,6 @@
 package org.hansung.roadbuddy.dto.tmap.request;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -12,6 +13,7 @@ import java.util.Map;
 @Setter
 @Getter
 @ToString
+@EqualsAndHashCode(callSuper = false)
 public class TMapDirectionReqDto extends GenericRequestDTO {
     private Coordinate start;
     private Coordinate end;

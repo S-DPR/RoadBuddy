@@ -1,7 +1,6 @@
 package org.hansung.roadbuddy.generic;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import org.hansung.roadbuddy.enums.HttpMethods;
 
 import java.io.IOException;
@@ -12,15 +11,18 @@ import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.StringJoiner;
+import java.util.concurrent.*;
 
 public abstract class GenericAPIService {
     private final String apiKey;
     protected final ObjectMapper objectMapper;
-    protected volatile XmlMapper xmlMapper;
+//    protected volatile XmlMapper xmlMapper;
+    protected final ConcurrentHashMap<Object, Object> cache = new ConcurrentHashMap<>();
     protected GenericAPIService(ObjectMapper objectMapper, String apiKey) {
         this.objectMapper = objectMapper;
         this.apiKey = apiKey;
     }
+
     private String sendGetHttpRequest(String endpoint, HttpRequest.Builder httpRequest, String params) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = httpRequest

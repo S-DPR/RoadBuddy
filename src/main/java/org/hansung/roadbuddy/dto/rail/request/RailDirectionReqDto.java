@@ -3,20 +3,16 @@ package org.hansung.roadbuddy.dto.rail.request;
 import lombok.Getter;
 import lombok.Setter;
 import org.hansung.roadbuddy.dto.Coordinate;
-import org.hansung.roadbuddy.generic.GenericPostRequestDTO;
+import org.hansung.roadbuddy.generic.GenericRequestDTO;
 
 import java.util.Map;
 
 @Setter
 @Getter
-public class RailDirectionReqDto extends GenericPostRequestDTO {
+public class RailDirectionReqDto extends GenericRequestDTO {
 
     private Coordinate start;
     private Coordinate end;
-
-    public String getApiKeyDisplayName() {
-        return "appKey";
-    }
 
     @Override
     public Map<String, String> toMap() {

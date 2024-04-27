@@ -39,15 +39,33 @@ public class TMapAPIService extends GenericAPIService {
                 .header("appKey", apiKey);
     }
 
+//    @Cacheable(value="TMapDirection")
+//    public TMapDirectionsResDto getDirection(TMapDirectionReqDto tMapDirectionReqDto) throws JsonProcessingException {
+//        System.out.println(tMapDirectionReqDto.hashCode());
+//        System.out.println("tMapDirectionReqDto = " + tMapDirectionReqDto);
+//        return getDirectionAsync(tMapDirectionReqDto).join();
+//    }
+//
+//    @Async
+//    public CompletableFuture<TMapDirectionsResDto> getDirectionAsync(TMapDirectionReqDto tMapDirectionReqDto) throws JsonProcessingException {
+//        setKey(tMapDirectionReqDto);
+//        String response = sendRequest(tMapDirectionEndpoint, HttpMethods.POST, createHttpRequestBuilder(), tMapDirectionReqDto);
+//        System.out.println(response);
+//        return CompletableFuture.completedFuture(objectMapper.readValue(response, TMapDirectionsResDto.class));
+//    }
+
     public TMapDirectionsResDto getDirection(TMapDirectionReqDto tMapCoordinate) throws JsonProcessingException {
         setKey(tMapCoordinate);
+        if (cache.containsKey(tMapCoordinate)) return (TMapDirectionsResDto) cache.get(tMapCoordinate);
         String response = sendRequest(tMapDirectionEndpoint, HttpMethods.POST, createHttpRequestBuilder(), tMapCoordinate);
-        return objectMapper.readValue(response, TMapDirectionsResDto.class);
+        TMapDirectionsResDto ret = objectMapper.readValue(response, TMapDirectionsResDto.class);
+        cache.putIfAbsent(tMapCoordinate, ret);
+        return ret;
     }
 
     // GoogleDirectionResDto 받아 WALKING 부분 업데이트
     public GoogleDirectionResDto updateWalkingStepsInGoogleDirection(GoogleDirectionResDto googleDirectionResDto) {
-        googleDirectionResDto.getRoutes().forEach(route -> {
+        googleDirectionResDto.getRoutes().parallelStream().forEach(route -> {
             route.getLegs().forEach(leg -> {
                 List<Steps> updatedSteps = leg.getSteps().stream().map(step -> {
                     try {
@@ -82,6 +100,7 @@ public class TMapAPIService extends GenericAPIService {
     private Steps walkingStepChanger(Steps step) throws JsonProcessingException {
         if (step.getStart_location().equals(step.getEnd_location())) return step;
         TMapDirectionsResDto tMapDirectionsResDto = stepToTMapDirection(step);
+        if (tMapDirectionsResDto.getFeatures() == null) throw new NullPointerException("NullptrError, 사용량 부족 의심");
 
         // feature의 0번째는 항상 전체를 아우르는 overview
         Steps res = DtoParseUtils.featureToSteps(tMapDirectionsResDto.getFeatures().get(0));
