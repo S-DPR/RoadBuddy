@@ -1,5 +1,6 @@
 package org.hansung.roadbuddy.dto.naver.request;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import org.hansung.roadbuddy.dto.Coordinate;
@@ -10,6 +11,7 @@ import java.util.Map;
 
 @Getter
 @Setter
+@EqualsAndHashCode(callSuper = false)
 public class NaverGeocodingReqDto extends GenericRequestDTO {
     private String query;
     private Coordinate coordinate = null;

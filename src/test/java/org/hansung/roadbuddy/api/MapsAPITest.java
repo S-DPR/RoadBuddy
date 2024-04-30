@@ -77,12 +77,28 @@ class MapsAPITest {
     @Test
     public void 대중교통경로중걷는경로치환하기() throws JsonProcessingException {
         GoogleDirectionReqDto directionReqDto = new GoogleDirectionReqDto();
-        directionReqDto.setOrigin(좌표저장소.한성대학교.getCoordinate());
+        directionReqDto.setOrigin(좌표저장소.석계역.getCoordinate());
         directionReqDto.setDestination(좌표저장소.마곡나루.getCoordinate());
         GoogleDirectionResDto ret = googleAPIService.getDirection(directionReqDto);
         ret = tMapAPIService.updateWalkingStepsInGoogleDirection(ret);
         System.out.println("ret = " + ret);
 //        System.out.println("ret.getRoutes().get(0).getOverview_polyline().getPoints() = " + ret.getRoutes().get(0).getOverview_polyline().getPoints());
+    }
+
+    @Test
+    public void TMap길찾기테스트() throws JsonProcessingException {
+        TMapDirectionReqDto tMapDirectionReqDto = new TMapDirectionReqDto();
+        tMapDirectionReqDto.setStart(좌표저장소.석계역.getCoordinate());
+        tMapDirectionReqDto.setEnd(좌표저장소.마곡나루.getCoordinate());
+        System.out.println(tMapAPIService.getDirection(tMapDirectionReqDto));
+    }
+
+    @Test
+    public void TMap좌표가같으면() throws JsonProcessingException {
+        TMapDirectionReqDto tMapDirectionReqDto = new TMapDirectionReqDto();
+        tMapDirectionReqDto.setStart(좌표저장소.석계역.getCoordinate());
+        tMapDirectionReqDto.setEnd(좌표저장소.석계역.getCoordinate());
+        System.out.println(tMapAPIService.getDirection(tMapDirectionReqDto));
     }
 }
 

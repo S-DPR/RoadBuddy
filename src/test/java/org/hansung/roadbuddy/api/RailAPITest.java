@@ -2,6 +2,7 @@ package org.hansung.roadbuddy.api;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.hansung.roadbuddy.dto.rail.request.RailTransferReqDto;
+import org.hansung.roadbuddy.dto.rail.response.RailTransferResDto;
 import org.hansung.roadbuddy.service.RailAPIService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,9 +26,7 @@ public class RailAPITest {
         railTransferReqDto.setChthTgtLn("4");
         railTransferReqDto.setPrevStinCd("422");
         railTransferReqDto.setChtnNextStinCd("424");
-        Map ret = railAPIService.getRailTransfer(railTransferReqDto);
-        ret.keySet().forEach(i -> {
-            System.out.println( i + " " + ret.get(i));
-        });
+        RailTransferResDto ret = railAPIService.getRailTransfer(railTransferReqDto);
+        System.out.println("ret = " + ret);
     }
 }

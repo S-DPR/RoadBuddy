@@ -2,6 +2,7 @@ package org.hansung.roadbuddy.restController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.hansung.roadbuddy.dto.rail.request.RailTransferReqDto;
+import org.hansung.roadbuddy.dto.rail.response.RailTransferResDto;
 import org.hansung.roadbuddy.generic.GenericRestController;
 import org.hansung.roadbuddy.service.RailAPIService;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +22,7 @@ public class RailRestController extends GenericRestController {
 
     @GetMapping("/transfer")
     public ResponseEntity getRailTransfer(RailTransferReqDto railTransferReqDto) throws JsonProcessingException {
-        Map ret = railAPIService.getRailTransfer(railTransferReqDto);
+        RailTransferResDto ret = railAPIService.getRailTransfer(railTransferReqDto);
         return toResponse(ret);
     }
 
