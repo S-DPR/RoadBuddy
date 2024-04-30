@@ -7,7 +7,9 @@ import org.hansung.roadbuddy.dto.google.request.GeocodingReqDto;
 import org.hansung.roadbuddy.dto.google.request.TextSearchReqDto;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.GoogleDirectionResDto;
 import org.hansung.roadbuddy.dto.naver.request.NaverGeocodingReqDto;
+import org.hansung.roadbuddy.dto.naver.request.PlaceSearchItemReqDto;
 import org.hansung.roadbuddy.dto.naver.request.PlaceSearchReqDto;
+import org.hansung.roadbuddy.dto.naver.response.PlaceSearchItem;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchResDto;
 import org.hansung.roadbuddy.generic.GenericRestController;
 import org.hansung.roadbuddy.service.GoogleAPIService;
@@ -68,6 +70,12 @@ public class MapsRestController extends GenericRestController {
     @GetMapping("/geocoding")
     public ResponseEntity getGeocoding(NaverGeocodingReqDto naverGeocodingReqDto) throws JsonProcessingException {
         Map ret = naverAPIService.getGeocoding(naverGeocodingReqDto);
+        return toResponse(ret);
+    }
+
+    @GetMapping("/geocoding/byPlace")
+    public ResponseEntity getGeocoding(PlaceSearchItemReqDto placeSearchItemReqDto) throws JsonProcessingException {
+        PlaceSearchItem ret = naverAPIService.updatePlaceSearchItemReqDtoGeocoding(placeSearchItemReqDto);
         return toResponse(ret);
     }
 

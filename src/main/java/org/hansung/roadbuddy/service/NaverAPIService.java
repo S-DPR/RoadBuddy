@@ -3,6 +3,7 @@ package org.hansung.roadbuddy.service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.hansung.roadbuddy.dto.naver.request.NaverGeocodingReqDto;
+import org.hansung.roadbuddy.dto.naver.request.PlaceSearchItemReqDto;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchItem;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchResDto;
 import org.hansung.roadbuddy.enums.HttpMethods;
@@ -60,15 +61,22 @@ public class NaverAPIService extends GenericAPIService {
 
     public PlaceSearchResDto updatePlaceSearchItemsGeocoding(PlaceSearchResDto placeSearchResDto) {
         placeSearchResDto.getItems().forEach(x -> {
-            NaverGeocodingReqDto naverGeocodingReqDto = new NaverGeocodingReqDto();
-            naverGeocodingReqDto.setQuery(x.getRoadAddress().isEmpty() ? x.getAddress() : x.getRoadAddress());
-            naverGeocodingReqDto.setCoordinate(placeSearchResDto.getCoordinate());
-            try {
-                x.setGeocoding(getGeocoding(naverGeocodingReqDto));
-            } catch (JsonProcessingException e) {
-                throw new RuntimeException(e);
-            }
+            PlaceSearchItemReqDto psi = (PlaceSearchItemReqDto) x;
+            psi.setCoordinate(placeSearchResDto.getCoordinate());
+            updatePlaceSearchItemReqDtoGeocoding(psi);
         });
         return placeSearchResDto;
+    }
+
+    public PlaceSearchItem updatePlaceSearchItemReqDtoGeocoding(PlaceSearchItemReqDto psi) {
+        NaverGeocodingReqDto naverGeocodingReqDto = new NaverGeocodingReqDto();
+        naverGeocodingReqDto.setQuery(psi.getRoadAddress().isEmpty() ? psi.getAddress() : psi.getRoadAddress());
+        naverGeocodingReqDto.setCoordinate(psi.getCoordinate());
+        try {
+            psi.setGeocoding(getGeocoding(naverGeocodingReqDto));
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+        return psi;
     }
 }
