@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.net.http.HttpRequest;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -35,20 +37,38 @@ public class NaverAPIService extends GenericAPIService {
 
     public Map getGeocoding(NaverGeocodingReqDto naverGeocodingReqDto) throws JsonProcessingException {
         if (cache.containsKey(naverGeocodingReqDto)) return (Map) cache.get(naverGeocodingReqDto);
-        String response = sendRequest(geocodingEndpoint, HttpMethods.GET, createHttpRequestBuilder(), naverGeocodingReqDto);
-        System.out.println("response = " + response);
-        Map ret = objectMapper.readValue(response, Map.class);
-        cache.putIfAbsent(naverGeocodingReqDto, ret);
-        return ret;
+        List<String> words = Arrays.stream(naverGeocodingReqDto.getQuery().split(" ")).toList();
+        for (int len = words.size(); len >= 1; len--) {
+            for (int start = words.size()-len; start >= 0; start--) {
+                String roadAddress = String.join(" ", words.subList(start, start + len));
+                naverGeocodingReqDto.setQuery(roadAddress);
+                try {
+                    String response = sendRequest(geocodingEndpoint, HttpMethods.GET, createHttpRequestBuilder(), naverGeocodingReqDto);
+                    Map ret = objectMapper.readValue(response, Map.class);
+//                    System.out.println("((List)res.get(\"addresses\")).size()) = " + ((List)ret.get("addresses")).size());
+                    if (((List)ret.get("addresses")).size() == 0) continue;
+                    naverGeocodingReqDto.setQuery(String.join(" ", words));
+                    cache.putIfAbsent(naverGeocodingReqDto, ret);
+                    return ret;
+                } catch (JsonProcessingException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }
+        return null;
     }
 
-    public PlaceSearchResDto updatePlaceSearchItemsGeocoding(PlaceSearchResDto placeSearchResDto) throws JsonProcessingException {
-        for (PlaceSearchItem x: placeSearchResDto.getItems()) {
+    public PlaceSearchResDto updatePlaceSearchItemsGeocoding(PlaceSearchResDto placeSearchResDto) {
+        placeSearchResDto.getItems().forEach(x -> {
             NaverGeocodingReqDto naverGeocodingReqDto = new NaverGeocodingReqDto();
-            naverGeocodingReqDto.setQuery(x.getAddress());
+            naverGeocodingReqDto.setQuery(x.getRoadAddress().isEmpty() ? x.getAddress() : x.getRoadAddress());
             naverGeocodingReqDto.setCoordinate(placeSearchResDto.getCoordinate());
-            x.setGeocoding(getGeocoding(naverGeocodingReqDto));
-        }
+            try {
+                x.setGeocoding(getGeocoding(naverGeocodingReqDto));
+            } catch (JsonProcessingException e) {
+                throw new RuntimeException(e);
+            }
+        });
         return placeSearchResDto;
     }
 }

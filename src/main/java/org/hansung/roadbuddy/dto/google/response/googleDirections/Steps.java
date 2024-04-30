@@ -1,6 +1,8 @@
 package org.hansung.roadbuddy.dto.google.response.googleDirections;
 
+import com.google.maps.model.TransitLine;
 import lombok.*;
+import org.hansung.roadbuddy.dto.rail.response.RailTransferResDto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +21,8 @@ public class Steps {
     private String html_instructions;
     private Polyline polyline;
     private RoutesCoordinate start_location;
-    private Map<String, Object> transit_details;
+    private TransmitDetails transit_details;
+    private RailTransferResDto transfer_path = null;
     private String travel_mode;
     private String maneuver;
     @Builder.Default

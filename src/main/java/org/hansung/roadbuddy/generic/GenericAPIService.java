@@ -29,6 +29,7 @@ public abstract class GenericAPIService {
                 .uri(URI.create(endpoint + "?" + params))
                 .GET()
                 .build();
+        System.out.println("endpoint+\"?\"+params = " + endpoint+"?"+params);
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         return response.body();
     }

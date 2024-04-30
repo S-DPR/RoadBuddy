@@ -17,6 +17,7 @@ import org.hansung.roadbuddy.service.TMapAPIService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -57,7 +58,10 @@ public class MapsRestController extends GenericRestController {
     @GetMapping("/locations")
     public ResponseEntity getLocations(PlaceSearchReqDto placeSearchReqDto) throws JsonProcessingException {
         PlaceSearchResDto ret = naverOpenAPIService.getPlaceSearch(placeSearchReqDto);
-        ret = naverAPIService.updatePlaceSearchItemsGeocoding(ret);
+        System.out.println("placeSearchReqDto = " + placeSearchReqDto.isIncludeGeocoding());
+        if (placeSearchReqDto.isIncludeGeocoding()) {
+            ret = naverAPIService.updatePlaceSearchItemsGeocoding(ret);
+        }
         return toResponse(ret);
     }
 
