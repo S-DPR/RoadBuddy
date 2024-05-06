@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.hansung.roadbuddy.dto.naver.request.NaverGeocodingReqDto;
 import org.hansung.roadbuddy.dto.naver.request.PlaceSearchItemReqDto;
+import org.hansung.roadbuddy.dto.naver.request.PlaceSearchReqDto;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchItem;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchResDto;
 import org.hansung.roadbuddy.enums.HttpMethods;
@@ -61,14 +62,13 @@ public class NaverAPIService extends GenericAPIService {
 
     public PlaceSearchResDto updatePlaceSearchItemsGeocoding(PlaceSearchResDto placeSearchResDto) {
         placeSearchResDto.getItems().forEach(x -> {
-            PlaceSearchItemReqDto psi = (PlaceSearchItemReqDto) x;
-            psi.setCoordinate(placeSearchResDto.getCoordinate());
-            updatePlaceSearchItemReqDtoGeocoding(psi);
+            x.setCoordinate(placeSearchResDto.getCoordinate());
+            updatePlaceSearchItemReqDtoGeocoding(x);
         });
         return placeSearchResDto;
     }
 
-    public PlaceSearchItem updatePlaceSearchItemReqDtoGeocoding(PlaceSearchItemReqDto psi) {
+    public PlaceSearchItem updatePlaceSearchItemReqDtoGeocoding(PlaceSearchItem psi) {
         NaverGeocodingReqDto naverGeocodingReqDto = new NaverGeocodingReqDto();
         naverGeocodingReqDto.setQuery(psi.getRoadAddress().isEmpty() ? psi.getAddress() : psi.getRoadAddress());
         naverGeocodingReqDto.setCoordinate(psi.getCoordinate());

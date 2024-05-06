@@ -3,6 +3,7 @@ package org.hansung.roadbuddy.dto.naver.response;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.hansung.roadbuddy.dto.Coordinate;
 
 import java.util.Map;
 
@@ -19,5 +20,6 @@ public class PlaceSearchItem {
     private String roadAddress;
     private String mapx;
     private String mapy;
+    private Coordinate coordinate;
     private Map<String, Object> geocoding = null;
 }

@@ -11,11 +11,9 @@ import org.hansung.roadbuddy.dto.naver.request.PlaceSearchItemReqDto;
 import org.hansung.roadbuddy.dto.naver.request.PlaceSearchReqDto;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchItem;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchResDto;
+import org.hansung.roadbuddy.dto.rail.response.RailTransferResDto;
 import org.hansung.roadbuddy.generic.GenericRestController;
-import org.hansung.roadbuddy.service.GoogleAPIService;
-import org.hansung.roadbuddy.service.NaverAPIService;
-import org.hansung.roadbuddy.service.NaverOpenAPIService;
-import org.hansung.roadbuddy.service.TMapAPIService;
+import org.hansung.roadbuddy.service.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -74,8 +72,8 @@ public class MapsRestController extends GenericRestController {
     }
 
     @GetMapping("/geocoding/byPlace")
-    public ResponseEntity getGeocoding(PlaceSearchItemReqDto placeSearchItemReqDto) throws JsonProcessingException {
-        PlaceSearchItem ret = naverAPIService.updatePlaceSearchItemReqDtoGeocoding(placeSearchItemReqDto);
+    public ResponseEntity getGeocoding(PlaceSearchItem placeSearchItem) throws JsonProcessingException {
+        PlaceSearchItem ret = naverAPIService.updatePlaceSearchItemReqDtoGeocoding(placeSearchItem);
         return toResponse(ret);
     }
 
