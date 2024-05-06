@@ -19,6 +19,8 @@ public class GoogleDirectionReqDto extends GenericRequestDTO {
     private Coordinate destination;
     private String mode = "transit";
     private Boolean alternatives = true; // TODO TRUE로 해야함
+    private String language = "ko";
+    private String departure_time = "now";
 
     @Override
     public Map<String, String> toMap() {
@@ -28,6 +30,9 @@ public class GoogleDirectionReqDto extends GenericRequestDTO {
         map.put("destination", destination.toGoogleString());
         map.put("mode", mode);
         map.put("alternatives", alternatives.toString());
+        map.put("language", language);
+        map.put("departure_time", departure_time);
+//        map.put("departure_time", "1715380424");
         return map;
     }
 }
