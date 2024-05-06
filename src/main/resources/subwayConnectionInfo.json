@@ -1,0 +1,7602 @@
+[
+    {
+        "line": "1호선",
+        "station": "연천",
+        "connect": "전곡"
+    },
+    {
+        "line": "1호선",
+        "station": "전곡",
+        "connect": "연천"
+    },
+    {
+        "line": "1호선",
+        "station": "전곡",
+        "connect": "청산"
+    },
+    {
+        "line": "1호선",
+        "station": "청산",
+        "connect": "전곡"
+    },
+    {
+        "line": "1호선",
+        "station": "청산",
+        "connect": "소요산"
+    },
+    {
+        "line": "1호선",
+        "station": "소요산",
+        "connect": "청산"
+    },
+    {
+        "line": "1호선",
+        "station": "소요산",
+        "connect": "동두천"
+    },
+    {
+        "line": "1호선",
+        "station": "동두천",
+        "connect": "소요산"
+    },
+    {
+        "line": "1호선",
+        "station": "보산",
+        "connect": "동두천중앙"
+    },
+    {
+        "line": "1호선",
+        "station": "동두천중앙",
+        "connect": "보산"
+    },
+    {
+        "line": "1호선",
+        "station": "동두천중앙",
+        "connect": "지행"
+    },
+    {
+        "line": "1호선",
+        "station": "지행",
+        "connect": "동두천중앙"
+    },
+    {
+        "line": "1호선",
+        "station": "지행",
+        "connect": "덕정"
+    },
+    {
+        "line": "1호선",
+        "station": "덕정",
+        "connect": "지행"
+    },
+    {
+        "line": "1호선",
+        "station": "덕계",
+        "connect": "양주"
+    },
+    {
+        "line": "1호선",
+        "station": "양주",
+        "connect": "덕계"
+    },
+    {
+        "line": "1호선",
+        "station": "양주",
+        "connect": "녹양"
+    },
+    {
+        "line": "1호선",
+        "station": "녹양",
+        "connect": "양주"
+    },
+    {
+        "line": "1호선",
+        "station": "녹양",
+        "connect": "가능"
+    },
+    {
+        "line": "1호선",
+        "station": "가능",
+        "connect": "녹양"
+    },
+    {
+        "line": "1호선",
+        "station": "가능",
+        "connect": "의정부"
+    },
+    {
+        "line": "1호선",
+        "station": "의정부",
+        "connect": "가능"
+    },
+    {
+        "line": "1호선",
+        "station": "의정부",
+        "connect": "회룡"
+    },
+    {
+        "line": "1호선",
+        "station": "회룡",
+        "connect": "의정부"
+    },
+    {
+        "line": "1호선",
+        "station": "회룡",
+        "connect": "망월사"
+    },
+    {
+        "line": "1호선",
+        "station": "망월사",
+        "connect": "회룡"
+    },
+    {
+        "line": "1호선",
+        "station": "망월사",
+        "connect": "도봉산"
+    },
+    {
+        "line": "1호선",
+        "station": "도봉산",
+        "connect": "망월사"
+    },
+    {
+        "line": "1호선",
+        "station": "도봉산",
+        "connect": "도봉"
+    },
+    {
+        "line": "1호선",
+        "station": "도봉",
+        "connect": "도봉산"
+    },
+    {
+        "line": "1호선",
+        "station": "도봉",
+        "connect": "방학"
+    },
+    {
+        "line": "1호선",
+        "station": "방학",
+        "connect": "도봉"
+    },
+    {
+        "line": "1호선",
+        "station": "방학",
+        "connect": "창동"
+    },
+    {
+        "line": "1호선",
+        "station": "창동",
+        "connect": "방학"
+    },
+    {
+        "line": "1호선",
+        "station": "창동",
+        "connect": "녹천"
+    },
+    {
+        "line": "1호선",
+        "station": "녹천",
+        "connect": "창동"
+    },
+    {
+        "line": "1호선",
+        "station": "녹천",
+        "connect": "월계"
+    },
+    {
+        "line": "1호선",
+        "station": "월계",
+        "connect": "녹천"
+    },
+    {
+        "line": "1호선",
+        "station": "월계",
+        "connect": "광운대"
+    },
+    {
+        "line": "1호선",
+        "station": "광운대",
+        "connect": "월계"
+    },
+    {
+        "line": "1호선",
+        "station": "광운대",
+        "connect": "석계"
+    },
+    {
+        "line": "1호선",
+        "station": "석계",
+        "connect": "광운대"
+    },
+    {
+        "line": "1호선",
+        "station": "석계",
+        "connect": "신이문"
+    },
+    {
+        "line": "1호선",
+        "station": "신이문",
+        "connect": "석계"
+    },
+    {
+        "line": "1호선",
+        "station": "신이문",
+        "connect": "외대앞"
+    },
+    {
+        "line": "1호선",
+        "station": "외대앞",
+        "connect": "신이문"
+    },
+    {
+        "line": "1호선",
+        "station": "외대앞",
+        "connect": "회기"
+    },
+    {
+        "line": "1호선",
+        "station": "회기",
+        "connect": "외대앞"
+    },
+    {
+        "line": "1호선",
+        "station": "회기",
+        "connect": "청량리"
+    },
+    {
+        "line": "1호선",
+        "station": "청량리",
+        "connect": "회기"
+    },
+    {
+        "line": "1호선",
+        "station": "청량리",
+        "connect": "제기동"
+    },
+    {
+        "line": "1호선",
+        "station": "제기동",
+        "connect": "청량리"
+    },
+    {
+        "line": "1호선",
+        "station": "제기동",
+        "connect": "신설동"
+    },
+    {
+        "line": "1호선",
+        "station": "신설동",
+        "connect": "제기동"
+    },
+    {
+        "line": "1호선",
+        "station": "신설동",
+        "connect": "동묘앞"
+    },
+    {
+        "line": "1호선",
+        "station": "동묘앞",
+        "connect": "신설동"
+    },
+    {
+        "line": "1호선",
+        "station": "동묘앞",
+        "connect": "동대문"
+    },
+    {
+        "line": "1호선",
+        "station": "동대문",
+        "connect": "동묘앞"
+    },
+    {
+        "line": "1호선",
+        "station": "동대문",
+        "connect": "종로5가"
+    },
+    {
+        "line": "1호선",
+        "station": "종로5가",
+        "connect": "동대문"
+    },
+    {
+        "line": "1호선",
+        "station": "종로5가",
+        "connect": "종로3가"
+    },
+    {
+        "line": "1호선",
+        "station": "종로3가",
+        "connect": "종로5가"
+    },
+    {
+        "line": "1호선",
+        "station": "종로3가",
+        "connect": "종각"
+    },
+    {
+        "line": "1호선",
+        "station": "종각",
+        "connect": "종로3가"
+    },
+    {
+        "line": "1호선",
+        "station": "종각",
+        "connect": "시청"
+    },
+    {
+        "line": "1호선",
+        "station": "시청",
+        "connect": "종각"
+    },
+    {
+        "line": "1호선",
+        "station": "시청",
+        "connect": "서울역"
+    },
+    {
+        "line": "1호선",
+        "station": "서울역",
+        "connect": "시청"
+    },
+    {
+        "line": "1호선",
+        "station": "서울역",
+        "connect": "남영"
+    },
+    {
+        "line": "1호선",
+        "station": "남영",
+        "connect": "서울역"
+    },
+    {
+        "line": "1호선",
+        "station": "남영",
+        "connect": "용산"
+    },
+    {
+        "line": "1호선",
+        "station": "용산",
+        "connect": "남영"
+    },
+    {
+        "line": "1호선",
+        "station": "용산",
+        "connect": "노량진"
+    },
+    {
+        "line": "1호선",
+        "station": "노량진",
+        "connect": "용산"
+    },
+    {
+        "line": "1호선",
+        "station": "노량진",
+        "connect": "대방"
+    },
+    {
+        "line": "1호선",
+        "station": "대방",
+        "connect": "노량진"
+    },
+    {
+        "line": "1호선",
+        "station": "대방",
+        "connect": "신길"
+    },
+    {
+        "line": "1호선",
+        "station": "신길",
+        "connect": "대방"
+    },
+    {
+        "line": "1호선",
+        "station": "신길",
+        "connect": "영등포"
+    },
+    {
+        "line": "1호선",
+        "station": "영등포",
+        "connect": "신길"
+    },
+    {
+        "line": "1호선",
+        "station": "영등포",
+        "connect": "신도림"
+    },
+    {
+        "line": "1호선",
+        "station": "신도림",
+        "connect": "영등포"
+    },
+    {
+        "line": "1호선",
+        "station": "신도림",
+        "connect": "구로"
+    },
+    {
+        "line": "1호선",
+        "station": "구로",
+        "connect": "신도림"
+    },
+    {
+        "line": "1호선",
+        "station": "구로",
+        "connect": "구일"
+    },
+    {
+        "line": "1호선",
+        "station": "구일",
+        "connect": "구로"
+    },
+    {
+        "line": "1호선",
+        "station": "구일",
+        "connect": "개봉"
+    },
+    {
+        "line": "1호선",
+        "station": "개봉",
+        "connect": "구일"
+    },
+    {
+        "line": "1호선",
+        "station": "개봉",
+        "connect": "오류동"
+    },
+    {
+        "line": "1호선",
+        "station": "오류동",
+        "connect": "개봉"
+    },
+    {
+        "line": "1호선",
+        "station": "오류동",
+        "connect": "온수"
+    },
+    {
+        "line": "1호선",
+        "station": "온수",
+        "connect": "오류동"
+    },
+    {
+        "line": "1호선",
+        "station": "온수",
+        "connect": "역곡"
+    },
+    {
+        "line": "1호선",
+        "station": "역곡",
+        "connect": "온수"
+    },
+    {
+        "line": "1호선",
+        "station": "역곡",
+        "connect": "소사"
+    },
+    {
+        "line": "1호선",
+        "station": "소사",
+        "connect": "역곡"
+    },
+    {
+        "line": "1호선",
+        "station": "소사",
+        "connect": "부천"
+    },
+    {
+        "line": "1호선",
+        "station": "부천",
+        "connect": "소사"
+    },
+    {
+        "line": "1호선",
+        "station": "부천",
+        "connect": "중동"
+    },
+    {
+        "line": "1호선",
+        "station": "중동",
+        "connect": "부천"
+    },
+    {
+        "line": "1호선",
+        "station": "중동",
+        "connect": "송내"
+    },
+    {
+        "line": "1호선",
+        "station": "송내",
+        "connect": "중동"
+    },
+    {
+        "line": "1호선",
+        "station": "송내",
+        "connect": "부개"
+    },
+    {
+        "line": "1호선",
+        "station": "부개",
+        "connect": "송내"
+    },
+    {
+        "line": "1호선",
+        "station": "부개",
+        "connect": "부평"
+    },
+    {
+        "line": "1호선",
+        "station": "부평",
+        "connect": "부개"
+    },
+    {
+        "line": "1호선",
+        "station": "부평",
+        "connect": "백운"
+    },
+    {
+        "line": "1호선",
+        "station": "백운",
+        "connect": "부평"
+    },
+    {
+        "line": "1호선",
+        "station": "백운",
+        "connect": "동암"
+    },
+    {
+        "line": "1호선",
+        "station": "동암",
+        "connect": "백운"
+    },
+    {
+        "line": "1호선",
+        "station": "동암",
+        "connect": "간석"
+    },
+    {
+        "line": "1호선",
+        "station": "간석",
+        "connect": "동암"
+    },
+    {
+        "line": "1호선",
+        "station": "간석",
+        "connect": "주안"
+    },
+    {
+        "line": "1호선",
+        "station": "주안",
+        "connect": "간석"
+    },
+    {
+        "line": "1호선",
+        "station": "주안",
+        "connect": "도화"
+    },
+    {
+        "line": "1호선",
+        "station": "도화",
+        "connect": "주안"
+    },
+    {
+        "line": "1호선",
+        "station": "도화",
+        "connect": "제물포"
+    },
+    {
+        "line": "1호선",
+        "station": "제물포",
+        "connect": "도화"
+    },
+    {
+        "line": "1호선",
+        "station": "제물포",
+        "connect": "도원"
+    },
+    {
+        "line": "1호선",
+        "station": "도원",
+        "connect": "제물포"
+    },
+    {
+        "line": "1호선",
+        "station": "도원",
+        "connect": "동인천"
+    },
+    {
+        "line": "1호선",
+        "station": "동인천",
+        "connect": "도원"
+    },
+    {
+        "line": "1호선",
+        "station": "동인천",
+        "connect": "인천"
+    },
+    {
+        "line": "1호선",
+        "station": "인천",
+        "connect": "동인천"
+    },
+    {
+        "line": "1호선",
+        "station": "구로",
+        "connect": "가산디지털단지"
+    },
+    {
+        "line": "1호선",
+        "station": "가산디지털단지",
+        "connect": "구로"
+    },
+    {
+        "line": "1호선",
+        "station": "가산디지털단지",
+        "connect": "독산"
+    },
+    {
+        "line": "1호선",
+        "station": "독산",
+        "connect": "가산디지털단지"
+    },
+    {
+        "line": "1호선",
+        "station": "독산",
+        "connect": "금천구청"
+    },
+    {
+        "line": "1호선",
+        "station": "금천구청",
+        "connect": "독산"
+    },
+    {
+        "line": "1호선",
+        "station": "금천구청",
+        "connect": "광명"
+    },
+    {
+        "line": "1호선",
+        "station": "광명",
+        "connect": "금천구청"
+    },
+    {
+        "line": "1호선",
+        "station": "금천구청",
+        "connect": "석수"
+    },
+    {
+        "line": "1호선",
+        "station": "석수",
+        "connect": "금천구청"
+    },
+    {
+        "line": "1호선",
+        "station": "석수",
+        "connect": "관악"
+    },
+    {
+        "line": "1호선",
+        "station": "관악",
+        "connect": "석수"
+    },
+    {
+        "line": "1호선",
+        "station": "관악",
+        "connect": "안양"
+    },
+    {
+        "line": "1호선",
+        "station": "안양",
+        "connect": "관악"
+    },
+    {
+        "line": "1호선",
+        "station": "안양",
+        "connect": "명학"
+    },
+    {
+        "line": "1호선",
+        "station": "명학",
+        "connect": "안양"
+    },
+    {
+        "line": "1호선",
+        "station": "명학",
+        "connect": "금정"
+    },
+    {
+        "line": "1호선",
+        "station": "금정",
+        "connect": "명학"
+    },
+    {
+        "line": "1호선",
+        "station": "금정",
+        "connect": "군포"
+    },
+    {
+        "line": "1호선",
+        "station": "군포",
+        "connect": "금정"
+    },
+    {
+        "line": "1호선",
+        "station": "군포",
+        "connect": "당정"
+    },
+    {
+        "line": "1호선",
+        "station": "당정",
+        "connect": "군포"
+    },
+    {
+        "line": "1호선",
+        "station": "당정",
+        "connect": "의왕"
+    },
+    {
+        "line": "1호선",
+        "station": "의왕",
+        "connect": "당정"
+    },
+    {
+        "line": "1호선",
+        "station": "의왕",
+        "connect": "성균관대"
+    },
+    {
+        "line": "1호선",
+        "station": "성균관대",
+        "connect": "의왕"
+    },
+    {
+        "line": "1호선",
+        "station": "성균관대",
+        "connect": "화서"
+    },
+    {
+        "line": "1호선",
+        "station": "화서",
+        "connect": "성균관대"
+    },
+    {
+        "line": "1호선",
+        "station": "화서",
+        "connect": "수원"
+    },
+    {
+        "line": "1호선",
+        "station": "수원",
+        "connect": "화서"
+    },
+    {
+        "line": "1호선",
+        "station": "수원",
+        "connect": "세류"
+    },
+    {
+        "line": "1호선",
+        "station": "세류",
+        "connect": "수원"
+    },
+    {
+        "line": "1호선",
+        "station": "세류",
+        "connect": "병점"
+    },
+    {
+        "line": "1호선",
+        "station": "병점",
+        "connect": "세류"
+    },
+    {
+        "line": "1호선",
+        "station": "병점",
+        "connect": "서동탄"
+    },
+    {
+        "line": "1호선",
+        "station": "서동탄",
+        "connect": "병점"
+    },
+    {
+        "line": "1호선",
+        "station": "병점",
+        "connect": "세마"
+    },
+    {
+        "line": "1호선",
+        "station": "세마",
+        "connect": "병점"
+    },
+    {
+        "line": "1호선",
+        "station": "세마",
+        "connect": "오산대"
+    },
+    {
+        "line": "1호선",
+        "station": "오산대",
+        "connect": "세마"
+    },
+    {
+        "line": "1호선",
+        "station": "오산대",
+        "connect": "오산"
+    },
+    {
+        "line": "1호선",
+        "station": "오산",
+        "connect": "오산대"
+    },
+    {
+        "line": "1호선",
+        "station": "오산",
+        "connect": "진위"
+    },
+    {
+        "line": "1호선",
+        "station": "진위",
+        "connect": "오산"
+    },
+    {
+        "line": "1호선",
+        "station": "진위",
+        "connect": "송탄"
+    },
+    {
+        "line": "1호선",
+        "station": "송탄",
+        "connect": "진위"
+    },
+    {
+        "line": "1호선",
+        "station": "송탄",
+        "connect": "서정리"
+    },
+    {
+        "line": "1호선",
+        "station": "서정리",
+        "connect": "송탄"
+    },
+    {
+        "line": "1호선",
+        "station": "서정리",
+        "connect": "평택지제"
+    },
+    {
+        "line": "1호선",
+        "station": "평택지제",
+        "connect": "서정리"
+    },
+    {
+        "line": "1호선",
+        "station": "평택지제",
+        "connect": "평택"
+    },
+    {
+        "line": "1호선",
+        "station": "평택",
+        "connect": "평택지제"
+    },
+    {
+        "line": "1호선",
+        "station": "평택",
+        "connect": "성환"
+    },
+    {
+        "line": "1호선",
+        "station": "성환",
+        "connect": "평택"
+    },
+    {
+        "line": "1호선",
+        "station": "성환",
+        "connect": "직산"
+    },
+    {
+        "line": "1호선",
+        "station": "직산",
+        "connect": "성환"
+    },
+    {
+        "line": "1호선",
+        "station": "직산",
+        "connect": "두정"
+    },
+    {
+        "line": "1호선",
+        "station": "두정",
+        "connect": "직산"
+    },
+    {
+        "line": "1호선",
+        "station": "두정",
+        "connect": "천안"
+    },
+    {
+        "line": "1호선",
+        "station": "천안",
+        "connect": "두정"
+    },
+    {
+        "line": "1호선",
+        "station": "천안",
+        "connect": "봉명"
+    },
+    {
+        "line": "1호선",
+        "station": "봉명",
+        "connect": "천안"
+    },
+    {
+        "line": "1호선",
+        "station": "봉명",
+        "connect": "쌍용"
+    },
+    {
+        "line": "1호선",
+        "station": "쌍용",
+        "connect": "봉명"
+    },
+    {
+        "line": "1호선",
+        "station": "쌍용",
+        "connect": "아산"
+    },
+    {
+        "line": "1호선",
+        "station": "아산",
+        "connect": "쌍용"
+    },
+    {
+        "line": "1호선",
+        "station": "아산",
+        "connect": "탕정"
+    },
+    {
+        "line": "1호선",
+        "station": "탕정",
+        "connect": "아산"
+    },
+    {
+        "line": "1호선",
+        "station": "탕정",
+        "connect": "배방"
+    },
+    {
+        "line": "1호선",
+        "station": "배방",
+        "connect": "탕정"
+    },
+    {
+        "line": "1호선",
+        "station": "배방",
+        "connect": "온양온천"
+    },
+    {
+        "line": "1호선",
+        "station": "온양온천",
+        "connect": "배방"
+    },
+    {
+        "line": "1호선",
+        "station": "온양온천",
+        "connect": "신창"
+    },
+    {
+        "line": "1호선",
+        "station": "신창",
+        "connect": "온양온천"
+    },
+    {
+        "line": "2호선",
+        "station": "신설동",
+        "connect": "용두"
+    },
+    {
+        "line": "2호선",
+        "station": "용두",
+        "connect": "신설동"
+    },
+    {
+        "line": "2호선",
+        "station": "용두",
+        "connect": "신답"
+    },
+    {
+        "line": "2호선",
+        "station": "신답",
+        "connect": "용두"
+    },
+    {
+        "line": "2호선",
+        "station": "신답",
+        "connect": "용답"
+    },
+    {
+        "line": "2호선",
+        "station": "용답",
+        "connect": "신답"
+    },
+    {
+        "line": "2호선",
+        "station": "용답",
+        "connect": "성수"
+    },
+    {
+        "line": "2호선",
+        "station": "성수",
+        "connect": "용답"
+    },
+    {
+        "line": "2호선",
+        "station": "성수",
+        "connect": "건대입구"
+    },
+    {
+        "line": "2호선",
+        "station": "건대입구",
+        "connect": "성수"
+    },
+    {
+        "line": "2호선",
+        "station": "건대입구",
+        "connect": "구의"
+    },
+    {
+        "line": "2호선",
+        "station": "구의",
+        "connect": "건대입구"
+    },
+    {
+        "line": "2호선",
+        "station": "구의",
+        "connect": "강변"
+    },
+    {
+        "line": "2호선",
+        "station": "강변",
+        "connect": "구의"
+    },
+    {
+        "line": "2호선",
+        "station": "강변",
+        "connect": "잠실나루"
+    },
+    {
+        "line": "2호선",
+        "station": "잠실나루",
+        "connect": "강변"
+    },
+    {
+        "line": "2호선",
+        "station": "잠실나루",
+        "connect": "잠실"
+    },
+    {
+        "line": "2호선",
+        "station": "잠실",
+        "connect": "잠실나루"
+    },
+    {
+        "line": "2호선",
+        "station": "잠실",
+        "connect": "잠실새내"
+    },
+    {
+        "line": "2호선",
+        "station": "잠실새내",
+        "connect": "잠실"
+    },
+    {
+        "line": "2호선",
+        "station": "잠실새내",
+        "connect": "종합운동장"
+    },
+    {
+        "line": "2호선",
+        "station": "종합운동장",
+        "connect": "잠실새내"
+    },
+    {
+        "line": "2호선",
+        "station": "종합운동장",
+        "connect": "삼성"
+    },
+    {
+        "line": "2호선",
+        "station": "삼성",
+        "connect": "종합운동장"
+    },
+    {
+        "line": "2호선",
+        "station": "삼성",
+        "connect": "선릉"
+    },
+    {
+        "line": "2호선",
+        "station": "선릉",
+        "connect": "삼성"
+    },
+    {
+        "line": "2호선",
+        "station": "선릉",
+        "connect": "역삼"
+    },
+    {
+        "line": "2호선",
+        "station": "역삼",
+        "connect": "선릉"
+    },
+    {
+        "line": "2호선",
+        "station": "역삼",
+        "connect": "강남"
+    },
+    {
+        "line": "2호선",
+        "station": "강남",
+        "connect": "역삼"
+    },
+    {
+        "line": "2호선",
+        "station": "강남",
+        "connect": "교대"
+    },
+    {
+        "line": "2호선",
+        "station": "교대",
+        "connect": "강남"
+    },
+    {
+        "line": "2호선",
+        "station": "교대",
+        "connect": "서초"
+    },
+    {
+        "line": "2호선",
+        "station": "서초",
+        "connect": "교대"
+    },
+    {
+        "line": "2호선",
+        "station": "서초",
+        "connect": "방배"
+    },
+    {
+        "line": "2호선",
+        "station": "방배",
+        "connect": "서초"
+    },
+    {
+        "line": "2호선",
+        "station": "방배",
+        "connect": "사당"
+    },
+    {
+        "line": "2호선",
+        "station": "사당",
+        "connect": "방배"
+    },
+    {
+        "line": "2호선",
+        "station": "사당",
+        "connect": "낙성대"
+    },
+    {
+        "line": "2호선",
+        "station": "낙성대",
+        "connect": "사당"
+    },
+    {
+        "line": "2호선",
+        "station": "낙성대",
+        "connect": "서울대입구"
+    },
+    {
+        "line": "2호선",
+        "station": "서울대입구",
+        "connect": "낙성대"
+    },
+    {
+        "line": "2호선",
+        "station": "서울대입구",
+        "connect": "봉천"
+    },
+    {
+        "line": "2호선",
+        "station": "봉천",
+        "connect": "서울대입구"
+    },
+    {
+        "line": "2호선",
+        "station": "봉천",
+        "connect": "신림"
+    },
+    {
+        "line": "2호선",
+        "station": "신림",
+        "connect": "봉천"
+    },
+    {
+        "line": "2호선",
+        "station": "신림",
+        "connect": "신대방"
+    },
+    {
+        "line": "2호선",
+        "station": "신대방",
+        "connect": "신림"
+    },
+    {
+        "line": "2호선",
+        "station": "신대방",
+        "connect": "구로디지털단지"
+    },
+    {
+        "line": "2호선",
+        "station": "구로디지털단지",
+        "connect": "신대방"
+    },
+    {
+        "line": "2호선",
+        "station": "구로디지털단지",
+        "connect": "대림"
+    },
+    {
+        "line": "2호선",
+        "station": "대림",
+        "connect": "구로디지털단지"
+    },
+    {
+        "line": "2호선",
+        "station": "대림",
+        "connect": "신도림"
+    },
+    {
+        "line": "2호선",
+        "station": "신도림",
+        "connect": "대림"
+    },
+    {
+        "line": "2호선",
+        "station": "신도림",
+        "connect": "도림천"
+    },
+    {
+        "line": "2호선",
+        "station": "도림천",
+        "connect": "신도림"
+    },
+    {
+        "line": "2호선",
+        "station": "도림천",
+        "connect": "양천구청"
+    },
+    {
+        "line": "2호선",
+        "station": "양천구청",
+        "connect": "도림천"
+    },
+    {
+        "line": "2호선",
+        "station": "양천구청",
+        "connect": "신정네거리"
+    },
+    {
+        "line": "2호선",
+        "station": "신정네거리",
+        "connect": "양천구청"
+    },
+    {
+        "line": "2호선",
+        "station": "신정네거리",
+        "connect": "까치산"
+    },
+    {
+        "line": "2호선",
+        "station": "까치산",
+        "connect": "신정네거리"
+    },
+    {
+        "line": "2호선",
+        "station": "신도림",
+        "connect": "문래"
+    },
+    {
+        "line": "2호선",
+        "station": "문래",
+        "connect": "신도림"
+    },
+    {
+        "line": "2호선",
+        "station": "문래",
+        "connect": "영등포구청"
+    },
+    {
+        "line": "2호선",
+        "station": "영등포구청",
+        "connect": "문래"
+    },
+    {
+        "line": "2호선",
+        "station": "영등포구청",
+        "connect": "당산"
+    },
+    {
+        "line": "2호선",
+        "station": "당산",
+        "connect": "영등포구청"
+    },
+    {
+        "line": "2호선",
+        "station": "당산",
+        "connect": "합정"
+    },
+    {
+        "line": "2호선",
+        "station": "합정",
+        "connect": "당산"
+    },
+    {
+        "line": "2호선",
+        "station": "합정",
+        "connect": "홍대입구"
+    },
+    {
+        "line": "2호선",
+        "station": "홍대입구",
+        "connect": "합정"
+    },
+    {
+        "line": "2호선",
+        "station": "홍대입구",
+        "connect": "신촌"
+    },
+    {
+        "line": "2호선",
+        "station": "신촌",
+        "connect": "홍대입구"
+    },
+    {
+        "line": "2호선",
+        "station": "신촌",
+        "connect": "이대"
+    },
+    {
+        "line": "2호선",
+        "station": "이대",
+        "connect": "신촌"
+    },
+    {
+        "line": "2호선",
+        "station": "이대",
+        "connect": "아현"
+    },
+    {
+        "line": "2호선",
+        "station": "아현",
+        "connect": "이대"
+    },
+    {
+        "line": "2호선",
+        "station": "아현",
+        "connect": "충정로"
+    },
+    {
+        "line": "2호선",
+        "station": "충정로",
+        "connect": "아현"
+    },
+    {
+        "line": "2호선",
+        "station": "충정로",
+        "connect": "시청"
+    },
+    {
+        "line": "2호선",
+        "station": "시청",
+        "connect": "충정로"
+    },
+    {
+        "line": "2호선",
+        "station": "시청",
+        "connect": "을지로입구"
+    },
+    {
+        "line": "2호선",
+        "station": "을지로입구",
+        "connect": "시청"
+    },
+    {
+        "line": "2호선",
+        "station": "을지로입구",
+        "connect": "을지로3가"
+    },
+    {
+        "line": "2호선",
+        "station": "을지로3가",
+        "connect": "을지로입구"
+    },
+    {
+        "line": "2호선",
+        "station": "을지로3가",
+        "connect": "을지로4가"
+    },
+    {
+        "line": "2호선",
+        "station": "을지로4가",
+        "connect": "을지로3가"
+    },
+    {
+        "line": "2호선",
+        "station": "을지로4가",
+        "connect": "동대문역사문화공원"
+    },
+    {
+        "line": "2호선",
+        "station": "동대문역사문화공원",
+        "connect": "을지로4가"
+    },
+    {
+        "line": "2호선",
+        "station": "동대문역사문화공원",
+        "connect": "신당"
+    },
+    {
+        "line": "2호선",
+        "station": "신당",
+        "connect": "동대문역사문화공원"
+    },
+    {
+        "line": "2호선",
+        "station": "신당",
+        "connect": "상왕십리"
+    },
+    {
+        "line": "2호선",
+        "station": "상왕십리",
+        "connect": "신당"
+    },
+    {
+        "line": "2호선",
+        "station": "상왕십리",
+        "connect": "왕십리"
+    },
+    {
+        "line": "2호선",
+        "station": "왕십리",
+        "connect": "상왕십리"
+    },
+    {
+        "line": "2호선",
+        "station": "왕십리",
+        "connect": "한양대"
+    },
+    {
+        "line": "2호선",
+        "station": "한양대",
+        "connect": "왕십리"
+    },
+    {
+        "line": "2호선",
+        "station": "한양대",
+        "connect": "뚝섬"
+    },
+    {
+        "line": "2호선",
+        "station": "뚝섬",
+        "connect": "한양대"
+    },
+    {
+        "line": "2호선",
+        "station": "뚝섬",
+        "connect": "성수"
+    },
+    {
+        "line": "2호선",
+        "station": "성수",
+        "connect": "뚝섬"
+    },
+    {
+        "line": "3호선",
+        "station": "대화",
+        "connect": "주엽"
+    },
+    {
+        "line": "3호선",
+        "station": "주엽",
+        "connect": "대화"
+    },
+    {
+        "line": "3호선",
+        "station": "주엽",
+        "connect": "정발산"
+    },
+    {
+        "line": "3호선",
+        "station": "정발산",
+        "connect": "주엽"
+    },
+    {
+        "line": "3호선",
+        "station": "정발산",
+        "connect": "마두"
+    },
+    {
+        "line": "3호선",
+        "station": "마두",
+        "connect": "정발산"
+    },
+    {
+        "line": "3호선",
+        "station": "마두",
+        "connect": "백석"
+    },
+    {
+        "line": "3호선",
+        "station": "백석",
+        "connect": "마두"
+    },
+    {
+        "line": "3호선",
+        "station": "백석",
+        "connect": "대곡"
+    },
+    {
+        "line": "3호선",
+        "station": "대곡",
+        "connect": "백석"
+    },
+    {
+        "line": "3호선",
+        "station": "대곡",
+        "connect": "화정"
+    },
+    {
+        "line": "3호선",
+        "station": "화정",
+        "connect": "대곡"
+    },
+    {
+        "line": "3호선",
+        "station": "화정",
+        "connect": "원당"
+    },
+    {
+        "line": "3호선",
+        "station": "원당",
+        "connect": "화정"
+    },
+    {
+        "line": "3호선",
+        "station": "원당",
+        "connect": "원흥"
+    },
+    {
+        "line": "3호선",
+        "station": "원흥",
+        "connect": "원당"
+    },
+    {
+        "line": "3호선",
+        "station": "원흥",
+        "connect": "삼송"
+    },
+    {
+        "line": "3호선",
+        "station": "삼송",
+        "connect": "원흥"
+    },
+    {
+        "line": "3호선",
+        "station": "삼송",
+        "connect": "지축"
+    },
+    {
+        "line": "3호선",
+        "station": "지축",
+        "connect": "삼송"
+    },
+    {
+        "line": "3호선",
+        "station": "지축",
+        "connect": "구파발"
+    },
+    {
+        "line": "3호선",
+        "station": "구파발",
+        "connect": "지축"
+    },
+    {
+        "line": "3호선",
+        "station": "구파발",
+        "connect": "연신내"
+    },
+    {
+        "line": "3호선",
+        "station": "연신내",
+        "connect": "구파발"
+    },
+    {
+        "line": "3호선",
+        "station": "연신내",
+        "connect": "불광"
+    },
+    {
+        "line": "3호선",
+        "station": "불광",
+        "connect": "연신내"
+    },
+    {
+        "line": "3호선",
+        "station": "불광",
+        "connect": "녹번"
+    },
+    {
+        "line": "3호선",
+        "station": "녹번",
+        "connect": "불광"
+    },
+    {
+        "line": "3호선",
+        "station": "녹번",
+        "connect": "홍제"
+    },
+    {
+        "line": "3호선",
+        "station": "홍제",
+        "connect": "녹번"
+    },
+    {
+        "line": "3호선",
+        "station": "홍제",
+        "connect": "무악재"
+    },
+    {
+        "line": "3호선",
+        "station": "무악재",
+        "connect": "홍제"
+    },
+    {
+        "line": "3호선",
+        "station": "무악재",
+        "connect": "독립문"
+    },
+    {
+        "line": "3호선",
+        "station": "독립문",
+        "connect": "무악재"
+    },
+    {
+        "line": "3호선",
+        "station": "독립문",
+        "connect": "경복궁"
+    },
+    {
+        "line": "3호선",
+        "station": "경복궁",
+        "connect": "독립문"
+    },
+    {
+        "line": "3호선",
+        "station": "경복궁",
+        "connect": "안국"
+    },
+    {
+        "line": "3호선",
+        "station": "안국",
+        "connect": "경복궁"
+    },
+    {
+        "line": "3호선",
+        "station": "안국",
+        "connect": "종로3가"
+    },
+    {
+        "line": "3호선",
+        "station": "종로3가",
+        "connect": "안국"
+    },
+    {
+        "line": "3호선",
+        "station": "종로3가",
+        "connect": "을지로3가"
+    },
+    {
+        "line": "3호선",
+        "station": "을지로3가",
+        "connect": "종로3가"
+    },
+    {
+        "line": "3호선",
+        "station": "을지로3가",
+        "connect": "충무로"
+    },
+    {
+        "line": "3호선",
+        "station": "충무로",
+        "connect": "을지로3가"
+    },
+    {
+        "line": "3호선",
+        "station": "충무로",
+        "connect": "동대입구"
+    },
+    {
+        "line": "3호선",
+        "station": "동대입구",
+        "connect": "충무로"
+    },
+    {
+        "line": "3호선",
+        "station": "동대입구",
+        "connect": "약수"
+    },
+    {
+        "line": "3호선",
+        "station": "약수",
+        "connect": "동대입구"
+    },
+    {
+        "line": "3호선",
+        "station": "약수",
+        "connect": "금호"
+    },
+    {
+        "line": "3호선",
+        "station": "금호",
+        "connect": "약수"
+    },
+    {
+        "line": "3호선",
+        "station": "금호",
+        "connect": "옥수"
+    },
+    {
+        "line": "3호선",
+        "station": "옥수",
+        "connect": "금호"
+    },
+    {
+        "line": "3호선",
+        "station": "옥수",
+        "connect": "압구정"
+    },
+    {
+        "line": "3호선",
+        "station": "압구정",
+        "connect": "옥수"
+    },
+    {
+        "line": "3호선",
+        "station": "압구정",
+        "connect": "신사"
+    },
+    {
+        "line": "3호선",
+        "station": "신사",
+        "connect": "압구정"
+    },
+    {
+        "line": "3호선",
+        "station": "신사",
+        "connect": "잠원"
+    },
+    {
+        "line": "3호선",
+        "station": "잠원",
+        "connect": "신사"
+    },
+    {
+        "line": "3호선",
+        "station": "잠원",
+        "connect": "고속터미널"
+    },
+    {
+        "line": "3호선",
+        "station": "고속터미널",
+        "connect": "잠원"
+    },
+    {
+        "line": "3호선",
+        "station": "고속터미널",
+        "connect": "교대"
+    },
+    {
+        "line": "3호선",
+        "station": "교대",
+        "connect": "고속터미널"
+    },
+    {
+        "line": "3호선",
+        "station": "교대",
+        "connect": "남부터미널"
+    },
+    {
+        "line": "3호선",
+        "station": "남부터미널",
+        "connect": "교대"
+    },
+    {
+        "line": "3호선",
+        "station": "남부터미널",
+        "connect": "양재"
+    },
+    {
+        "line": "3호선",
+        "station": "양재",
+        "connect": "남부터미널"
+    },
+    {
+        "line": "3호선",
+        "station": "양재",
+        "connect": "매봉"
+    },
+    {
+        "line": "3호선",
+        "station": "매봉",
+        "connect": "양재"
+    },
+    {
+        "line": "3호선",
+        "station": "매봉",
+        "connect": "도곡"
+    },
+    {
+        "line": "3호선",
+        "station": "도곡",
+        "connect": "매봉"
+    },
+    {
+        "line": "3호선",
+        "station": "도곡",
+        "connect": "대치"
+    },
+    {
+        "line": "3호선",
+        "station": "대치",
+        "connect": "도곡"
+    },
+    {
+        "line": "3호선",
+        "station": "대치",
+        "connect": "학여울"
+    },
+    {
+        "line": "3호선",
+        "station": "학여울",
+        "connect": "대치"
+    },
+    {
+        "line": "3호선",
+        "station": "학여울",
+        "connect": "대청"
+    },
+    {
+        "line": "3호선",
+        "station": "대청",
+        "connect": "학여울"
+    },
+    {
+        "line": "3호선",
+        "station": "대청",
+        "connect": "일원"
+    },
+    {
+        "line": "3호선",
+        "station": "일원",
+        "connect": "대청"
+    },
+    {
+        "line": "3호선",
+        "station": "일원",
+        "connect": "수서"
+    },
+    {
+        "line": "3호선",
+        "station": "수서",
+        "connect": "일원"
+    },
+    {
+        "line": "3호선",
+        "station": "수서",
+        "connect": "가락시장"
+    },
+    {
+        "line": "3호선",
+        "station": "가락시장",
+        "connect": "수서"
+    },
+    {
+        "line": "3호선",
+        "station": "가락시장",
+        "connect": "경찰병원"
+    },
+    {
+        "line": "3호선",
+        "station": "경찰병원",
+        "connect": "가락시장"
+    },
+    {
+        "line": "3호선",
+        "station": "경찰병원",
+        "connect": "오금"
+    },
+    {
+        "line": "3호선",
+        "station": "오금",
+        "connect": "경찰병원"
+    },
+    {
+        "line": "4호선",
+        "station": "진접",
+        "connect": "오남"
+    },
+    {
+        "line": "4호선",
+        "station": "오남",
+        "connect": "진접"
+    },
+    {
+        "line": "4호선",
+        "station": "오남",
+        "connect": "별내별가람"
+    },
+    {
+        "line": "4호선",
+        "station": "별내별가람",
+        "connect": "오남"
+    },
+    {
+        "line": "4호선",
+        "station": "별내별가람",
+        "connect": "당고개"
+    },
+    {
+        "line": "4호선",
+        "station": "당고개",
+        "connect": "별내별가람"
+    },
+    {
+        "line": "4호선",
+        "station": "당고개",
+        "connect": "상계"
+    },
+    {
+        "line": "4호선",
+        "station": "상계",
+        "connect": "당고개"
+    },
+    {
+        "line": "4호선",
+        "station": "상계",
+        "connect": "노원"
+    },
+    {
+        "line": "4호선",
+        "station": "노원",
+        "connect": "상계"
+    },
+    {
+        "line": "4호선",
+        "station": "노원",
+        "connect": "창동"
+    },
+    {
+        "line": "4호선",
+        "station": "창동",
+        "connect": "노원"
+    },
+    {
+        "line": "4호선",
+        "station": "창동",
+        "connect": "쌍문"
+    },
+    {
+        "line": "4호선",
+        "station": "쌍문",
+        "connect": "창동"
+    },
+    {
+        "line": "4호선",
+        "station": "쌍문",
+        "connect": "수유"
+    },
+    {
+        "line": "4호선",
+        "station": "수유",
+        "connect": "쌍문"
+    },
+    {
+        "line": "4호선",
+        "station": "수유",
+        "connect": "미아"
+    },
+    {
+        "line": "4호선",
+        "station": "미아",
+        "connect": "수유"
+    },
+    {
+        "line": "4호선",
+        "station": "미아",
+        "connect": "미아사거리"
+    },
+    {
+        "line": "4호선",
+        "station": "미아사거리",
+        "connect": "미아"
+    },
+    {
+        "line": "4호선",
+        "station": "미아사거리",
+        "connect": "길음"
+    },
+    {
+        "line": "4호선",
+        "station": "길음",
+        "connect": "미아사거리"
+    },
+    {
+        "line": "4호선",
+        "station": "길음",
+        "connect": "성신여대입구"
+    },
+    {
+        "line": "4호선",
+        "station": "성신여대입구",
+        "connect": "길음"
+    },
+    {
+        "line": "4호선",
+        "station": "성신여대입구",
+        "connect": "한성대입구"
+    },
+    {
+        "line": "4호선",
+        "station": "한성대입구",
+        "connect": "성신여대입구"
+    },
+    {
+        "line": "4호선",
+        "station": "한성대입구",
+        "connect": "혜화"
+    },
+    {
+        "line": "4호선",
+        "station": "혜화",
+        "connect": "한성대입구"
+    },
+    {
+        "line": "4호선",
+        "station": "혜화",
+        "connect": "동대문"
+    },
+    {
+        "line": "4호선",
+        "station": "동대문",
+        "connect": "혜화"
+    },
+    {
+        "line": "4호선",
+        "station": "동대문",
+        "connect": "동대문역사문화공원"
+    },
+    {
+        "line": "4호선",
+        "station": "동대문역사문화공원",
+        "connect": "동대문"
+    },
+    {
+        "line": "4호선",
+        "station": "동대문역사문화공원",
+        "connect": "충무로"
+    },
+    {
+        "line": "4호선",
+        "station": "충무로",
+        "connect": "동대문역사문화공원"
+    },
+    {
+        "line": "4호선",
+        "station": "충무로",
+        "connect": "명동"
+    },
+    {
+        "line": "4호선",
+        "station": "명동",
+        "connect": "충무로"
+    },
+    {
+        "line": "4호선",
+        "station": "명동",
+        "connect": "회현"
+    },
+    {
+        "line": "4호선",
+        "station": "회현",
+        "connect": "명동"
+    },
+    {
+        "line": "4호선",
+        "station": "회현",
+        "connect": "서울역"
+    },
+    {
+        "line": "4호선",
+        "station": "서울역",
+        "connect": "회현"
+    },
+    {
+        "line": "4호선",
+        "station": "서울역",
+        "connect": "숙대입구"
+    },
+    {
+        "line": "4호선",
+        "station": "숙대입구",
+        "connect": "서울역"
+    },
+    {
+        "line": "4호선",
+        "station": "숙대입구",
+        "connect": "삼각지"
+    },
+    {
+        "line": "4호선",
+        "station": "삼각지",
+        "connect": "숙대입구"
+    },
+    {
+        "line": "4호선",
+        "station": "삼각지",
+        "connect": "신용산"
+    },
+    {
+        "line": "4호선",
+        "station": "신용산",
+        "connect": "삼각지"
+    },
+    {
+        "line": "4호선",
+        "station": "신용산",
+        "connect": "이촌"
+    },
+    {
+        "line": "4호선",
+        "station": "이촌",
+        "connect": "신용산"
+    },
+    {
+        "line": "4호선",
+        "station": "이촌",
+        "connect": "동작"
+    },
+    {
+        "line": "4호선",
+        "station": "동작",
+        "connect": "이촌"
+    },
+    {
+        "line": "4호선",
+        "station": "동작",
+        "connect": "총신대입구"
+    },
+    {
+        "line": "4호선",
+        "station": "총신대입구",
+        "connect": "동작"
+    },
+    {
+        "line": "4호선",
+        "station": "총신대입구",
+        "connect": "사당"
+    },
+    {
+        "line": "4호선",
+        "station": "사당",
+        "connect": "총신대입구"
+    },
+    {
+        "line": "4호선",
+        "station": "사당",
+        "connect": "남태령"
+    },
+    {
+        "line": "4호선",
+        "station": "남태령",
+        "connect": "사당"
+    },
+    {
+        "line": "4호선",
+        "station": "남태령",
+        "connect": "선바위"
+    },
+    {
+        "line": "4호선",
+        "station": "선바위",
+        "connect": "남태령"
+    },
+    {
+        "line": "4호선",
+        "station": "선바위",
+        "connect": "경마공원"
+    },
+    {
+        "line": "4호선",
+        "station": "경마공원",
+        "connect": "선바위"
+    },
+    {
+        "line": "4호선",
+        "station": "경마공원",
+        "connect": "대공원"
+    },
+    {
+        "line": "4호선",
+        "station": "대공원",
+        "connect": "경마공원"
+    },
+    {
+        "line": "4호선",
+        "station": "대공원",
+        "connect": "과천"
+    },
+    {
+        "line": "4호선",
+        "station": "과천",
+        "connect": "대공원"
+    },
+    {
+        "line": "4호선",
+        "station": "과천",
+        "connect": "정부과천청사"
+    },
+    {
+        "line": "4호선",
+        "station": "정부과천청사",
+        "connect": "과천"
+    },
+    {
+        "line": "4호선",
+        "station": "정부과천청사",
+        "connect": "인덕원"
+    },
+    {
+        "line": "4호선",
+        "station": "인덕원",
+        "connect": "정부과천청사"
+    },
+    {
+        "line": "4호선",
+        "station": "인덕원",
+        "connect": "평촌"
+    },
+    {
+        "line": "4호선",
+        "station": "평촌",
+        "connect": "인덕원"
+    },
+    {
+        "line": "4호선",
+        "station": "평촌",
+        "connect": "범계"
+    },
+    {
+        "line": "4호선",
+        "station": "범계",
+        "connect": "평촌"
+    },
+    {
+        "line": "4호선",
+        "station": "범계",
+        "connect": "금정"
+    },
+    {
+        "line": "4호선",
+        "station": "금정",
+        "connect": "범계"
+    },
+    {
+        "line": "4호선",
+        "station": "금정",
+        "connect": "산본"
+    },
+    {
+        "line": "4호선",
+        "station": "산본",
+        "connect": "금정"
+    },
+    {
+        "line": "4호선",
+        "station": "산본",
+        "connect": "수리산"
+    },
+    {
+        "line": "4호선",
+        "station": "수리산",
+        "connect": "산본"
+    },
+    {
+        "line": "4호선",
+        "station": "수리산",
+        "connect": "대야미"
+    },
+    {
+        "line": "4호선",
+        "station": "대야미",
+        "connect": "수리산"
+    },
+    {
+        "line": "4호선",
+        "station": "대야미",
+        "connect": "반월"
+    },
+    {
+        "line": "4호선",
+        "station": "반월",
+        "connect": "대야미"
+    },
+    {
+        "line": "4호선",
+        "station": "반월",
+        "connect": "상록수"
+    },
+    {
+        "line": "4호선",
+        "station": "상록수",
+        "connect": "반월"
+    },
+    {
+        "line": "4호선",
+        "station": "상록수",
+        "connect": "한대앞"
+    },
+    {
+        "line": "4호선",
+        "station": "한대앞",
+        "connect": "상록수"
+    },
+    {
+        "line": "4호선",
+        "station": "한대앞",
+        "connect": "중앙"
+    },
+    {
+        "line": "4호선",
+        "station": "중앙",
+        "connect": "한대앞"
+    },
+    {
+        "line": "4호선",
+        "station": "중앙",
+        "connect": "고잔"
+    },
+    {
+        "line": "4호선",
+        "station": "고잔",
+        "connect": "중앙"
+    },
+    {
+        "line": "4호선",
+        "station": "고잔",
+        "connect": "초지"
+    },
+    {
+        "line": "4호선",
+        "station": "초지",
+        "connect": "고잔"
+    },
+    {
+        "line": "4호선",
+        "station": "초지",
+        "connect": "안산"
+    },
+    {
+        "line": "4호선",
+        "station": "안산",
+        "connect": "초지"
+    },
+    {
+        "line": "4호선",
+        "station": "안산",
+        "connect": "신길온천"
+    },
+    {
+        "line": "4호선",
+        "station": "신길온천",
+        "connect": "안산"
+    },
+    {
+        "line": "4호선",
+        "station": "신길온천",
+        "connect": "정왕"
+    },
+    {
+        "line": "4호선",
+        "station": "정왕",
+        "connect": "신길온천"
+    },
+    {
+        "line": "4호선",
+        "station": "정왕",
+        "connect": "오이도"
+    },
+    {
+        "line": "4호선",
+        "station": "오이도",
+        "connect": "정왕"
+    },
+    {
+        "line": "5호선",
+        "station": "방화",
+        "connect": "개화산"
+    },
+    {
+        "line": "5호선",
+        "station": "개화산",
+        "connect": "방화"
+    },
+    {
+        "line": "5호선",
+        "station": "개화산",
+        "connect": "김포공항"
+    },
+    {
+        "line": "5호선",
+        "station": "김포공항",
+        "connect": "개화산"
+    },
+    {
+        "line": "5호선",
+        "station": "김포공항",
+        "connect": "송정"
+    },
+    {
+        "line": "5호선",
+        "station": "송정",
+        "connect": "김포공항"
+    },
+    {
+        "line": "5호선",
+        "station": "송정",
+        "connect": "마곡"
+    },
+    {
+        "line": "5호선",
+        "station": "마곡",
+        "connect": "송정"
+    },
+    {
+        "line": "5호선",
+        "station": "마곡",
+        "connect": "발산"
+    },
+    {
+        "line": "5호선",
+        "station": "발산",
+        "connect": "마곡"
+    },
+    {
+        "line": "5호선",
+        "station": "발산",
+        "connect": "우장산"
+    },
+    {
+        "line": "5호선",
+        "station": "우장산",
+        "connect": "발산"
+    },
+    {
+        "line": "5호선",
+        "station": "우장산",
+        "connect": "화곡"
+    },
+    {
+        "line": "5호선",
+        "station": "화곡",
+        "connect": "우장산"
+    },
+    {
+        "line": "5호선",
+        "station": "화곡",
+        "connect": "까치산"
+    },
+    {
+        "line": "5호선",
+        "station": "까치산",
+        "connect": "화곡"
+    },
+    {
+        "line": "5호선",
+        "station": "까치산",
+        "connect": "신정"
+    },
+    {
+        "line": "5호선",
+        "station": "신정",
+        "connect": "까치산"
+    },
+    {
+        "line": "5호선",
+        "station": "신정",
+        "connect": "목동"
+    },
+    {
+        "line": "5호선",
+        "station": "목동",
+        "connect": "신정"
+    },
+    {
+        "line": "5호선",
+        "station": "목동",
+        "connect": "오목교"
+    },
+    {
+        "line": "5호선",
+        "station": "오목교",
+        "connect": "목동"
+    },
+    {
+        "line": "5호선",
+        "station": "오목교",
+        "connect": "양평"
+    },
+    {
+        "line": "5호선",
+        "station": "양평",
+        "connect": "오목교"
+    },
+    {
+        "line": "5호선",
+        "station": "양평",
+        "connect": "영등포구청"
+    },
+    {
+        "line": "5호선",
+        "station": "영등포구청",
+        "connect": "양평"
+    },
+    {
+        "line": "5호선",
+        "station": "영등포구청",
+        "connect": "영등포시장"
+    },
+    {
+        "line": "5호선",
+        "station": "영등포시장",
+        "connect": "영등포구청"
+    },
+    {
+        "line": "5호선",
+        "station": "영등포시장",
+        "connect": "신길"
+    },
+    {
+        "line": "5호선",
+        "station": "신길",
+        "connect": "영등포시장"
+    },
+    {
+        "line": "5호선",
+        "station": "신길",
+        "connect": "여의도"
+    },
+    {
+        "line": "5호선",
+        "station": "여의도",
+        "connect": "신길"
+    },
+    {
+        "line": "5호선",
+        "station": "여의도",
+        "connect": "여의나루"
+    },
+    {
+        "line": "5호선",
+        "station": "여의나루",
+        "connect": "여의도"
+    },
+    {
+        "line": "5호선",
+        "station": "여의나루",
+        "connect": "마포"
+    },
+    {
+        "line": "5호선",
+        "station": "마포",
+        "connect": "여의나루"
+    },
+    {
+        "line": "5호선",
+        "station": "마포",
+        "connect": "공덕"
+    },
+    {
+        "line": "5호선",
+        "station": "공덕",
+        "connect": "마포"
+    },
+    {
+        "line": "5호선",
+        "station": "공덕",
+        "connect": "애오개"
+    },
+    {
+        "line": "5호선",
+        "station": "애오개",
+        "connect": "공덕"
+    },
+    {
+        "line": "5호선",
+        "station": "애오개",
+        "connect": "충정로"
+    },
+    {
+        "line": "5호선",
+        "station": "충정로",
+        "connect": "애오개"
+    },
+    {
+        "line": "5호선",
+        "station": "충정로",
+        "connect": "서대문"
+    },
+    {
+        "line": "5호선",
+        "station": "서대문",
+        "connect": "충정로"
+    },
+    {
+        "line": "5호선",
+        "station": "서대문",
+        "connect": "광화문"
+    },
+    {
+        "line": "5호선",
+        "station": "광화문",
+        "connect": "서대문"
+    },
+    {
+        "line": "5호선",
+        "station": "광화문",
+        "connect": "종로3가"
+    },
+    {
+        "line": "5호선",
+        "station": "종로3가",
+        "connect": "광화문"
+    },
+    {
+        "line": "5호선",
+        "station": "종로3가",
+        "connect": "을지로4가"
+    },
+    {
+        "line": "5호선",
+        "station": "을지로4가",
+        "connect": "종로3가"
+    },
+    {
+        "line": "5호선",
+        "station": "을지로4가",
+        "connect": "동대문역사문화공원"
+    },
+    {
+        "line": "5호선",
+        "station": "동대문역사문화공원",
+        "connect": "을지로4가"
+    },
+    {
+        "line": "5호선",
+        "station": "동대문역사문화공원",
+        "connect": "청구"
+    },
+    {
+        "line": "5호선",
+        "station": "청구",
+        "connect": "동대문역사문화공원"
+    },
+    {
+        "line": "5호선",
+        "station": "청구",
+        "connect": "신금호"
+    },
+    {
+        "line": "5호선",
+        "station": "신금호",
+        "connect": "청구"
+    },
+    {
+        "line": "5호선",
+        "station": "신금호",
+        "connect": "행당"
+    },
+    {
+        "line": "5호선",
+        "station": "행당",
+        "connect": "신금호"
+    },
+    {
+        "line": "5호선",
+        "station": "행당",
+        "connect": "왕십리"
+    },
+    {
+        "line": "5호선",
+        "station": "왕십리",
+        "connect": "행당"
+    },
+    {
+        "line": "5호선",
+        "station": "왕십리",
+        "connect": "마장"
+    },
+    {
+        "line": "5호선",
+        "station": "마장",
+        "connect": "왕십리"
+    },
+    {
+        "line": "5호선",
+        "station": "마장",
+        "connect": "답십리"
+    },
+    {
+        "line": "5호선",
+        "station": "답십리",
+        "connect": "마장"
+    },
+    {
+        "line": "5호선",
+        "station": "답십리",
+        "connect": "장한평"
+    },
+    {
+        "line": "5호선",
+        "station": "장한평",
+        "connect": "답십리"
+    },
+    {
+        "line": "5호선",
+        "station": "장한평",
+        "connect": "군자"
+    },
+    {
+        "line": "5호선",
+        "station": "군자",
+        "connect": "장한평"
+    },
+    {
+        "line": "5호선",
+        "station": "군자",
+        "connect": "아차산"
+    },
+    {
+        "line": "5호선",
+        "station": "아차산",
+        "connect": "군자"
+    },
+    {
+        "line": "5호선",
+        "station": "아차산",
+        "connect": "광나루"
+    },
+    {
+        "line": "5호선",
+        "station": "광나루",
+        "connect": "아차산"
+    },
+    {
+        "line": "5호선",
+        "station": "광나루",
+        "connect": "천호"
+    },
+    {
+        "line": "5호선",
+        "station": "천호",
+        "connect": "광나루"
+    },
+    {
+        "line": "5호선",
+        "station": "천호",
+        "connect": "강동"
+    },
+    {
+        "line": "5호선",
+        "station": "강동",
+        "connect": "천호"
+    },
+    {
+        "line": "5호선",
+        "station": "강동",
+        "connect": "둔촌동"
+    },
+    {
+        "line": "5호선",
+        "station": "둔촌동",
+        "connect": "강동"
+    },
+    {
+        "line": "5호선",
+        "station": "둔촌동",
+        "connect": "올림픽공원"
+    },
+    {
+        "line": "5호선",
+        "station": "올림픽공원",
+        "connect": "둔촌동"
+    },
+    {
+        "line": "5호선",
+        "station": "올림픽공원",
+        "connect": "방이"
+    },
+    {
+        "line": "5호선",
+        "station": "방이",
+        "connect": "올림픽공원"
+    },
+    {
+        "line": "5호선",
+        "station": "방이",
+        "connect": "오금"
+    },
+    {
+        "line": "5호선",
+        "station": "오금",
+        "connect": "방이"
+    },
+    {
+        "line": "5호선",
+        "station": "오금",
+        "connect": "개롱"
+    },
+    {
+        "line": "5호선",
+        "station": "개롱",
+        "connect": "오금"
+    },
+    {
+        "line": "5호선",
+        "station": "개롱",
+        "connect": "거여"
+    },
+    {
+        "line": "5호선",
+        "station": "거여",
+        "connect": "개롱"
+    },
+    {
+        "line": "5호선",
+        "station": "거여",
+        "connect": "마천"
+    },
+    {
+        "line": "5호선",
+        "station": "마천",
+        "connect": "거여"
+    },
+    {
+        "line": "5호선",
+        "station": "강동",
+        "connect": "길동"
+    },
+    {
+        "line": "5호선",
+        "station": "길동",
+        "connect": "강동"
+    },
+    {
+        "line": "5호선",
+        "station": "길동",
+        "connect": "굽은다리"
+    },
+    {
+        "line": "5호선",
+        "station": "굽은다리",
+        "connect": "길동"
+    },
+    {
+        "line": "5호선",
+        "station": "굽은다리",
+        "connect": "명일"
+    },
+    {
+        "line": "5호선",
+        "station": "명일",
+        "connect": "굽은다리"
+    },
+    {
+        "line": "5호선",
+        "station": "명일",
+        "connect": "고덕"
+    },
+    {
+        "line": "5호선",
+        "station": "고덕",
+        "connect": "명일"
+    },
+    {
+        "line": "5호선",
+        "station": "고덕",
+        "connect": "상일동"
+    },
+    {
+        "line": "5호선",
+        "station": "상일동",
+        "connect": "고덕"
+    },
+    {
+        "line": "5호선",
+        "station": "상일동",
+        "connect": "강일"
+    },
+    {
+        "line": "5호선",
+        "station": "강일",
+        "connect": "상일동"
+    },
+    {
+        "line": "5호선",
+        "station": "강일",
+        "connect": "미사"
+    },
+    {
+        "line": "5호선",
+        "station": "미사",
+        "connect": "강일"
+    },
+    {
+        "line": "5호선",
+        "station": "미사",
+        "connect": "하남풍산"
+    },
+    {
+        "line": "5호선",
+        "station": "하남풍산",
+        "connect": "미사"
+    },
+    {
+        "line": "5호선",
+        "station": "하남풍산",
+        "connect": "하남시청"
+    },
+    {
+        "line": "5호선",
+        "station": "하남시청",
+        "connect": "하남풍산"
+    },
+    {
+        "line": "5호선",
+        "station": "하남시청",
+        "connect": "하남검단산"
+    },
+    {
+        "line": "5호선",
+        "station": "하남검단산",
+        "connect": "하남시청"
+    },
+    {
+        "line": "6호선",
+        "station": "신내",
+        "connect": "봉화산"
+    },
+    {
+        "line": "6호선",
+        "station": "봉화산",
+        "connect": "신내"
+    },
+    {
+        "line": "6호선",
+        "station": "봉화산",
+        "connect": "화랑대"
+    },
+    {
+        "line": "6호선",
+        "station": "화랑대",
+        "connect": "봉화산"
+    },
+    {
+        "line": "6호선",
+        "station": "화랑대",
+        "connect": "태릉입구"
+    },
+    {
+        "line": "6호선",
+        "station": "태릉입구",
+        "connect": "화랑대"
+    },
+    {
+        "line": "6호선",
+        "station": "태릉입구",
+        "connect": "석계"
+    },
+    {
+        "line": "6호선",
+        "station": "석계",
+        "connect": "태릉입구"
+    },
+    {
+        "line": "6호선",
+        "station": "석계",
+        "connect": "돌곶이"
+    },
+    {
+        "line": "6호선",
+        "station": "돌곶이",
+        "connect": "석계"
+    },
+    {
+        "line": "6호선",
+        "station": "돌곶이",
+        "connect": "상월곡"
+    },
+    {
+        "line": "6호선",
+        "station": "상월곡",
+        "connect": "돌곶이"
+    },
+    {
+        "line": "6호선",
+        "station": "상월곡",
+        "connect": "월곡"
+    },
+    {
+        "line": "6호선",
+        "station": "월곡",
+        "connect": "상월곡"
+    },
+    {
+        "line": "6호선",
+        "station": "월곡",
+        "connect": "고려대"
+    },
+    {
+        "line": "6호선",
+        "station": "고려대",
+        "connect": "월곡"
+    },
+    {
+        "line": "6호선",
+        "station": "고려대",
+        "connect": "안암"
+    },
+    {
+        "line": "6호선",
+        "station": "안암",
+        "connect": "고려대"
+    },
+    {
+        "line": "6호선",
+        "station": "안암",
+        "connect": "보문"
+    },
+    {
+        "line": "6호선",
+        "station": "보문",
+        "connect": "안암"
+    },
+    {
+        "line": "6호선",
+        "station": "보문",
+        "connect": "창신"
+    },
+    {
+        "line": "6호선",
+        "station": "창신",
+        "connect": "보문"
+    },
+    {
+        "line": "6호선",
+        "station": "창신",
+        "connect": "동묘앞"
+    },
+    {
+        "line": "6호선",
+        "station": "동묘앞",
+        "connect": "창신"
+    },
+    {
+        "line": "6호선",
+        "station": "동묘앞",
+        "connect": "신당"
+    },
+    {
+        "line": "6호선",
+        "station": "신당",
+        "connect": "동묘앞"
+    },
+    {
+        "line": "6호선",
+        "station": "신당",
+        "connect": "청구"
+    },
+    {
+        "line": "6호선",
+        "station": "청구",
+        "connect": "신당"
+    },
+    {
+        "line": "6호선",
+        "station": "청구",
+        "connect": "약수"
+    },
+    {
+        "line": "6호선",
+        "station": "약수",
+        "connect": "청구"
+    },
+    {
+        "line": "6호선",
+        "station": "약수",
+        "connect": "버티고개"
+    },
+    {
+        "line": "6호선",
+        "station": "버티고개",
+        "connect": "약수"
+    },
+    {
+        "line": "6호선",
+        "station": "버티고개",
+        "connect": "한강진"
+    },
+    {
+        "line": "6호선",
+        "station": "한강진",
+        "connect": "버티고개"
+    },
+    {
+        "line": "6호선",
+        "station": "한강진",
+        "connect": "이태원"
+    },
+    {
+        "line": "6호선",
+        "station": "이태원",
+        "connect": "한강진"
+    },
+    {
+        "line": "6호선",
+        "station": "이태원",
+        "connect": "녹사평"
+    },
+    {
+        "line": "6호선",
+        "station": "녹사평",
+        "connect": "이태원"
+    },
+    {
+        "line": "6호선",
+        "station": "녹사평",
+        "connect": "삼각지"
+    },
+    {
+        "line": "6호선",
+        "station": "삼각지",
+        "connect": "녹사평"
+    },
+    {
+        "line": "6호선",
+        "station": "삼각지",
+        "connect": "효창공원앞"
+    },
+    {
+        "line": "6호선",
+        "station": "효창공원앞",
+        "connect": "삼각지"
+    },
+    {
+        "line": "6호선",
+        "station": "효창공원앞",
+        "connect": "공덕"
+    },
+    {
+        "line": "6호선",
+        "station": "공덕",
+        "connect": "효창공원앞"
+    },
+    {
+        "line": "6호선",
+        "station": "공덕",
+        "connect": "대흥"
+    },
+    {
+        "line": "6호선",
+        "station": "대흥",
+        "connect": "공덕"
+    },
+    {
+        "line": "6호선",
+        "station": "대흥",
+        "connect": "광흥창"
+    },
+    {
+        "line": "6호선",
+        "station": "광흥창",
+        "connect": "대흥"
+    },
+    {
+        "line": "6호선",
+        "station": "광흥창",
+        "connect": "상수"
+    },
+    {
+        "line": "6호선",
+        "station": "상수",
+        "connect": "광흥창"
+    },
+    {
+        "line": "6호선",
+        "station": "상수",
+        "connect": "합정"
+    },
+    {
+        "line": "6호선",
+        "station": "합정",
+        "connect": "상수"
+    },
+    {
+        "line": "6호선",
+        "station": "합정",
+        "connect": "망원"
+    },
+    {
+        "line": "6호선",
+        "station": "망원",
+        "connect": "합정"
+    },
+    {
+        "line": "6호선",
+        "station": "망원",
+        "connect": "마포구청"
+    },
+    {
+        "line": "6호선",
+        "station": "마포구청",
+        "connect": "망원"
+    },
+    {
+        "line": "6호선",
+        "station": "마포구청",
+        "connect": "월드컵경기장"
+    },
+    {
+        "line": "6호선",
+        "station": "월드컵경기장",
+        "connect": "마포구청"
+    },
+    {
+        "line": "6호선",
+        "station": "월드컵경기장",
+        "connect": "디지털미디어시티"
+    },
+    {
+        "line": "6호선",
+        "station": "디지털미디어시티",
+        "connect": "월드컵경기장"
+    },
+    {
+        "line": "6호선",
+        "station": "디지털미디어시티",
+        "connect": "증산"
+    },
+    {
+        "line": "6호선",
+        "station": "증산",
+        "connect": "디지털미디어시티"
+    },
+    {
+        "line": "6호선",
+        "station": "증산",
+        "connect": "새절"
+    },
+    {
+        "line": "6호선",
+        "station": "새절",
+        "connect": "증산"
+    },
+    {
+        "line": "6호선",
+        "station": "새절",
+        "connect": "응암"
+    },
+    {
+        "line": "6호선",
+        "station": "응암",
+        "connect": "새절"
+    },
+    {
+        "line": "6호선",
+        "station": "응암",
+        "connect": "역촌"
+    },
+    {
+        "line": "6호선",
+        "station": "역촌",
+        "connect": "응암"
+    },
+    {
+        "line": "6호선",
+        "station": "역촌",
+        "connect": "불광"
+    },
+    {
+        "line": "6호선",
+        "station": "불광",
+        "connect": "역촌"
+    },
+    {
+        "line": "6호선",
+        "station": "불광",
+        "connect": "독바위"
+    },
+    {
+        "line": "6호선",
+        "station": "독바위",
+        "connect": "불광"
+    },
+    {
+        "line": "6호선",
+        "station": "독바위",
+        "connect": "연신내"
+    },
+    {
+        "line": "6호선",
+        "station": "연신내",
+        "connect": "독바위"
+    },
+    {
+        "line": "6호선",
+        "station": "연신내",
+        "connect": "구산"
+    },
+    {
+        "line": "6호선",
+        "station": "구산",
+        "connect": "연신내"
+    },
+    {
+        "line": "6호선",
+        "station": "구산",
+        "connect": "응암"
+    },
+    {
+        "line": "6호선",
+        "station": "응암",
+        "connect": "구산"
+    },
+    {
+        "line": "7호선",
+        "station": "장암",
+        "connect": "도봉산"
+    },
+    {
+        "line": "7호선",
+        "station": "도봉산",
+        "connect": "장암"
+    },
+    {
+        "line": "7호선",
+        "station": "도봉산",
+        "connect": "수락산"
+    },
+    {
+        "line": "7호선",
+        "station": "수락산",
+        "connect": "도봉산"
+    },
+    {
+        "line": "7호선",
+        "station": "수락산",
+        "connect": "마들"
+    },
+    {
+        "line": "7호선",
+        "station": "마들",
+        "connect": "수락산"
+    },
+    {
+        "line": "7호선",
+        "station": "마들",
+        "connect": "노원"
+    },
+    {
+        "line": "7호선",
+        "station": "노원",
+        "connect": "마들"
+    },
+    {
+        "line": "7호선",
+        "station": "노원",
+        "connect": "중계"
+    },
+    {
+        "line": "7호선",
+        "station": "중계",
+        "connect": "노원"
+    },
+    {
+        "line": "7호선",
+        "station": "중계",
+        "connect": "하계"
+    },
+    {
+        "line": "7호선",
+        "station": "하계",
+        "connect": "중계"
+    },
+    {
+        "line": "7호선",
+        "station": "하계",
+        "connect": "공릉"
+    },
+    {
+        "line": "7호선",
+        "station": "공릉",
+        "connect": "하계"
+    },
+    {
+        "line": "7호선",
+        "station": "공릉",
+        "connect": "태릉입구"
+    },
+    {
+        "line": "7호선",
+        "station": "태릉입구",
+        "connect": "공릉"
+    },
+    {
+        "line": "7호선",
+        "station": "태릉입구",
+        "connect": "먹골"
+    },
+    {
+        "line": "7호선",
+        "station": "먹골",
+        "connect": "태릉입구"
+    },
+    {
+        "line": "7호선",
+        "station": "먹골",
+        "connect": "중화"
+    },
+    {
+        "line": "7호선",
+        "station": "중화",
+        "connect": "먹골"
+    },
+    {
+        "line": "7호선",
+        "station": "중화",
+        "connect": "상봉"
+    },
+    {
+        "line": "7호선",
+        "station": "상봉",
+        "connect": "중화"
+    },
+    {
+        "line": "7호선",
+        "station": "상봉",
+        "connect": "면목"
+    },
+    {
+        "line": "7호선",
+        "station": "면목",
+        "connect": "상봉"
+    },
+    {
+        "line": "7호선",
+        "station": "면목",
+        "connect": "사가정"
+    },
+    {
+        "line": "7호선",
+        "station": "사가정",
+        "connect": "면목"
+    },
+    {
+        "line": "7호선",
+        "station": "사가정",
+        "connect": "용마산"
+    },
+    {
+        "line": "7호선",
+        "station": "용마산",
+        "connect": "사가정"
+    },
+    {
+        "line": "7호선",
+        "station": "용마산",
+        "connect": "중곡"
+    },
+    {
+        "line": "7호선",
+        "station": "중곡",
+        "connect": "용마산"
+    },
+    {
+        "line": "7호선",
+        "station": "중곡",
+        "connect": "군자"
+    },
+    {
+        "line": "7호선",
+        "station": "군자",
+        "connect": "중곡"
+    },
+    {
+        "line": "7호선",
+        "station": "군자",
+        "connect": "어린이대공원"
+    },
+    {
+        "line": "7호선",
+        "station": "어린이대공원",
+        "connect": "군자"
+    },
+    {
+        "line": "7호선",
+        "station": "어린이대공원",
+        "connect": "건대입구"
+    },
+    {
+        "line": "7호선",
+        "station": "건대입구",
+        "connect": "어린이대공원"
+    },
+    {
+        "line": "7호선",
+        "station": "건대입구",
+        "connect": "자양"
+    },
+    {
+        "line": "7호선",
+        "station": "자양",
+        "connect": "건대입구"
+    },
+    {
+        "line": "7호선",
+        "station": "자양",
+        "connect": "청담"
+    },
+    {
+        "line": "7호선",
+        "station": "청담",
+        "connect": "자양"
+    },
+    {
+        "line": "7호선",
+        "station": "청담",
+        "connect": "강남구청"
+    },
+    {
+        "line": "7호선",
+        "station": "강남구청",
+        "connect": "청담"
+    },
+    {
+        "line": "7호선",
+        "station": "강남구청",
+        "connect": "학동"
+    },
+    {
+        "line": "7호선",
+        "station": "학동",
+        "connect": "강남구청"
+    },
+    {
+        "line": "7호선",
+        "station": "학동",
+        "connect": "논현"
+    },
+    {
+        "line": "7호선",
+        "station": "논현",
+        "connect": "학동"
+    },
+    {
+        "line": "7호선",
+        "station": "논현",
+        "connect": "반포"
+    },
+    {
+        "line": "7호선",
+        "station": "반포",
+        "connect": "논현"
+    },
+    {
+        "line": "7호선",
+        "station": "반포",
+        "connect": "고속터미널"
+    },
+    {
+        "line": "7호선",
+        "station": "고속터미널",
+        "connect": "반포"
+    },
+    {
+        "line": "7호선",
+        "station": "고속터미널",
+        "connect": "내방"
+    },
+    {
+        "line": "7호선",
+        "station": "내방",
+        "connect": "고속터미널"
+    },
+    {
+        "line": "7호선",
+        "station": "내방",
+        "connect": "이수"
+    },
+    {
+        "line": "7호선",
+        "station": "이수",
+        "connect": "내방"
+    },
+    {
+        "line": "7호선",
+        "station": "이수",
+        "connect": "남성"
+    },
+    {
+        "line": "7호선",
+        "station": "남성",
+        "connect": "이수"
+    },
+    {
+        "line": "7호선",
+        "station": "남성",
+        "connect": "숭실대입구"
+    },
+    {
+        "line": "7호선",
+        "station": "숭실대입구",
+        "connect": "남성"
+    },
+    {
+        "line": "7호선",
+        "station": "숭실대입구",
+        "connect": "상도"
+    },
+    {
+        "line": "7호선",
+        "station": "상도",
+        "connect": "숭실대입구"
+    },
+    {
+        "line": "7호선",
+        "station": "상도",
+        "connect": "장승배기"
+    },
+    {
+        "line": "7호선",
+        "station": "장승배기",
+        "connect": "상도"
+    },
+    {
+        "line": "7호선",
+        "station": "장승배기",
+        "connect": "신대방삼거리"
+    },
+    {
+        "line": "7호선",
+        "station": "신대방삼거리",
+        "connect": "장승배기"
+    },
+    {
+        "line": "7호선",
+        "station": "신대방삼거리",
+        "connect": "보라매"
+    },
+    {
+        "line": "7호선",
+        "station": "보라매",
+        "connect": "신대방삼거리"
+    },
+    {
+        "line": "7호선",
+        "station": "보라매",
+        "connect": "신풍"
+    },
+    {
+        "line": "7호선",
+        "station": "신풍",
+        "connect": "보라매"
+    },
+    {
+        "line": "7호선",
+        "station": "신풍",
+        "connect": "대림"
+    },
+    {
+        "line": "7호선",
+        "station": "대림",
+        "connect": "신풍"
+    },
+    {
+        "line": "7호선",
+        "station": "대림",
+        "connect": "남구로"
+    },
+    {
+        "line": "7호선",
+        "station": "남구로",
+        "connect": "대림"
+    },
+    {
+        "line": "7호선",
+        "station": "남구로",
+        "connect": "가산디지털단지"
+    },
+    {
+        "line": "7호선",
+        "station": "가산디지털단지",
+        "connect": "남구로"
+    },
+    {
+        "line": "7호선",
+        "station": "가산디지털단지",
+        "connect": "철산"
+    },
+    {
+        "line": "7호선",
+        "station": "철산",
+        "connect": "가산디지털단지"
+    },
+    {
+        "line": "7호선",
+        "station": "철산",
+        "connect": "광명사거리"
+    },
+    {
+        "line": "7호선",
+        "station": "광명사거리",
+        "connect": "철산"
+    },
+    {
+        "line": "7호선",
+        "station": "광명사거리",
+        "connect": "천왕"
+    },
+    {
+        "line": "7호선",
+        "station": "천왕",
+        "connect": "광명사거리"
+    },
+    {
+        "line": "7호선",
+        "station": "천왕",
+        "connect": "온수"
+    },
+    {
+        "line": "7호선",
+        "station": "온수",
+        "connect": "천왕"
+    },
+    {
+        "line": "7호선",
+        "station": "온수",
+        "connect": "까치울"
+    },
+    {
+        "line": "7호선",
+        "station": "까치울",
+        "connect": "온수"
+    },
+    {
+        "line": "7호선",
+        "station": "까치울",
+        "connect": "부천종합운동장"
+    },
+    {
+        "line": "7호선",
+        "station": "부천종합운동장",
+        "connect": "까치울"
+    },
+    {
+        "line": "7호선",
+        "station": "부천종합운동장",
+        "connect": "춘의"
+    },
+    {
+        "line": "7호선",
+        "station": "춘의",
+        "connect": "부천종합운동장"
+    },
+    {
+        "line": "7호선",
+        "station": "춘의",
+        "connect": "신중동"
+    },
+    {
+        "line": "7호선",
+        "station": "신중동",
+        "connect": "춘의"
+    },
+    {
+        "line": "7호선",
+        "station": "신중동",
+        "connect": "부천시청"
+    },
+    {
+        "line": "7호선",
+        "station": "부천시청",
+        "connect": "신중동"
+    },
+    {
+        "line": "7호선",
+        "station": "부천시청",
+        "connect": "상동"
+    },
+    {
+        "line": "7호선",
+        "station": "상동",
+        "connect": "부천시청"
+    },
+    {
+        "line": "7호선",
+        "station": "상동",
+        "connect": "삼산체육관"
+    },
+    {
+        "line": "7호선",
+        "station": "삼산체육관",
+        "connect": "상동"
+    },
+    {
+        "line": "7호선",
+        "station": "삼산체육관",
+        "connect": "굴포천"
+    },
+    {
+        "line": "7호선",
+        "station": "굴포천",
+        "connect": "삼산체육관"
+    },
+    {
+        "line": "7호선",
+        "station": "굴포천",
+        "connect": "부평구청"
+    },
+    {
+        "line": "7호선",
+        "station": "부평구청",
+        "connect": "굴포천"
+    },
+    {
+        "line": "7호선",
+        "station": "부평구청",
+        "connect": "산곡"
+    },
+    {
+        "line": "7호선",
+        "station": "산곡",
+        "connect": "부평구청"
+    },
+    {
+        "line": "7호선",
+        "station": "산곡",
+        "connect": "석남"
+    },
+    {
+        "line": "7호선",
+        "station": "석남",
+        "connect": "산곡"
+    },
+    {
+        "line": "8호선",
+        "station": "암사",
+        "connect": "천호"
+    },
+    {
+        "line": "8호선",
+        "station": "천호",
+        "connect": "암사"
+    },
+    {
+        "line": "8호선",
+        "station": "천호",
+        "connect": "강동구청"
+    },
+    {
+        "line": "8호선",
+        "station": "강동구청",
+        "connect": "천호"
+    },
+    {
+        "line": "8호선",
+        "station": "강동구청",
+        "connect": "몽촌토성"
+    },
+    {
+        "line": "8호선",
+        "station": "몽촌토성",
+        "connect": "강동구청"
+    },
+    {
+        "line": "8호선",
+        "station": "몽촌토성",
+        "connect": "잠실"
+    },
+    {
+        "line": "8호선",
+        "station": "잠실",
+        "connect": "몽촌토성"
+    },
+    {
+        "line": "8호선",
+        "station": "잠실",
+        "connect": "석촌"
+    },
+    {
+        "line": "8호선",
+        "station": "석촌",
+        "connect": "잠실"
+    },
+    {
+        "line": "8호선",
+        "station": "석촌",
+        "connect": "송파"
+    },
+    {
+        "line": "8호선",
+        "station": "송파",
+        "connect": "석촌"
+    },
+    {
+        "line": "8호선",
+        "station": "송파",
+        "connect": "가락시장"
+    },
+    {
+        "line": "8호선",
+        "station": "가락시장",
+        "connect": "송파"
+    },
+    {
+        "line": "8호선",
+        "station": "가락시장",
+        "connect": "문정"
+    },
+    {
+        "line": "8호선",
+        "station": "문정",
+        "connect": "가락시장"
+    },
+    {
+        "line": "8호선",
+        "station": "문정",
+        "connect": "장지"
+    },
+    {
+        "line": "8호선",
+        "station": "장지",
+        "connect": "문정"
+    },
+    {
+        "line": "8호선",
+        "station": "장지",
+        "connect": "복정"
+    },
+    {
+        "line": "8호선",
+        "station": "복정",
+        "connect": "장지"
+    },
+    {
+        "line": "8호선",
+        "station": "복정",
+        "connect": "남위례"
+    },
+    {
+        "line": "8호선",
+        "station": "남위례",
+        "connect": "복정"
+    },
+    {
+        "line": "8호선",
+        "station": "남위례",
+        "connect": "산성"
+    },
+    {
+        "line": "8호선",
+        "station": "산성",
+        "connect": "남위례"
+    },
+    {
+        "line": "8호선",
+        "station": "산성",
+        "connect": "남한산성입구"
+    },
+    {
+        "line": "8호선",
+        "station": "남한산성입구",
+        "connect": "산성"
+    },
+    {
+        "line": "8호선",
+        "station": "남한산성입구",
+        "connect": "단대오거리"
+    },
+    {
+        "line": "8호선",
+        "station": "단대오거리",
+        "connect": "남한산성입구"
+    },
+    {
+        "line": "8호선",
+        "station": "단대오거리",
+        "connect": "신흥"
+    },
+    {
+        "line": "8호선",
+        "station": "신흥",
+        "connect": "단대오거리"
+    },
+    {
+        "line": "8호선",
+        "station": "신흥",
+        "connect": "수진"
+    },
+    {
+        "line": "8호선",
+        "station": "수진",
+        "connect": "신흥"
+    },
+    {
+        "line": "8호선",
+        "station": "수진",
+        "connect": "모란"
+    },
+    {
+        "line": "8호선",
+        "station": "모란",
+        "connect": "수진"
+    },
+    {
+        "line": "9호선",
+        "station": "개화",
+        "connect": "김포공항"
+    },
+    {
+        "line": "9호선",
+        "station": "김포공항",
+        "connect": "개화"
+    },
+    {
+        "line": "9호선",
+        "station": "김포공항",
+        "connect": "공항시장"
+    },
+    {
+        "line": "9호선",
+        "station": "공항시장",
+        "connect": "김포공항"
+    },
+    {
+        "line": "9호선",
+        "station": "공항시장",
+        "connect": "신방화"
+    },
+    {
+        "line": "9호선",
+        "station": "신방화",
+        "connect": "공항시장"
+    },
+    {
+        "line": "9호선",
+        "station": "신방화",
+        "connect": "마곡나루"
+    },
+    {
+        "line": "9호선",
+        "station": "마곡나루",
+        "connect": "신방화"
+    },
+    {
+        "line": "9호선",
+        "station": "마곡나루",
+        "connect": "양천향교"
+    },
+    {
+        "line": "9호선",
+        "station": "양천향교",
+        "connect": "마곡나루"
+    },
+    {
+        "line": "9호선",
+        "station": "양천향교",
+        "connect": "가양"
+    },
+    {
+        "line": "9호선",
+        "station": "가양",
+        "connect": "양천향교"
+    },
+    {
+        "line": "9호선",
+        "station": "가양",
+        "connect": "증미"
+    },
+    {
+        "line": "9호선",
+        "station": "증미",
+        "connect": "가양"
+    },
+    {
+        "line": "9호선",
+        "station": "증미",
+        "connect": "등촌"
+    },
+    {
+        "line": "9호선",
+        "station": "등촌",
+        "connect": "증미"
+    },
+    {
+        "line": "9호선",
+        "station": "등촌",
+        "connect": "염창"
+    },
+    {
+        "line": "9호선",
+        "station": "염창",
+        "connect": "등촌"
+    },
+    {
+        "line": "9호선",
+        "station": "염창",
+        "connect": "신목동"
+    },
+    {
+        "line": "9호선",
+        "station": "신목동",
+        "connect": "염창"
+    },
+    {
+        "line": "9호선",
+        "station": "신목동",
+        "connect": "선유도"
+    },
+    {
+        "line": "9호선",
+        "station": "선유도",
+        "connect": "신목동"
+    },
+    {
+        "line": "9호선",
+        "station": "선유도",
+        "connect": "당산"
+    },
+    {
+        "line": "9호선",
+        "station": "당산",
+        "connect": "선유도"
+    },
+    {
+        "line": "9호선",
+        "station": "당산",
+        "connect": "국회의사당"
+    },
+    {
+        "line": "9호선",
+        "station": "국회의사당",
+        "connect": "당산"
+    },
+    {
+        "line": "9호선",
+        "station": "국회의사당",
+        "connect": "여의도"
+    },
+    {
+        "line": "9호선",
+        "station": "여의도",
+        "connect": "국회의사당"
+    },
+    {
+        "line": "9호선",
+        "station": "여의도",
+        "connect": "샛강"
+    },
+    {
+        "line": "9호선",
+        "station": "샛강",
+        "connect": "여의도"
+    },
+    {
+        "line": "9호선",
+        "station": "샛강",
+        "connect": "노량진"
+    },
+    {
+        "line": "9호선",
+        "station": "노량진",
+        "connect": "샛강"
+    },
+    {
+        "line": "9호선",
+        "station": "노량진",
+        "connect": "노들"
+    },
+    {
+        "line": "9호선",
+        "station": "노들",
+        "connect": "노량진"
+    },
+    {
+        "line": "9호선",
+        "station": "노들",
+        "connect": "흑석"
+    },
+    {
+        "line": "9호선",
+        "station": "흑석",
+        "connect": "노들"
+    },
+    {
+        "line": "9호선",
+        "station": "흑석",
+        "connect": "동작"
+    },
+    {
+        "line": "9호선",
+        "station": "동작",
+        "connect": "흑석"
+    },
+    {
+        "line": "9호선",
+        "station": "동작",
+        "connect": "구반포"
+    },
+    {
+        "line": "9호선",
+        "station": "구반포",
+        "connect": "동작"
+    },
+    {
+        "line": "9호선",
+        "station": "구반포",
+        "connect": "신반포"
+    },
+    {
+        "line": "9호선",
+        "station": "신반포",
+        "connect": "구반포"
+    },
+    {
+        "line": "9호선",
+        "station": "신반포",
+        "connect": "고속터미널"
+    },
+    {
+        "line": "9호선",
+        "station": "고속터미널",
+        "connect": "신반포"
+    },
+    {
+        "line": "9호선",
+        "station": "고속터미널",
+        "connect": "사평"
+    },
+    {
+        "line": "9호선",
+        "station": "사평",
+        "connect": "고속터미널"
+    },
+    {
+        "line": "9호선",
+        "station": "사평",
+        "connect": "신논현"
+    },
+    {
+        "line": "9호선",
+        "station": "신논현",
+        "connect": "사평"
+    },
+    {
+        "line": "9호선",
+        "station": "신논현",
+        "connect": "언주"
+    },
+    {
+        "line": "9호선",
+        "station": "언주",
+        "connect": "신논현"
+    },
+    {
+        "line": "9호선",
+        "station": "언주",
+        "connect": "선정릉"
+    },
+    {
+        "line": "9호선",
+        "station": "선정릉",
+        "connect": "언주"
+    },
+    {
+        "line": "9호선",
+        "station": "선정릉",
+        "connect": "삼성중앙"
+    },
+    {
+        "line": "9호선",
+        "station": "삼성중앙",
+        "connect": "선정릉"
+    },
+    {
+        "line": "9호선",
+        "station": "삼성중앙",
+        "connect": "봉은사"
+    },
+    {
+        "line": "9호선",
+        "station": "봉은사",
+        "connect": "삼성중앙"
+    },
+    {
+        "line": "9호선",
+        "station": "봉은사",
+        "connect": "종합운동장"
+    },
+    {
+        "line": "9호선",
+        "station": "종합운동장",
+        "connect": "봉은사"
+    },
+    {
+        "line": "9호선",
+        "station": "종합운동장",
+        "connect": "삼전"
+    },
+    {
+        "line": "9호선",
+        "station": "삼전",
+        "connect": "종합운동장"
+    },
+    {
+        "line": "9호선",
+        "station": "삼전",
+        "connect": "석촌고분"
+    },
+    {
+        "line": "9호선",
+        "station": "석촌고분",
+        "connect": "삼전"
+    },
+    {
+        "line": "9호선",
+        "station": "석촌고분",
+        "connect": "석촌"
+    },
+    {
+        "line": "9호선",
+        "station": "석촌",
+        "connect": "석촌고분"
+    },
+    {
+        "line": "9호선",
+        "station": "석촌",
+        "connect": "송파나루"
+    },
+    {
+        "line": "9호선",
+        "station": "송파나루",
+        "connect": "석촌"
+    },
+    {
+        "line": "9호선",
+        "station": "송파나루",
+        "connect": "한성백제"
+    },
+    {
+        "line": "9호선",
+        "station": "한성백제",
+        "connect": "송파나루"
+    },
+    {
+        "line": "9호선",
+        "station": "한성백제",
+        "connect": "올림픽공원"
+    },
+    {
+        "line": "9호선",
+        "station": "올림픽공원",
+        "connect": "한성백제"
+    },
+    {
+        "line": "9호선",
+        "station": "올림픽공원",
+        "connect": "둔촌오륜"
+    },
+    {
+        "line": "9호선",
+        "station": "둔촌오륜",
+        "connect": "올림픽공원"
+    },
+    {
+        "line": "9호선",
+        "station": "둔촌오륜",
+        "connect": "중앙보훈병원"
+    },
+    {
+        "line": "9호선",
+        "station": "중앙보훈병원",
+        "connect": "둔촌오륜"
+    },
+    {
+        "line": "인천1호선",
+        "station": "계양",
+        "connect": "귤현"
+    },
+    {
+        "line": "인천1호선",
+        "station": "귤현",
+        "connect": "계양"
+    },
+    {
+        "line": "인천1호선",
+        "station": "귤현",
+        "connect": "박촌"
+    },
+    {
+        "line": "인천1호선",
+        "station": "박촌",
+        "connect": "귤현"
+    },
+    {
+        "line": "인천1호선",
+        "station": "박촌",
+        "connect": "임학"
+    },
+    {
+        "line": "인천1호선",
+        "station": "임학",
+        "connect": "박촌"
+    },
+    {
+        "line": "인천1호선",
+        "station": "임학",
+        "connect": "계산"
+    },
+    {
+        "line": "인천1호선",
+        "station": "계산",
+        "connect": "임학"
+    },
+    {
+        "line": "인천1호선",
+        "station": "계산",
+        "connect": "경인교대입구"
+    },
+    {
+        "line": "인천1호선",
+        "station": "경인교대입구",
+        "connect": "계산"
+    },
+    {
+        "line": "인천1호선",
+        "station": "경인교대입구",
+        "connect": "작전"
+    },
+    {
+        "line": "인천1호선",
+        "station": "작전",
+        "connect": "경인교대입구"
+    },
+    {
+        "line": "인천1호선",
+        "station": "작전",
+        "connect": "갈산"
+    },
+    {
+        "line": "인천1호선",
+        "station": "갈산",
+        "connect": "작전"
+    },
+    {
+        "line": "인천1호선",
+        "station": "갈산",
+        "connect": "부평구청"
+    },
+    {
+        "line": "인천1호선",
+        "station": "부평구청",
+        "connect": "갈산"
+    },
+    {
+        "line": "인천1호선",
+        "station": "부평구청",
+        "connect": "부평시장"
+    },
+    {
+        "line": "인천1호선",
+        "station": "부평시장",
+        "connect": "부평구청"
+    },
+    {
+        "line": "인천1호선",
+        "station": "부평시장",
+        "connect": "부평"
+    },
+    {
+        "line": "인천1호선",
+        "station": "부평",
+        "connect": "부평시장"
+    },
+    {
+        "line": "인천1호선",
+        "station": "부평",
+        "connect": "동수"
+    },
+    {
+        "line": "인천1호선",
+        "station": "동수",
+        "connect": "부평"
+    },
+    {
+        "line": "인천1호선",
+        "station": "동수",
+        "connect": "부평삼거리"
+    },
+    {
+        "line": "인천1호선",
+        "station": "부평삼거리",
+        "connect": "동수"
+    },
+    {
+        "line": "인천1호선",
+        "station": "부평삼거리",
+        "connect": "간석오거리"
+    },
+    {
+        "line": "인천1호선",
+        "station": "간석오거리",
+        "connect": "부평삼거리"
+    },
+    {
+        "line": "인천1호선",
+        "station": "간석오거리",
+        "connect": "인천시청"
+    },
+    {
+        "line": "인천1호선",
+        "station": "인천시청",
+        "connect": "간석오거리"
+    },
+    {
+        "line": "인천1호선",
+        "station": "인천시청",
+        "connect": "예술회관"
+    },
+    {
+        "line": "인천1호선",
+        "station": "예술회관",
+        "connect": "인천시청"
+    },
+    {
+        "line": "인천1호선",
+        "station": "예술회관",
+        "connect": "인천터미널"
+    },
+    {
+        "line": "인천1호선",
+        "station": "인천터미널",
+        "connect": "예술회관"
+    },
+    {
+        "line": "인천1호선",
+        "station": "인천터미널",
+        "connect": "문학경기장"
+    },
+    {
+        "line": "인천1호선",
+        "station": "문학경기장",
+        "connect": "인천터미널"
+    },
+    {
+        "line": "인천1호선",
+        "station": "문학경기장",
+        "connect": "선학"
+    },
+    {
+        "line": "인천1호선",
+        "station": "선학",
+        "connect": "문학경기장"
+    },
+    {
+        "line": "인천1호선",
+        "station": "선학",
+        "connect": "신연수"
+    },
+    {
+        "line": "인천1호선",
+        "station": "신연수",
+        "connect": "선학"
+    },
+    {
+        "line": "인천1호선",
+        "station": "신연수",
+        "connect": "원인재"
+    },
+    {
+        "line": "인천1호선",
+        "station": "원인재",
+        "connect": "신연수"
+    },
+    {
+        "line": "인천1호선",
+        "station": "원인재",
+        "connect": "동춘"
+    },
+    {
+        "line": "인천1호선",
+        "station": "동춘",
+        "connect": "원인재"
+    },
+    {
+        "line": "인천1호선",
+        "station": "동춘",
+        "connect": "동막"
+    },
+    {
+        "line": "인천1호선",
+        "station": "동막",
+        "connect": "동춘"
+    },
+    {
+        "line": "인천1호선",
+        "station": "동막",
+        "connect": "캠퍼스타운"
+    },
+    {
+        "line": "인천1호선",
+        "station": "캠퍼스타운",
+        "connect": "동막"
+    },
+    {
+        "line": "인천1호선",
+        "station": "캠퍼스타운",
+        "connect": "테크노파크"
+    },
+    {
+        "line": "인천1호선",
+        "station": "테크노파크",
+        "connect": "캠퍼스타운"
+    },
+    {
+        "line": "인천1호선",
+        "station": "테크노파크",
+        "connect": "지식정보단지"
+    },
+    {
+        "line": "인천1호선",
+        "station": "지식정보단지",
+        "connect": "테크노파크"
+    },
+    {
+        "line": "인천1호선",
+        "station": "지식정보단지",
+        "connect": "인천대입구"
+    },
+    {
+        "line": "인천1호선",
+        "station": "인천대입구",
+        "connect": "지식정보단지"
+    },
+    {
+        "line": "인천1호선",
+        "station": "인천대입구",
+        "connect": "센트럴파크"
+    },
+    {
+        "line": "인천1호선",
+        "station": "센트럴파크",
+        "connect": "인천대입구"
+    },
+    {
+        "line": "인천1호선",
+        "station": "센트럴파크",
+        "connect": "국제업무지구"
+    },
+    {
+        "line": "인천1호선",
+        "station": "국제업무지구",
+        "connect": "센트럴파크"
+    },
+    {
+        "line": "인천1호선",
+        "station": "국제업무지구",
+        "connect": "송도달빛축제공원"
+    },
+    {
+        "line": "인천1호선",
+        "station": "송도달빛축제공원",
+        "connect": "국제업무지구"
+    },
+    {
+        "line": "인천2호선",
+        "station": "검단오류",
+        "connect": "왕길"
+    },
+    {
+        "line": "인천2호선",
+        "station": "왕길",
+        "connect": "검단오류"
+    },
+    {
+        "line": "인천2호선",
+        "station": "왕길",
+        "connect": "검단사거리"
+    },
+    {
+        "line": "인천2호선",
+        "station": "검단사거리",
+        "connect": "왕길"
+    },
+    {
+        "line": "인천2호선",
+        "station": "검단사거리",
+        "connect": "마전"
+    },
+    {
+        "line": "인천2호선",
+        "station": "마전",
+        "connect": "검단사거리"
+    },
+    {
+        "line": "인천2호선",
+        "station": "마전",
+        "connect": "완정"
+    },
+    {
+        "line": "인천2호선",
+        "station": "완정",
+        "connect": "마전"
+    },
+    {
+        "line": "인천2호선",
+        "station": "완정",
+        "connect": "독정"
+    },
+    {
+        "line": "인천2호선",
+        "station": "독정",
+        "connect": "완정"
+    },
+    {
+        "line": "인천2호선",
+        "station": "독정",
+        "connect": "검암"
+    },
+    {
+        "line": "인천2호선",
+        "station": "검암",
+        "connect": "독정"
+    },
+    {
+        "line": "인천2호선",
+        "station": "검암",
+        "connect": "검바위"
+    },
+    {
+        "line": "인천2호선",
+        "station": "검바위",
+        "connect": "검암"
+    },
+    {
+        "line": "인천2호선",
+        "station": "검바위",
+        "connect": "아시아드경기장"
+    },
+    {
+        "line": "인천2호선",
+        "station": "아시아드경기장",
+        "connect": "검바위"
+    },
+    {
+        "line": "인천2호선",
+        "station": "아시아드경기장",
+        "connect": "서구청"
+    },
+    {
+        "line": "인천2호선",
+        "station": "서구청",
+        "connect": "아시아드경기장"
+    },
+    {
+        "line": "인천2호선",
+        "station": "서구청",
+        "connect": "가정"
+    },
+    {
+        "line": "인천2호선",
+        "station": "가정",
+        "connect": "서구청"
+    },
+    {
+        "line": "인천2호선",
+        "station": "가정",
+        "connect": "가정중앙시장"
+    },
+    {
+        "line": "인천2호선",
+        "station": "가정중앙시장",
+        "connect": "가정"
+    },
+    {
+        "line": "인천2호선",
+        "station": "가정중앙시장",
+        "connect": "석남"
+    },
+    {
+        "line": "인천2호선",
+        "station": "석남",
+        "connect": "가정중앙시장"
+    },
+    {
+        "line": "인천2호선",
+        "station": "석남",
+        "connect": "서부여성회관"
+    },
+    {
+        "line": "인천2호선",
+        "station": "서부여성회관",
+        "connect": "석남"
+    },
+    {
+        "line": "인천2호선",
+        "station": "서부여성회관",
+        "connect": "인천가좌"
+    },
+    {
+        "line": "인천2호선",
+        "station": "인천가좌",
+        "connect": "서부여성회관"
+    },
+    {
+        "line": "인천2호선",
+        "station": "인천가좌",
+        "connect": "가재울"
+    },
+    {
+        "line": "인천2호선",
+        "station": "가재울",
+        "connect": "인천가좌"
+    },
+    {
+        "line": "인천2호선",
+        "station": "가재울",
+        "connect": "주안국가산단"
+    },
+    {
+        "line": "인천2호선",
+        "station": "주안국가산단",
+        "connect": "가재울"
+    },
+    {
+        "line": "인천2호선",
+        "station": "주안국가산단",
+        "connect": "주안"
+    },
+    {
+        "line": "인천2호선",
+        "station": "주안",
+        "connect": "주안국가산단"
+    },
+    {
+        "line": "인천2호선",
+        "station": "주안",
+        "connect": "시민공원"
+    },
+    {
+        "line": "인천2호선",
+        "station": "시민공원",
+        "connect": "주안"
+    },
+    {
+        "line": "인천2호선",
+        "station": "시민공원",
+        "connect": "석바위시장"
+    },
+    {
+        "line": "인천2호선",
+        "station": "석바위시장",
+        "connect": "시민공원"
+    },
+    {
+        "line": "인천2호선",
+        "station": "석바위시장",
+        "connect": "인천시청"
+    },
+    {
+        "line": "인천2호선",
+        "station": "인천시청",
+        "connect": "석바위시장"
+    },
+    {
+        "line": "인천2호선",
+        "station": "인천시청",
+        "connect": "석천사거리"
+    },
+    {
+        "line": "인천2호선",
+        "station": "석천사거리",
+        "connect": "인천시청"
+    },
+    {
+        "line": "인천2호선",
+        "station": "석천사거리",
+        "connect": "모래내시장"
+    },
+    {
+        "line": "인천2호선",
+        "station": "모래내시장",
+        "connect": "석천사거리"
+    },
+    {
+        "line": "인천2호선",
+        "station": "모래내시장",
+        "connect": "만수"
+    },
+    {
+        "line": "인천2호선",
+        "station": "만수",
+        "connect": "모래내시장"
+    },
+    {
+        "line": "인천2호선",
+        "station": "만수",
+        "connect": "남동구청"
+    },
+    {
+        "line": "인천2호선",
+        "station": "남동구청",
+        "connect": "만수"
+    },
+    {
+        "line": "인천2호선",
+        "station": "남동구청",
+        "connect": "인천대공원"
+    },
+    {
+        "line": "인천2호선",
+        "station": "인천대공원",
+        "connect": "남동구청"
+    },
+    {
+        "line": "인천2호선",
+        "station": "인천대공원",
+        "connect": "운연"
+    },
+    {
+        "line": "인천2호선",
+        "station": "운연",
+        "connect": "인천대공원"
+    },
+    {
+        "line": "경강선",
+        "station": "판교",
+        "connect": "이매"
+    },
+    {
+        "line": "경강선",
+        "station": "이매",
+        "connect": "판교"
+    },
+    {
+        "line": "경강선",
+        "station": "이매",
+        "connect": "삼동"
+    },
+    {
+        "line": "경강선",
+        "station": "삼동",
+        "connect": "이매"
+    },
+    {
+        "line": "경강선",
+        "station": "삼동",
+        "connect": "경기광주"
+    },
+    {
+        "line": "경강선",
+        "station": "경기광주",
+        "connect": "삼동"
+    },
+    {
+        "line": "경강선",
+        "station": "경기광주",
+        "connect": "초월"
+    },
+    {
+        "line": "경강선",
+        "station": "초월",
+        "connect": "경기광주"
+    },
+    {
+        "line": "경강선",
+        "station": "초월",
+        "connect": "곤지암"
+    },
+    {
+        "line": "경강선",
+        "station": "곤지암",
+        "connect": "초월"
+    },
+    {
+        "line": "경강선",
+        "station": "곤지암",
+        "connect": "신둔도예촌"
+    },
+    {
+        "line": "경강선",
+        "station": "신둔도예촌",
+        "connect": "곤지암"
+    },
+    {
+        "line": "경강선",
+        "station": "신둔도예촌",
+        "connect": "이천"
+    },
+    {
+        "line": "경강선",
+        "station": "이천",
+        "connect": "신둔도예촌"
+    },
+    {
+        "line": "경강선",
+        "station": "이천",
+        "connect": "부발"
+    },
+    {
+        "line": "경강선",
+        "station": "부발",
+        "connect": "이천"
+    },
+    {
+        "line": "경강선",
+        "station": "부발",
+        "connect": "세종대왕릉"
+    },
+    {
+        "line": "경강선",
+        "station": "세종대왕릉",
+        "connect": "부발"
+    },
+    {
+        "line": "경강선",
+        "station": "세종대왕릉",
+        "connect": "여주"
+    },
+    {
+        "line": "경강선",
+        "station": "여주",
+        "connect": "세종대왕릉"
+    },
+    {
+        "line": "경의중앙",
+        "station": "도라산",
+        "connect": "임진강"
+    },
+    {
+        "line": "경의중앙",
+        "station": "임진강",
+        "connect": "도라산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "임진강",
+        "connect": "운천"
+    },
+    {
+        "line": "경의중앙",
+        "station": "운천",
+        "connect": "임진강"
+    },
+    {
+        "line": "경의중앙",
+        "station": "운천",
+        "connect": "문산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "문산",
+        "connect": "운천"
+    },
+    {
+        "line": "경의중앙",
+        "station": "문산",
+        "connect": "파주"
+    },
+    {
+        "line": "경의중앙",
+        "station": "파주",
+        "connect": "문산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "파주",
+        "connect": "월롱"
+    },
+    {
+        "line": "경의중앙",
+        "station": "월롱",
+        "connect": "파주"
+    },
+    {
+        "line": "경의중앙",
+        "station": "월롱",
+        "connect": "금촌"
+    },
+    {
+        "line": "경의중앙",
+        "station": "금촌",
+        "connect": "월롱"
+    },
+    {
+        "line": "경의중앙",
+        "station": "금촌",
+        "connect": "금릉"
+    },
+    {
+        "line": "경의중앙",
+        "station": "금릉",
+        "connect": "금촌"
+    },
+    {
+        "line": "경의중앙",
+        "station": "금릉",
+        "connect": "운정"
+    },
+    {
+        "line": "경의중앙",
+        "station": "운정",
+        "connect": "금릉"
+    },
+    {
+        "line": "경의중앙",
+        "station": "운정",
+        "connect": "야당"
+    },
+    {
+        "line": "경의중앙",
+        "station": "야당",
+        "connect": "운정"
+    },
+    {
+        "line": "경의중앙",
+        "station": "야당",
+        "connect": "탄현"
+    },
+    {
+        "line": "경의중앙",
+        "station": "탄현",
+        "connect": "야당"
+    },
+    {
+        "line": "경의중앙",
+        "station": "탄현",
+        "connect": "일산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "일산",
+        "connect": "탄현"
+    },
+    {
+        "line": "경의중앙",
+        "station": "일산",
+        "connect": "풍산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "풍산",
+        "connect": "일산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "풍산",
+        "connect": "백마"
+    },
+    {
+        "line": "경의중앙",
+        "station": "백마",
+        "connect": "풍산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "백마",
+        "connect": "곡산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "곡산",
+        "connect": "백마"
+    },
+    {
+        "line": "경의중앙",
+        "station": "곡산",
+        "connect": "대곡"
+    },
+    {
+        "line": "경의중앙",
+        "station": "대곡",
+        "connect": "곡산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "대곡",
+        "connect": "능곡"
+    },
+    {
+        "line": "경의중앙",
+        "station": "능곡",
+        "connect": "대곡"
+    },
+    {
+        "line": "경의중앙",
+        "station": "능곡",
+        "connect": "행신"
+    },
+    {
+        "line": "경의중앙",
+        "station": "행신",
+        "connect": "능곡"
+    },
+    {
+        "line": "경의중앙",
+        "station": "행신",
+        "connect": "강매"
+    },
+    {
+        "line": "경의중앙",
+        "station": "강매",
+        "connect": "행신"
+    },
+    {
+        "line": "경의중앙",
+        "station": "강매",
+        "connect": "한국항공대"
+    },
+    {
+        "line": "경의중앙",
+        "station": "한국항공대",
+        "connect": "강매"
+    },
+    {
+        "line": "경의중앙",
+        "station": "한국항공대",
+        "connect": "수색"
+    },
+    {
+        "line": "경의중앙",
+        "station": "수색",
+        "connect": "한국항공대"
+    },
+    {
+        "line": "경의중앙",
+        "station": "수색",
+        "connect": "디지털미디어시티"
+    },
+    {
+        "line": "경의중앙",
+        "station": "디지털미디어시티",
+        "connect": "수색"
+    },
+    {
+        "line": "경의중앙",
+        "station": "디지털미디어시티",
+        "connect": "가좌"
+    },
+    {
+        "line": "경의중앙",
+        "station": "가좌",
+        "connect": "디지털미디어시티"
+    },
+    {
+        "line": "경의중앙",
+        "station": "가좌",
+        "connect": "홍대입구"
+    },
+    {
+        "line": "경의중앙",
+        "station": "홍대입구",
+        "connect": "가좌"
+    },
+    {
+        "line": "경의중앙",
+        "station": "홍대입구",
+        "connect": "서강대"
+    },
+    {
+        "line": "경의중앙",
+        "station": "서강대",
+        "connect": "홍대입구"
+    },
+    {
+        "line": "경의중앙",
+        "station": "서강대",
+        "connect": "공덕"
+    },
+    {
+        "line": "경의중앙",
+        "station": "공덕",
+        "connect": "서강대"
+    },
+    {
+        "line": "경의중앙",
+        "station": "공덕",
+        "connect": "효창공원앞"
+    },
+    {
+        "line": "경의중앙",
+        "station": "효창공원앞",
+        "connect": "공덕"
+    },
+    {
+        "line": "경의중앙",
+        "station": "효창공원앞",
+        "connect": "용산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "용산",
+        "connect": "효창공원앞"
+    },
+    {
+        "line": "경의중앙",
+        "station": "용산",
+        "connect": "이촌"
+    },
+    {
+        "line": "경의중앙",
+        "station": "이촌",
+        "connect": "용산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "이촌",
+        "connect": "서빙고"
+    },
+    {
+        "line": "경의중앙",
+        "station": "서빙고",
+        "connect": "이촌"
+    },
+    {
+        "line": "경의중앙",
+        "station": "서빙고",
+        "connect": "한남"
+    },
+    {
+        "line": "경의중앙",
+        "station": "한남",
+        "connect": "서빙고"
+    },
+    {
+        "line": "경의중앙",
+        "station": "한남",
+        "connect": "옥수"
+    },
+    {
+        "line": "경의중앙",
+        "station": "옥수",
+        "connect": "한남"
+    },
+    {
+        "line": "경의중앙",
+        "station": "옥수",
+        "connect": "응봉"
+    },
+    {
+        "line": "경의중앙",
+        "station": "응봉",
+        "connect": "옥수"
+    },
+    {
+        "line": "경의중앙",
+        "station": "응봉",
+        "connect": "왕십리"
+    },
+    {
+        "line": "경의중앙",
+        "station": "왕십리",
+        "connect": "응봉"
+    },
+    {
+        "line": "경의중앙",
+        "station": "왕십리",
+        "connect": "청량리"
+    },
+    {
+        "line": "경의중앙",
+        "station": "청량리",
+        "connect": "왕십리"
+    },
+    {
+        "line": "경의중앙",
+        "station": "청량리",
+        "connect": "회기"
+    },
+    {
+        "line": "경의중앙",
+        "station": "회기",
+        "connect": "청량리"
+    },
+    {
+        "line": "경의중앙",
+        "station": "회기",
+        "connect": "중랑"
+    },
+    {
+        "line": "경의중앙",
+        "station": "중랑",
+        "connect": "회기"
+    },
+    {
+        "line": "경의중앙",
+        "station": "중랑",
+        "connect": "상봉"
+    },
+    {
+        "line": "경의중앙",
+        "station": "상봉",
+        "connect": "중랑"
+    },
+    {
+        "line": "경의중앙",
+        "station": "상봉",
+        "connect": "망우"
+    },
+    {
+        "line": "경의중앙",
+        "station": "망우",
+        "connect": "상봉"
+    },
+    {
+        "line": "경의중앙",
+        "station": "망우",
+        "connect": "양원"
+    },
+    {
+        "line": "경의중앙",
+        "station": "양원",
+        "connect": "망우"
+    },
+    {
+        "line": "경의중앙",
+        "station": "양원",
+        "connect": "구리"
+    },
+    {
+        "line": "경의중앙",
+        "station": "구리",
+        "connect": "양원"
+    },
+    {
+        "line": "경의중앙",
+        "station": "구리",
+        "connect": "도농"
+    },
+    {
+        "line": "경의중앙",
+        "station": "도농",
+        "connect": "구리"
+    },
+    {
+        "line": "경의중앙",
+        "station": "도농",
+        "connect": "양정"
+    },
+    {
+        "line": "경의중앙",
+        "station": "양정",
+        "connect": "도농"
+    },
+    {
+        "line": "경의중앙",
+        "station": "양정",
+        "connect": "덕소"
+    },
+    {
+        "line": "경의중앙",
+        "station": "덕소",
+        "connect": "양정"
+    },
+    {
+        "line": "경의중앙",
+        "station": "덕소",
+        "connect": "도심"
+    },
+    {
+        "line": "경의중앙",
+        "station": "도심",
+        "connect": "덕소"
+    },
+    {
+        "line": "경의중앙",
+        "station": "도심",
+        "connect": "팔당"
+    },
+    {
+        "line": "경의중앙",
+        "station": "팔당",
+        "connect": "도심"
+    },
+    {
+        "line": "경의중앙",
+        "station": "팔당",
+        "connect": "운길산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "운길산",
+        "connect": "팔당"
+    },
+    {
+        "line": "경의중앙",
+        "station": "운길산",
+        "connect": "양수"
+    },
+    {
+        "line": "경의중앙",
+        "station": "양수",
+        "connect": "운길산"
+    },
+    {
+        "line": "경의중앙",
+        "station": "양수",
+        "connect": "신원"
+    },
+    {
+        "line": "경의중앙",
+        "station": "신원",
+        "connect": "양수"
+    },
+    {
+        "line": "경의중앙",
+        "station": "신원",
+        "connect": "국수"
+    },
+    {
+        "line": "경의중앙",
+        "station": "국수",
+        "connect": "신원"
+    },
+    {
+        "line": "경의중앙",
+        "station": "국수",
+        "connect": "아신"
+    },
+    {
+        "line": "경의중앙",
+        "station": "아신",
+        "connect": "국수"
+    },
+    {
+        "line": "경의중앙",
+        "station": "아신",
+        "connect": "오빈"
+    },
+    {
+        "line": "경의중앙",
+        "station": "오빈",
+        "connect": "아신"
+    },
+    {
+        "line": "경의중앙",
+        "station": "오빈",
+        "connect": "양평"
+    },
+    {
+        "line": "경의중앙",
+        "station": "양평",
+        "connect": "오빈"
+    },
+    {
+        "line": "경의중앙",
+        "station": "양평",
+        "connect": "원덕"
+    },
+    {
+        "line": "경의중앙",
+        "station": "원덕",
+        "connect": "양평"
+    },
+    {
+        "line": "경의중앙",
+        "station": "원덕",
+        "connect": "용문"
+    },
+    {
+        "line": "경의중앙",
+        "station": "용문",
+        "connect": "원덕"
+    },
+    {
+        "line": "경의중앙",
+        "station": "용문",
+        "connect": "지평"
+    },
+    {
+        "line": "경의중앙",
+        "station": "지평",
+        "connect": "용문"
+    },
+    {
+        "line": "경의중앙",
+        "station": "가좌",
+        "connect": "신촌"
+    },
+    {
+        "line": "경의중앙",
+        "station": "신촌",
+        "connect": "가좌"
+    },
+    {
+        "line": "경의중앙",
+        "station": "신촌",
+        "connect": "서울역"
+    },
+    {
+        "line": "경의중앙",
+        "station": "서울역",
+        "connect": "신촌"
+    },
+    {
+        "line": "경춘",
+        "station": "청량리",
+        "connect": "회기"
+    },
+    {
+        "line": "경춘",
+        "station": "회기",
+        "connect": "청량리"
+    },
+    {
+        "line": "경춘",
+        "station": "회기",
+        "connect": "중랑"
+    },
+    {
+        "line": "경춘",
+        "station": "중랑",
+        "connect": "회기"
+    },
+    {
+        "line": "경춘",
+        "station": "중랑",
+        "connect": "상봉"
+    },
+    {
+        "line": "경춘",
+        "station": "상봉",
+        "connect": "중랑"
+    },
+    {
+        "line": "경춘",
+        "station": "상봉",
+        "connect": "망우"
+    },
+    {
+        "line": "경춘",
+        "station": "망우",
+        "connect": "상봉"
+    },
+    {
+        "line": "경춘",
+        "station": "망우",
+        "connect": "신내"
+    },
+    {
+        "line": "경춘",
+        "station": "신내",
+        "connect": "망우"
+    },
+    {
+        "line": "경춘",
+        "station": "신내",
+        "connect": "갈매"
+    },
+    {
+        "line": "경춘",
+        "station": "갈매",
+        "connect": "신내"
+    },
+    {
+        "line": "경춘",
+        "station": "갈매",
+        "connect": "별내"
+    },
+    {
+        "line": "경춘",
+        "station": "별내",
+        "connect": "갈매"
+    },
+    {
+        "line": "경춘",
+        "station": "별내",
+        "connect": "퇴계원"
+    },
+    {
+        "line": "경춘",
+        "station": "퇴계원",
+        "connect": "별내"
+    },
+    {
+        "line": "경춘",
+        "station": "퇴계원",
+        "connect": "사릉"
+    },
+    {
+        "line": "경춘",
+        "station": "사릉",
+        "connect": "퇴계원"
+    },
+    {
+        "line": "경춘",
+        "station": "사릉",
+        "connect": "금곡"
+    },
+    {
+        "line": "경춘",
+        "station": "금곡",
+        "connect": "사릉"
+    },
+    {
+        "line": "경춘",
+        "station": "금곡",
+        "connect": "평내호평"
+    },
+    {
+        "line": "경춘",
+        "station": "평내호평",
+        "connect": "금곡"
+    },
+    {
+        "line": "경춘",
+        "station": "평내호평",
+        "connect": "천마산"
+    },
+    {
+        "line": "경춘",
+        "station": "천마산",
+        "connect": "평내호평"
+    },
+    {
+        "line": "경춘",
+        "station": "천마산",
+        "connect": "마석"
+    },
+    {
+        "line": "경춘",
+        "station": "마석",
+        "connect": "천마산"
+    },
+    {
+        "line": "경춘",
+        "station": "마석",
+        "connect": "대성리"
+    },
+    {
+        "line": "경춘",
+        "station": "대성리",
+        "connect": "마석"
+    },
+    {
+        "line": "경춘",
+        "station": "대성리",
+        "connect": "청평"
+    },
+    {
+        "line": "경춘",
+        "station": "청평",
+        "connect": "대성리"
+    },
+    {
+        "line": "경춘",
+        "station": "청평",
+        "connect": "상천"
+    },
+    {
+        "line": "경춘",
+        "station": "상천",
+        "connect": "청평"
+    },
+    {
+        "line": "경춘",
+        "station": "상천",
+        "connect": "가평"
+    },
+    {
+        "line": "경춘",
+        "station": "가평",
+        "connect": "상천"
+    },
+    {
+        "line": "경춘",
+        "station": "가평",
+        "connect": "굴봉산"
+    },
+    {
+        "line": "경춘",
+        "station": "굴봉산",
+        "connect": "가평"
+    },
+    {
+        "line": "경춘",
+        "station": "굴봉산",
+        "connect": "백양리"
+    },
+    {
+        "line": "경춘",
+        "station": "백양리",
+        "connect": "굴봉산"
+    },
+    {
+        "line": "경춘",
+        "station": "백양리",
+        "connect": "강촌"
+    },
+    {
+        "line": "경춘",
+        "station": "강촌",
+        "connect": "백양리"
+    },
+    {
+        "line": "경춘",
+        "station": "강촌",
+        "connect": "김유정"
+    },
+    {
+        "line": "경춘",
+        "station": "김유정",
+        "connect": "강촌"
+    },
+    {
+        "line": "경춘",
+        "station": "김유정",
+        "connect": "남춘천"
+    },
+    {
+        "line": "경춘",
+        "station": "남춘천",
+        "connect": "김유정"
+    },
+    {
+        "line": "경춘",
+        "station": "남춘천",
+        "connect": "춘천"
+    },
+    {
+        "line": "경춘",
+        "station": "춘천",
+        "connect": "남춘천"
+    },
+    {
+        "line": "경춘",
+        "station": "광운대",
+        "connect": "상봉"
+    },
+    {
+        "line": "경춘",
+        "station": "상봉",
+        "connect": "광운대"
+    },
+    {
+        "line": "공항철도",
+        "station": "서울역",
+        "connect": "공덕"
+    },
+    {
+        "line": "공항철도",
+        "station": "공덕",
+        "connect": "서울역"
+    },
+    {
+        "line": "공항철도",
+        "station": "공덕",
+        "connect": "홍대입구"
+    },
+    {
+        "line": "공항철도",
+        "station": "홍대입구",
+        "connect": "공덕"
+    },
+    {
+        "line": "공항철도",
+        "station": "홍대입구",
+        "connect": "디지털미디어시티"
+    },
+    {
+        "line": "공항철도",
+        "station": "디지털미디어시티",
+        "connect": "홍대입구"
+    },
+    {
+        "line": "공항철도",
+        "station": "디지털미디어시티",
+        "connect": "마곡나루"
+    },
+    {
+        "line": "공항철도",
+        "station": "마곡나루",
+        "connect": "디지털미디어시티"
+    },
+    {
+        "line": "공항철도",
+        "station": "마곡나루",
+        "connect": "김포공항"
+    },
+    {
+        "line": "공항철도",
+        "station": "김포공항",
+        "connect": "마곡나루"
+    },
+    {
+        "line": "공항철도",
+        "station": "김포공항",
+        "connect": "계양"
+    },
+    {
+        "line": "공항철도",
+        "station": "계양",
+        "connect": "김포공항"
+    },
+    {
+        "line": "공항철도",
+        "station": "계양",
+        "connect": "검암"
+    },
+    {
+        "line": "공항철도",
+        "station": "검암",
+        "connect": "계양"
+    },
+    {
+        "line": "공항철도",
+        "station": "검암",
+        "connect": "청라국제도시"
+    },
+    {
+        "line": "공항철도",
+        "station": "청라국제도시",
+        "connect": "검암"
+    },
+    {
+        "line": "공항철도",
+        "station": "청라국제도시",
+        "connect": "영종"
+    },
+    {
+        "line": "공항철도",
+        "station": "영종",
+        "connect": "청라국제도시"
+    },
+    {
+        "line": "공항철도",
+        "station": "영종",
+        "connect": "운서"
+    },
+    {
+        "line": "공항철도",
+        "station": "운서",
+        "connect": "영종"
+    },
+    {
+        "line": "공항철도",
+        "station": "운서",
+        "connect": "공항화물청사"
+    },
+    {
+        "line": "공항철도",
+        "station": "공항화물청사",
+        "connect": "운서"
+    },
+    {
+        "line": "공항철도",
+        "station": "공항화물청사",
+        "connect": "인천공항1터미널"
+    },
+    {
+        "line": "공항철도",
+        "station": "인천공항1터미널",
+        "connect": "공항화물청사"
+    },
+    {
+        "line": "공항철도",
+        "station": "인천공항1터미널",
+        "connect": "인천공항2터미널"
+    },
+    {
+        "line": "공항철도",
+        "station": "인천공항2터미널",
+        "connect": "인천공항1터미널"
+    },
+    {
+        "line": "서해선",
+        "station": "일산",
+        "connect": "풍산"
+    },
+    {
+        "line": "서해선",
+        "station": "풍산",
+        "connect": "일산"
+    },
+    {
+        "line": "서해선",
+        "station": "풍산",
+        "connect": "백마"
+    },
+    {
+        "line": "서해선",
+        "station": "백마",
+        "connect": "풍산"
+    },
+    {
+        "line": "서해선",
+        "station": "백마",
+        "connect": "곡산"
+    },
+    {
+        "line": "서해선",
+        "station": "곡산",
+        "connect": "백마"
+    },
+    {
+        "line": "서해선",
+        "station": "곡산",
+        "connect": "대곡"
+    },
+    {
+        "line": "서해선",
+        "station": "대곡",
+        "connect": "곡산"
+    },
+    {
+        "line": "서해선",
+        "station": "대곡",
+        "connect": "능곡"
+    },
+    {
+        "line": "서해선",
+        "station": "능곡",
+        "connect": "대곡"
+    },
+    {
+        "line": "서해선",
+        "station": "능곡",
+        "connect": "김포공항"
+    },
+    {
+        "line": "서해선",
+        "station": "김포공항",
+        "connect": "능곡"
+    },
+    {
+        "line": "서해선",
+        "station": "김포공항",
+        "connect": "원종"
+    },
+    {
+        "line": "서해선",
+        "station": "원종",
+        "connect": "김포공항"
+    },
+    {
+        "line": "서해선",
+        "station": "원종",
+        "connect": "부천종합운동장"
+    },
+    {
+        "line": "서해선",
+        "station": "부천종합운동장",
+        "connect": "원종"
+    },
+    {
+        "line": "서해선",
+        "station": "부천종합운동장",
+        "connect": "소사"
+    },
+    {
+        "line": "서해선",
+        "station": "소사",
+        "connect": "부천종합운동장"
+    },
+    {
+        "line": "서해선",
+        "station": "소사",
+        "connect": "소새울"
+    },
+    {
+        "line": "서해선",
+        "station": "소새울",
+        "connect": "소사"
+    },
+    {
+        "line": "서해선",
+        "station": "소새울",
+        "connect": "시흥대야"
+    },
+    {
+        "line": "서해선",
+        "station": "시흥대야",
+        "connect": "소새울"
+    },
+    {
+        "line": "서해선",
+        "station": "시흥대야",
+        "connect": "신천"
+    },
+    {
+        "line": "서해선",
+        "station": "신천",
+        "connect": "시흥대야"
+    },
+    {
+        "line": "서해선",
+        "station": "신천",
+        "connect": "신현"
+    },
+    {
+        "line": "서해선",
+        "station": "신현",
+        "connect": "신천"
+    },
+    {
+        "line": "서해선",
+        "station": "신현",
+        "connect": "시흥시청"
+    },
+    {
+        "line": "서해선",
+        "station": "시흥시청",
+        "connect": "신현"
+    },
+    {
+        "line": "서해선",
+        "station": "시흥시청",
+        "connect": "시흥능곡"
+    },
+    {
+        "line": "서해선",
+        "station": "시흥능곡",
+        "connect": "시흥시청"
+    },
+    {
+        "line": "서해선",
+        "station": "시흥능곡",
+        "connect": "달미"
+    },
+    {
+        "line": "서해선",
+        "station": "달미",
+        "connect": "시흥능곡"
+    },
+    {
+        "line": "서해선",
+        "station": "달미",
+        "connect": "선부"
+    },
+    {
+        "line": "서해선",
+        "station": "선부",
+        "connect": "달미"
+    },
+    {
+        "line": "서해선",
+        "station": "선부",
+        "connect": "초지"
+    },
+    {
+        "line": "서해선",
+        "station": "초지",
+        "connect": "선부"
+    },
+    {
+        "line": "서해선",
+        "station": "초지",
+        "connect": "시우"
+    },
+    {
+        "line": "서해선",
+        "station": "시우",
+        "connect": "초지"
+    },
+    {
+        "line": "서해선",
+        "station": "시우",
+        "connect": "원시"
+    },
+    {
+        "line": "서해선",
+        "station": "원시",
+        "connect": "시우"
+    },
+    {
+        "line": "수인분당",
+        "station": "청량리",
+        "connect": "왕십리"
+    },
+    {
+        "line": "수인분당",
+        "station": "왕십리",
+        "connect": "청량리"
+    },
+    {
+        "line": "수인분당",
+        "station": "왕십리",
+        "connect": "서울숲"
+    },
+    {
+        "line": "수인분당",
+        "station": "서울숲",
+        "connect": "왕십리"
+    },
+    {
+        "line": "수인분당",
+        "station": "서울숲",
+        "connect": "압구정로데오"
+    },
+    {
+        "line": "수인분당",
+        "station": "압구정로데오",
+        "connect": "서울숲"
+    },
+    {
+        "line": "수인분당",
+        "station": "압구정로데오",
+        "connect": "강남구청"
+    },
+    {
+        "line": "수인분당",
+        "station": "강남구청",
+        "connect": "압구정로데오"
+    },
+    {
+        "line": "수인분당",
+        "station": "강남구청",
+        "connect": "선정릉"
+    },
+    {
+        "line": "수인분당",
+        "station": "선정릉",
+        "connect": "강남구청"
+    },
+    {
+        "line": "수인분당",
+        "station": "선정릉",
+        "connect": "선릉"
+    },
+    {
+        "line": "수인분당",
+        "station": "선릉",
+        "connect": "선정릉"
+    },
+    {
+        "line": "수인분당",
+        "station": "선릉",
+        "connect": "한티"
+    },
+    {
+        "line": "수인분당",
+        "station": "한티",
+        "connect": "선릉"
+    },
+    {
+        "line": "수인분당",
+        "station": "한티",
+        "connect": "도곡"
+    },
+    {
+        "line": "수인분당",
+        "station": "도곡",
+        "connect": "한티"
+    },
+    {
+        "line": "수인분당",
+        "station": "도곡",
+        "connect": "구룡"
+    },
+    {
+        "line": "수인분당",
+        "station": "구룡",
+        "connect": "도곡"
+    },
+    {
+        "line": "수인분당",
+        "station": "구룡",
+        "connect": "개포동"
+    },
+    {
+        "line": "수인분당",
+        "station": "개포동",
+        "connect": "구룡"
+    },
+    {
+        "line": "수인분당",
+        "station": "개포동",
+        "connect": "대모산입구"
+    },
+    {
+        "line": "수인분당",
+        "station": "대모산입구",
+        "connect": "개포동"
+    },
+    {
+        "line": "수인분당",
+        "station": "대모산입구",
+        "connect": "수서"
+    },
+    {
+        "line": "수인분당",
+        "station": "수서",
+        "connect": "대모산입구"
+    },
+    {
+        "line": "수인분당",
+        "station": "수서",
+        "connect": "복정"
+    },
+    {
+        "line": "수인분당",
+        "station": "복정",
+        "connect": "수서"
+    },
+    {
+        "line": "수인분당",
+        "station": "복정",
+        "connect": "가천대"
+    },
+    {
+        "line": "수인분당",
+        "station": "가천대",
+        "connect": "복정"
+    },
+    {
+        "line": "수인분당",
+        "station": "가천대",
+        "connect": "태평"
+    },
+    {
+        "line": "수인분당",
+        "station": "태평",
+        "connect": "가천대"
+    },
+    {
+        "line": "수인분당",
+        "station": "태평",
+        "connect": "모란"
+    },
+    {
+        "line": "수인분당",
+        "station": "모란",
+        "connect": "태평"
+    },
+    {
+        "line": "수인분당",
+        "station": "모란",
+        "connect": "야탑"
+    },
+    {
+        "line": "수인분당",
+        "station": "야탑",
+        "connect": "모란"
+    },
+    {
+        "line": "수인분당",
+        "station": "야탑",
+        "connect": "이매"
+    },
+    {
+        "line": "수인분당",
+        "station": "이매",
+        "connect": "야탑"
+    },
+    {
+        "line": "수인분당",
+        "station": "이매",
+        "connect": "서현"
+    },
+    {
+        "line": "수인분당",
+        "station": "서현",
+        "connect": "이매"
+    },
+    {
+        "line": "수인분당",
+        "station": "서현",
+        "connect": "수내"
+    },
+    {
+        "line": "수인분당",
+        "station": "수내",
+        "connect": "서현"
+    },
+    {
+        "line": "수인분당",
+        "station": "수내",
+        "connect": "정자"
+    },
+    {
+        "line": "수인분당",
+        "station": "정자",
+        "connect": "수내"
+    },
+    {
+        "line": "수인분당",
+        "station": "정자",
+        "connect": "미금"
+    },
+    {
+        "line": "수인분당",
+        "station": "미금",
+        "connect": "정자"
+    },
+    {
+        "line": "수인분당",
+        "station": "미금",
+        "connect": "오리"
+    },
+    {
+        "line": "수인분당",
+        "station": "오리",
+        "connect": "미금"
+    },
+    {
+        "line": "수인분당",
+        "station": "오리",
+        "connect": "죽전"
+    },
+    {
+        "line": "수인분당",
+        "station": "죽전",
+        "connect": "오리"
+    },
+    {
+        "line": "수인분당",
+        "station": "죽전",
+        "connect": "보정"
+    },
+    {
+        "line": "수인분당",
+        "station": "보정",
+        "connect": "죽전"
+    },
+    {
+        "line": "수인분당",
+        "station": "보정",
+        "connect": "구성"
+    },
+    {
+        "line": "수인분당",
+        "station": "구성",
+        "connect": "보정"
+    },
+    {
+        "line": "수인분당",
+        "station": "구성",
+        "connect": "신갈"
+    },
+    {
+        "line": "수인분당",
+        "station": "신갈",
+        "connect": "구성"
+    },
+    {
+        "line": "수인분당",
+        "station": "신갈",
+        "connect": "기흥"
+    },
+    {
+        "line": "수인분당",
+        "station": "기흥",
+        "connect": "신갈"
+    },
+    {
+        "line": "수인분당",
+        "station": "기흥",
+        "connect": "상갈"
+    },
+    {
+        "line": "수인분당",
+        "station": "상갈",
+        "connect": "기흥"
+    },
+    {
+        "line": "수인분당",
+        "station": "상갈",
+        "connect": "청명"
+    },
+    {
+        "line": "수인분당",
+        "station": "청명",
+        "connect": "상갈"
+    },
+    {
+        "line": "수인분당",
+        "station": "청명",
+        "connect": "영통"
+    },
+    {
+        "line": "수인분당",
+        "station": "영통",
+        "connect": "청명"
+    },
+    {
+        "line": "수인분당",
+        "station": "영통",
+        "connect": "망포"
+    },
+    {
+        "line": "수인분당",
+        "station": "망포",
+        "connect": "영통"
+    },
+    {
+        "line": "수인분당",
+        "station": "망포",
+        "connect": "매탄권선"
+    },
+    {
+        "line": "수인분당",
+        "station": "매탄권선",
+        "connect": "망포"
+    },
+    {
+        "line": "수인분당",
+        "station": "매탄권선",
+        "connect": "수원시청"
+    },
+    {
+        "line": "수인분당",
+        "station": "수원시청",
+        "connect": "매탄권선"
+    },
+    {
+        "line": "수인분당",
+        "station": "수원시청",
+        "connect": "매교"
+    },
+    {
+        "line": "수인분당",
+        "station": "매교",
+        "connect": "수원시청"
+    },
+    {
+        "line": "수인분당",
+        "station": "매교",
+        "connect": "수원"
+    },
+    {
+        "line": "수인분당",
+        "station": "수원",
+        "connect": "매교"
+    },
+    {
+        "line": "수인분당",
+        "station": "수원",
+        "connect": "고색"
+    },
+    {
+        "line": "수인분당",
+        "station": "고색",
+        "connect": "수원"
+    },
+    {
+        "line": "수인분당",
+        "station": "고색",
+        "connect": "오목천"
+    },
+    {
+        "line": "수인분당",
+        "station": "오목천",
+        "connect": "고색"
+    },
+    {
+        "line": "수인분당",
+        "station": "오목천",
+        "connect": "어천"
+    },
+    {
+        "line": "수인분당",
+        "station": "어천",
+        "connect": "오목천"
+    },
+    {
+        "line": "수인분당",
+        "station": "어천",
+        "connect": "야목"
+    },
+    {
+        "line": "수인분당",
+        "station": "야목",
+        "connect": "어천"
+    },
+    {
+        "line": "수인분당",
+        "station": "야목",
+        "connect": "사리"
+    },
+    {
+        "line": "수인분당",
+        "station": "사리",
+        "connect": "야목"
+    },
+    {
+        "line": "수인분당",
+        "station": "사리",
+        "connect": "한대앞"
+    },
+    {
+        "line": "수인분당",
+        "station": "한대앞",
+        "connect": "사리"
+    },
+    {
+        "line": "수인분당",
+        "station": "한대앞",
+        "connect": "중앙"
+    },
+    {
+        "line": "수인분당",
+        "station": "중앙",
+        "connect": "한대앞"
+    },
+    {
+        "line": "수인분당",
+        "station": "중앙",
+        "connect": "고잔"
+    },
+    {
+        "line": "수인분당",
+        "station": "고잔",
+        "connect": "중앙"
+    },
+    {
+        "line": "수인분당",
+        "station": "고잔",
+        "connect": "초지"
+    },
+    {
+        "line": "수인분당",
+        "station": "초지",
+        "connect": "고잔"
+    },
+    {
+        "line": "수인분당",
+        "station": "초지",
+        "connect": "안산"
+    },
+    {
+        "line": "수인분당",
+        "station": "안산",
+        "connect": "초지"
+    },
+    {
+        "line": "수인분당",
+        "station": "안산",
+        "connect": "신길온천"
+    },
+    {
+        "line": "수인분당",
+        "station": "신길온천",
+        "connect": "안산"
+    },
+    {
+        "line": "수인분당",
+        "station": "신길온천",
+        "connect": "정왕"
+    },
+    {
+        "line": "수인분당",
+        "station": "정왕",
+        "connect": "신길온천"
+    },
+    {
+        "line": "수인분당",
+        "station": "정왕",
+        "connect": "오이도"
+    },
+    {
+        "line": "수인분당",
+        "station": "오이도",
+        "connect": "정왕"
+    },
+    {
+        "line": "수인분당",
+        "station": "오이도",
+        "connect": "달월"
+    },
+    {
+        "line": "수인분당",
+        "station": "달월",
+        "connect": "오이도"
+    },
+    {
+        "line": "수인분당",
+        "station": "달월",
+        "connect": "월곶"
+    },
+    {
+        "line": "수인분당",
+        "station": "월곶",
+        "connect": "달월"
+    },
+    {
+        "line": "수인분당",
+        "station": "월곶",
+        "connect": "소래포구"
+    },
+    {
+        "line": "수인분당",
+        "station": "소래포구",
+        "connect": "월곶"
+    },
+    {
+        "line": "수인분당",
+        "station": "소래포구",
+        "connect": "인천논현"
+    },
+    {
+        "line": "수인분당",
+        "station": "인천논현",
+        "connect": "소래포구"
+    },
+    {
+        "line": "수인분당",
+        "station": "인천논현",
+        "connect": "호구포"
+    },
+    {
+        "line": "수인분당",
+        "station": "호구포",
+        "connect": "인천논현"
+    },
+    {
+        "line": "수인분당",
+        "station": "호구포",
+        "connect": "남동인더스파크"
+    },
+    {
+        "line": "수인분당",
+        "station": "남동인더스파크",
+        "connect": "호구포"
+    },
+    {
+        "line": "수인분당",
+        "station": "남동인더스파크",
+        "connect": "원인재"
+    },
+    {
+        "line": "수인분당",
+        "station": "원인재",
+        "connect": "남동인더스파크"
+    },
+    {
+        "line": "수인분당",
+        "station": "원인재",
+        "connect": "연수"
+    },
+    {
+        "line": "수인분당",
+        "station": "연수",
+        "connect": "원인재"
+    },
+    {
+        "line": "수인분당",
+        "station": "연수",
+        "connect": "송도"
+    },
+    {
+        "line": "수인분당",
+        "station": "송도",
+        "connect": "연수"
+    },
+    {
+        "line": "수인분당",
+        "station": "송도",
+        "connect": "인하대"
+    },
+    {
+        "line": "수인분당",
+        "station": "인하대",
+        "connect": "송도"
+    },
+    {
+        "line": "수인분당",
+        "station": "인하대",
+        "connect": "숭의"
+    },
+    {
+        "line": "수인분당",
+        "station": "숭의",
+        "connect": "인하대"
+    },
+    {
+        "line": "수인분당",
+        "station": "숭의",
+        "connect": "신포"
+    },
+    {
+        "line": "수인분당",
+        "station": "신포",
+        "connect": "숭의"
+    },
+    {
+        "line": "수인분당",
+        "station": "신포",
+        "connect": "인천"
+    },
+    {
+        "line": "수인분당",
+        "station": "인천",
+        "connect": "신포"
+    },
+    {
+        "line": "신분당선",
+        "station": "신사",
+        "connect": "논현"
+    },
+    {
+        "line": "신분당선",
+        "station": "논현",
+        "connect": "신사"
+    },
+    {
+        "line": "신분당선",
+        "station": "논현",
+        "connect": "신논현"
+    },
+    {
+        "line": "신분당선",
+        "station": "신논현",
+        "connect": "논현"
+    },
+    {
+        "line": "신분당선",
+        "station": "신논현",
+        "connect": "강남"
+    },
+    {
+        "line": "신분당선",
+        "station": "강남",
+        "connect": "신논현"
+    },
+    {
+        "line": "신분당선",
+        "station": "강남",
+        "connect": "양재"
+    },
+    {
+        "line": "신분당선",
+        "station": "양재",
+        "connect": "강남"
+    },
+    {
+        "line": "신분당선",
+        "station": "양재",
+        "connect": "양재시민의숲"
+    },
+    {
+        "line": "신분당선",
+        "station": "양재시민의숲",
+        "connect": "양재"
+    },
+    {
+        "line": "신분당선",
+        "station": "양재시민의숲",
+        "connect": "청계산입구"
+    },
+    {
+        "line": "신분당선",
+        "station": "청계산입구",
+        "connect": "양재시민의숲"
+    },
+    {
+        "line": "신분당선",
+        "station": "청계산입구",
+        "connect": "판교"
+    },
+    {
+        "line": "신분당선",
+        "station": "판교",
+        "connect": "청계산입구"
+    },
+    {
+        "line": "신분당선",
+        "station": "판교",
+        "connect": "정자"
+    },
+    {
+        "line": "신분당선",
+        "station": "정자",
+        "connect": "판교"
+    },
+    {
+        "line": "신분당선",
+        "station": "정자",
+        "connect": "미금"
+    },
+    {
+        "line": "신분당선",
+        "station": "미금",
+        "connect": "정자"
+    },
+    {
+        "line": "신분당선",
+        "station": "미금",
+        "connect": "동천"
+    },
+    {
+        "line": "신분당선",
+        "station": "동천",
+        "connect": "미금"
+    },
+    {
+        "line": "신분당선",
+        "station": "동천",
+        "connect": "수지구청"
+    },
+    {
+        "line": "신분당선",
+        "station": "수지구청",
+        "connect": "동천"
+    },
+    {
+        "line": "신분당선",
+        "station": "수지구청",
+        "connect": "성복"
+    },
+    {
+        "line": "신분당선",
+        "station": "성복",
+        "connect": "수지구청"
+    },
+    {
+        "line": "신분당선",
+        "station": "성복",
+        "connect": "상현"
+    },
+    {
+        "line": "신분당선",
+        "station": "상현",
+        "connect": "성복"
+    },
+    {
+        "line": "신분당선",
+        "station": "상현",
+        "connect": "광교중앙"
+    },
+    {
+        "line": "신분당선",
+        "station": "광교중앙",
+        "connect": "상현"
+    },
+    {
+        "line": "신분당선",
+        "station": "광교중앙",
+        "connect": "광교"
+    },
+    {
+        "line": "신분당선",
+        "station": "광교",
+        "connect": "광교중앙"
+    },
+    {
+        "line": "신림선",
+        "station": "샛강",
+        "connect": "대방"
+    },
+    {
+        "line": "신림선",
+        "station": "대방",
+        "connect": "샛강"
+    },
+    {
+        "line": "신림선",
+        "station": "대방",
+        "connect": "서울지방병무청"
+    },
+    {
+        "line": "신림선",
+        "station": "서울지방병무청",
+        "connect": "대방"
+    },
+    {
+        "line": "신림선",
+        "station": "서울지방병무청",
+        "connect": "보라매"
+    },
+    {
+        "line": "신림선",
+        "station": "보라매",
+        "connect": "서울지방병무청"
+    },
+    {
+        "line": "신림선",
+        "station": "보라매",
+        "connect": "보라매공원"
+    },
+    {
+        "line": "신림선",
+        "station": "보라매공원",
+        "connect": "보라매"
+    },
+    {
+        "line": "신림선",
+        "station": "보라매공원",
+        "connect": "보라매병원"
+    },
+    {
+        "line": "신림선",
+        "station": "보라매병원",
+        "connect": "보라매공원"
+    },
+    {
+        "line": "신림선",
+        "station": "보라매병원",
+        "connect": "당곡"
+    },
+    {
+        "line": "신림선",
+        "station": "당곡",
+        "connect": "보라매병원"
+    },
+    {
+        "line": "신림선",
+        "station": "당곡",
+        "connect": "신림"
+    },
+    {
+        "line": "신림선",
+        "station": "신림",
+        "connect": "당곡"
+    },
+    {
+        "line": "신림선",
+        "station": "신림",
+        "connect": "서원"
+    },
+    {
+        "line": "신림선",
+        "station": "서원",
+        "connect": "신림"
+    },
+    {
+        "line": "신림선",
+        "station": "서원",
+        "connect": "서울대벤처타운"
+    },
+    {
+        "line": "신림선",
+        "station": "서울대벤처타운",
+        "connect": "서원"
+    },
+    {
+        "line": "신림선",
+        "station": "서울대벤처타운",
+        "connect": "관악산"
+    },
+    {
+        "line": "신림선",
+        "station": "관악산",
+        "connect": "서울대벤처타운"
+    },
+    {
+        "line": "우이신설",
+        "station": "신설동",
+        "connect": "보문"
+    },
+    {
+        "line": "우이신설",
+        "station": "보문",
+        "connect": "신설동"
+    },
+    {
+        "line": "우이신설",
+        "station": "보문",
+        "connect": "성신여대입구"
+    },
+    {
+        "line": "우이신설",
+        "station": "성신여대입구",
+        "connect": "보문"
+    },
+    {
+        "line": "우이신설",
+        "station": "성신여대입구",
+        "connect": "정릉"
+    },
+    {
+        "line": "우이신설",
+        "station": "정릉",
+        "connect": "성신여대입구"
+    },
+    {
+        "line": "우이신설",
+        "station": "정릉",
+        "connect": "북한산보국문"
+    },
+    {
+        "line": "우이신설",
+        "station": "북한산보국문",
+        "connect": "정릉"
+    },
+    {
+        "line": "우이신설",
+        "station": "북한산보국문",
+        "connect": "솔샘"
+    },
+    {
+        "line": "우이신설",
+        "station": "솔샘",
+        "connect": "북한산보국문"
+    },
+    {
+        "line": "우이신설",
+        "station": "솔샘",
+        "connect": "삼양사거리"
+    },
+    {
+        "line": "우이신설",
+        "station": "삼양사거리",
+        "connect": "솔샘"
+    },
+    {
+        "line": "우이신설",
+        "station": "삼양사거리",
+        "connect": "삼양"
+    },
+    {
+        "line": "우이신설",
+        "station": "삼양",
+        "connect": "삼양사거리"
+    },
+    {
+        "line": "우이신설",
+        "station": "삼양",
+        "connect": "화계"
+    },
+    {
+        "line": "우이신설",
+        "station": "화계",
+        "connect": "삼양"
+    },
+    {
+        "line": "우이신설",
+        "station": "화계",
+        "connect": "가오리"
+    },
+    {
+        "line": "우이신설",
+        "station": "가오리",
+        "connect": "화계"
+    },
+    {
+        "line": "우이신설",
+        "station": "가오리",
+        "connect": "4.19민주묘지"
+    },
+    {
+        "line": "우이신설",
+        "station": "4.19민주묘지",
+        "connect": "가오리"
+    },
+    {
+        "line": "우이신설",
+        "station": "4.19민주묘지",
+        "connect": "솔밭공원"
+    },
+    {
+        "line": "우이신설",
+        "station": "솔밭공원",
+        "connect": "4.19민주묘지"
+    },
+    {
+        "line": "우이신설",
+        "station": "솔밭공원",
+        "connect": "북한산우이"
+    },
+    {
+        "line": "우이신설",
+        "station": "북한산우이",
+        "connect": "솔밭공원"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "김포공항",
+        "connect": "고촌"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "고촌",
+        "connect": "김포공항"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "고촌",
+        "connect": "풍무"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "풍무",
+        "connect": "고촌"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "풍무",
+        "connect": "사우"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "사우",
+        "connect": "풍무"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "사우",
+        "connect": "걸포북변"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "걸포북변",
+        "connect": "사우"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "걸포북변",
+        "connect": "운양"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "운양",
+        "connect": "걸포북변"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "운양",
+        "connect": "장기"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "장기",
+        "connect": "운양"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "장기",
+        "connect": "마산"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "마산",
+        "connect": "장기"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "마산",
+        "connect": "구래"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "구래",
+        "connect": "마산"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "구래",
+        "connect": "양촌"
+    },
+    {
+        "line": "김포골드라인",
+        "station": "양촌",
+        "connect": "구래"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "기흥",
+        "connect": "강남대"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "강남대",
+        "connect": "기흥"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "강남대",
+        "connect": "지석"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "지석",
+        "connect": "강남대"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "지석",
+        "connect": "어정"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "어정",
+        "connect": "지석"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "어정",
+        "connect": "동백"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "동백",
+        "connect": "어정"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "동백",
+        "connect": "초당"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "초당",
+        "connect": "동백"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "초당",
+        "connect": "삼가"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "삼가",
+        "connect": "초당"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "삼가",
+        "connect": "시청·용인대"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "시청·용인대",
+        "connect": "삼가"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "시청·용인대",
+        "connect": "명지대"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "명지대",
+        "connect": "시청·용인대"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "명지대",
+        "connect": "김량장"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "김량장",
+        "connect": "명지대"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "김량장",
+        "connect": "용인중앙시장"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "용인중앙시장",
+        "connect": "김량장"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "용인중앙시장",
+        "connect": "고진"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "고진",
+        "connect": "용인중앙시장"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "고진",
+        "connect": "보평"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "보평",
+        "connect": "고진"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "보평",
+        "connect": "둔전"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "둔전",
+        "connect": "보평"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "둔전",
+        "connect": "전대·에버랜드"
+    },
+    {
+        "line": "용인에버라인",
+        "station": "전대·에버랜드",
+        "connect": "둔전"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "발곡",
+        "connect": "회룡"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "회룡",
+        "connect": "발곡"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "회룡",
+        "connect": "범골"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "범골",
+        "connect": "회룡"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "범골",
+        "connect": "경전철의정부"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "경전철의정부",
+        "connect": "범골"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "경전철의정부",
+        "connect": "의정부시청"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "의정부시청",
+        "connect": "경전철의정부"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "의정부시청",
+        "connect": "흥선"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "흥선",
+        "connect": "의정부시청"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "흥선",
+        "connect": "의정부중앙"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "의정부중앙",
+        "connect": "흥선"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "의정부중앙",
+        "connect": "동오"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "동오",
+        "connect": "의정부중앙"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "동오",
+        "connect": "새말"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "새말",
+        "connect": "동오"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "새말",
+        "connect": "경기도청북부청사"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "경기도청북부청사",
+        "connect": "새말"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "경기도청북부청사",
+        "connect": "효자"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "효자",
+        "connect": "경기도청북부청사"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "효자",
+        "connect": "곤제"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "곤제",
+        "connect": "효자"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "곤제",
+        "connect": "어룡"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "어룡",
+        "connect": "곤제"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "어룡",
+        "connect": "송산"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "송산",
+        "connect": "어룡"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "송산",
+        "connect": "탑석"
+    },
+    {
+        "line": "의정부경전철",
+        "station": "탑석",
+        "connect": "송산"
+    },
+    {
+        "line": "GTX-A",
+        "station": "수서",
+        "connect": "성남"
+    },
+    {
+        "line": "GTX-A",
+        "station": "성남",
+        "connect": "수서"
+    },
+    {
+        "line": "GTX-A",
+        "station": "성남",
+        "connect": "동탄"
+    },
+    {
+        "line": "GTX-A",
+        "station": "동탄",
+        "connect": "성남"
+    }
+]

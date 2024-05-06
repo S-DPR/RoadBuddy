@@ -33,18 +33,29 @@ with open(r"C:\Users\Glory\Desktop\codeZip\Git\RoadBuddy\src\script\steepSlope\r
 with open(r'C:\Users\Glory\Desktop\codeZip\Git\RoadBuddy\src\script\subway\station_coordinate.json', 'r',
           encoding='utf-8') as file:
     metro = json.load(file)
-ret = defaultdict(lambda: defaultdict(list))
+ret = []
 with open(r'./fail.txt', 'w', encoding='utf-8') as ff:
     for i in metro:
         if len(i) != 5:
             ff.write(f"{i}\n")
             continue
         mlat, mlng = float(i['lat']), float(i['lng'])
+        steepSlopes = []
         for j in items:
             dist = haversine(j[-1][1], j[-1][0], mlat, mlng)
             if dist > 0.5: continue
-            ret[i['line']][i['name']].append([*j, dist])
-with open('./result.txt', 'w', encoding='utf-8') as f:
-    for i in ret:
-        for j in ret[i]:
-            f.write(f"{i}\n{j}\n{ret[i][j]}\n")
+            steepSlopes.append({
+                'address': j[0],
+                'shortAddress': j[1],
+                'latitude': j[2][1],
+                'longitude': j[2][0]
+            })
+        jsn = {
+            'line': i['line'],
+            'name': i['name'],
+            'steepSlope': steepSlopes,
+        }
+        print(jsn)
+        ret.append(jsn)
+with open('subwaySteepSlope.json', 'w', encoding='utf-8') as f:
+    json.dump(ret, f, ensure_ascii=False, indent=4)
