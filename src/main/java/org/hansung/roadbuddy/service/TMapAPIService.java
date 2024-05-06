@@ -58,6 +58,7 @@ public class TMapAPIService extends GenericAPIService {
         setKey(tMapCoordinate);
         if (cache.containsKey(tMapCoordinate)) return (TMapDirectionsResDto) cache.get(tMapCoordinate);
         String response = sendRequest(tMapDirectionEndpoint, HttpMethods.POST, createHttpRequestBuilder(), tMapCoordinate);
+        System.out.println("response = " + response);
         TMapDirectionsResDto ret = objectMapper.readValue(response, TMapDirectionsResDto.class);
         cache.putIfAbsent(tMapCoordinate, ret);
         return ret;
