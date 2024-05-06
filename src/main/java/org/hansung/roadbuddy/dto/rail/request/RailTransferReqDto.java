@@ -1,5 +1,6 @@
 package org.hansung.roadbuddy.dto.rail.request;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.hansung.roadbuddy.generic.GenericRequestDTO;
@@ -9,6 +10,7 @@ import java.util.Map;
 
 @Setter
 @Getter
+@Builder
 public class RailTransferReqDto extends GenericRequestDTO {
 
     //쿼리 파라미터
@@ -24,13 +26,13 @@ public class RailTransferReqDto extends GenericRequestDTO {
     public Map<String, String> toMap() {
         Map<String, String> map = new HashMap<>();
         map.put("serviceKey", getApiKey());
-        map.put("format", getFormat());
-        map.put("railOprIsttCd", getRailOprIsttCd());
-        map.put("lnCd", getLnCd());
-        map.put("stinCd", getStinCd());
-        map.put("prevStinCd", getPrevStinCd());
-        map.put("chthTgtLn", getChthTgtLn());
-        map.put("chtnNextStinCd", getChtnNextStinCd());
+        map.put("format", "json");
+        map.put("railOprIsttCd", railOprIsttCd);
+        map.put("lnCd", lnCd);
+        map.put("stinCd", stinCd);
+        map.put("prevStinCd", prevStinCd);
+        map.put("chthTgtLn", chthTgtLn);
+        map.put("chtnNextStinCd", chtnNextStinCd);
         return map;
     }
 }
