@@ -22,7 +22,7 @@ public class Steps {
     private Polyline polyline;
     private RoutesCoordinate start_location;
     private TransmitDetails transit_details;
-    private RailTransferResDto transfer_path = null;
+    private RailTransferResDto transfer_path;
     private String travel_mode;
     private String maneuver;
     @Builder.Default
