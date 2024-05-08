@@ -12,6 +12,7 @@ import org.hansung.roadbuddy.dto.naver.request.PlaceSearchReqDto;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchItem;
 import org.hansung.roadbuddy.dto.naver.response.PlaceSearchResDto;
 import org.hansung.roadbuddy.dto.rail.response.RailTransferResDto;
+import org.hansung.roadbuddy.dto.tmap.request.TMapDirectionReqDto;
 import org.hansung.roadbuddy.generic.GenericRestController;
 import org.hansung.roadbuddy.service.*;
 import org.springframework.http.HttpStatus;
@@ -86,5 +87,11 @@ public class MapsRestController extends GenericRestController {
         } catch (NullPointerException e) {
             return new ResponseEntity(Map.of("status", "무료 서비스 사용량 부족 의심"), HttpStatus.SERVICE_UNAVAILABLE);
         }
+    }
+
+    @GetMapping("/drive")
+    public ResponseEntity getDriveDirection(TMapDirectionReqDto tMapDirectionReqDto) throws JsonProcessingException {
+        Map ret = tMapAPIService.getDriveDirection(tMapDirectionReqDto);
+        return toResponse(ret);
     }
 }
