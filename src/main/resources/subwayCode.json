@@ -213,175 +213,175 @@
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y110",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "기흥"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y111",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "강남대"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y112",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "지석"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y113",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "어정"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y114",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "동백"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y115",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "초당"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y116",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "삼가"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y117",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "시청·용인대"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y118",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "명지대"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y119",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "김량장"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y120",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "용인중앙시장"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y121",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "고진"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y122",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "보평"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y123",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "둔전"
     },
     {
         "railCd": "EV",
         "lnCd": "E1",
         "stationCd": "Y124",
-        "line": "용인에버라인",
+        "line": "용인경전철",
         "station": "전대·에버랜드"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G100",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "양촌"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G101",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "구래"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G102",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "마산"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G103",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "장기"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G104",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "운양"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G105",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "걸포북변"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G106",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "사우"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G107",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "풍무"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G108",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "고촌"
     },
     {
         "railCd": "GM",
         "lnCd": "G1",
         "stationCd": "G109",
-        "line": "김포골드라인",
+        "line": "김포도시철도",
         "station": "김포공항"
     },
     {
@@ -507,399 +507,399 @@
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "110",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "계양"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "111",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "귤현"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "112",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "박촌"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "113",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "임학"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "114",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "계산"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "115",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "경인교대입구"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "116",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "작전"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "117",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "갈산"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "118",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "부평구청"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "119",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "부평시장"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "120",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "부평"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "121",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "동수"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "122",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "부평삼거리"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "123",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "간석오거리"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "124",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "인천시청"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "125",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "예술회관"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "126",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "인천터미널"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "127",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "문학경기장"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "128",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "선학"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "129",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "신연수"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "130",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "원인재"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "131",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "동춘"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "132",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "동막"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "133",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "캠퍼스타운"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "134",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "테크노파크"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "135",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "지식정보단지"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "136",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "인천대입구"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "137",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "센트럴파크"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "138",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "국제업무지구"
     },
     {
         "railCd": "IC",
         "lnCd": "I1",
         "stationCd": "139",
-        "line": "인천1호선",
+        "line": "인천 1호선",
         "station": "송도달빛축제공원"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "201",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "검단오류"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "202",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "왕길"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "203",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "검단사거리"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "204",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "마전"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "205",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "완정"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "206",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "독정"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "207",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "검암"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "208",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "검바위"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "209",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "아시아드경기장"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "210",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "서구청"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "211",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "가정"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "212",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "가정중앙시장"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "213",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "석남"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "214",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "서부여성회관"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "215",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "인천가좌"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "216",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "가재울"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "217",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "주안국가산단"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "218",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "주안"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "219",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "시민공원"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "220",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "석바위시장"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "221",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "인천시청"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "222",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "석천사거리"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "223",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "모래내시장"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "224",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "만수"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "225",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "남동구청"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "226",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "인천대공원"
     },
     {
         "railCd": "IC",
         "lnCd": "I2",
         "stationCd": "227",
-        "line": "인천2호선",
+        "line": "인천 2호선",
         "station": "운연"
     },
     {
@@ -1774,441 +1774,441 @@
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "1856",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "수내"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "1874",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "오목천"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "1886",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "송도"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K0272",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "인천"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K209",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "청량리"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K212",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "압구정로데오"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K214",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "선정릉"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K215",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "선릉"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K219",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "개포동"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K222",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "복정"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K223",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "가천대"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K224",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "태평"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K225",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "모란"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K228",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "서현"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K230",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "정자"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K231",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "미금"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K232",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "오리"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K233",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "죽전"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K234",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "보정"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K236",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "신갈"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K238",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "상갈"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K239",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "청명"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K240",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "영통"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K241",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "망포"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K243",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "수원시청"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K244",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "매교"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K245",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "수원"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K248",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "어천"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K249",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "야목"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K250",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "사리"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K251",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "한대앞"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K252",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "중앙"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K253",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "고잔"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K254",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "초지"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K255",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "안산"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K256",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "신길온천"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K257",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "정왕"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K258",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "오이도"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K260",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "월곶"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K261",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "소래포구"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K264",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "남동인더스파크"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K265",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "원인재"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "K271",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "신포"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k210",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "왕십리"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k211",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "서울숲"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k213",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "강남구청"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k216",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "한티"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k217",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "도곡"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k218",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "구룡"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k220",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "대모산입구"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k221",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "수서"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k226",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "야탑"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k227",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "이매"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k235",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "구성"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k237",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "기흥"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k242",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "매탄권선"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k246",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "고색"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k259",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "달월"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k262",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "인천논현"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k263",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "호구포"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k266",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "연수"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k269",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "인하대"
     },
     {
         "railCd": "KR",
         "lnCd": "K1",
         "stationCd": "k270",
-        "line": "수인분당",
+        "line": "수인.분당선",
         "station": "숭의"
     },
     {
@@ -2390,406 +2390,406 @@
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "0312",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "공덕"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "0399",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "양원"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "123",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "회기"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "1251",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "서울역"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "1277",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "야당"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "131",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "신원"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "132",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "국수"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "188",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "망우"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "319",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "강매"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "323",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "곡산"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K110",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "용산"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K111",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "이촌"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K112",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "서빙고"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K113",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "한남"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K114",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "옥수"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K119",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "중랑"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K123",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "구리"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K124",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "도농"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K125",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "양정"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K126",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "덕소"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K128",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "팔당"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K129",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "운길산"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K130",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "양수"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K133",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "아신"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K134",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "오빈"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K136",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "원덕"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K137",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "용문"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K138",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "지평"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K209",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "청량리"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K311",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "효창공원앞"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K313",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "서강대"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K314",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "홍대입구"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K315",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "가좌"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K316",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "디지털미디어시티"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K317",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "수색"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K320",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "행신"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K321",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "능곡"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K325",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "풍산"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K326",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "일산"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K327",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "탄현"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K329",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "운정"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K331",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "금촌"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K333",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "월롱"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K334",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "파주"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K335",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "문산"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K336",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "운천"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "K338",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "도라산"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "P314",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "신촌"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k115",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "응봉"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k120",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "상봉"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k127",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "도심"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k135",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "양평"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k210",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "왕십리"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k318",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "한국항공대"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k322",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "대곡"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k324",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "백마"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k330",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "금릉"
     },
     {
         "railCd": "KR",
         "lnCd": "K4",
         "stationCd": "k337",
-        "line": "경의중앙",
+        "line": "경의중앙선",
         "station": "임진강"
     },
     {
@@ -5316,91 +5316,91 @@
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S110",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "북한산우이"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S111",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "솔밭공원"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S112",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "4.19민주묘지"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S113",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "가오리"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S114",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "화계"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S115",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "삼양"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S116",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "삼양사거리"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S117",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "솔샘"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S118",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "북한산보국문"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S119",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "정릉"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S120",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "성신여대입구"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S121",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "보문"
     },
     {
         "railCd": "UI",
         "lnCd": "UI",
         "stationCd": "S122",
-        "line": "우이신설",
+        "line": "우이신설선",
         "station": "신설동"
     },
     {
