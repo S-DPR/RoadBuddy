@@ -1,0 +1,5389 @@
+[
+    {
+        "line": "01호선",
+        "name": "녹양",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "남영",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "용산",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "노량진",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 노량진동 205-28",
+                "shortAddress": "노량진동 205-28",
+                "latitude": 37.5119538,
+                "longitude": 126.9466657
+            },
+            {
+                "address": "서울특별시 동작구 노량진동 155-1",
+                "shortAddress": "사육신묘",
+                "latitude": 37.5151453,
+                "longitude": 126.9478613
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "대방",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "영등포",
+        "steepSlope": [
+            {
+                "address": "서울특별시 영등포구 영등포동 649",
+                "shortAddress": "두산위브아파트",
+                "latitude": 37.5148637,
+                "longitude": 126.9127345
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "신도림",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "회기",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동대문구 휘경동 344",
+                "shortAddress": "수도권 경원선4",
+                "latitude": 37.5882221,
+                "longitude": 127.0550727
+            },
+            {
+                "address": "서울특별시 동대문구 휘경동 344",
+                "shortAddress": "수도권 경원선3",
+                "latitude": 37.5882221,
+                "longitude": 127.0550727
+            },
+            {
+                "address": "서울특별시 동대문구 이문동 311-36",
+                "shortAddress": "이문래미안2차아파트",
+                "latitude": 37.5930401,
+                "longitude": 127.0610037
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "외대앞",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동대문구 이문동 311-36",
+                "shortAddress": "이문래미안2차아파트",
+                "latitude": 37.5930401,
+                "longitude": 127.0610037
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "신이문",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "광운대",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "월계",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "녹천",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "창동",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "신길",
+        "steepSlope": [
+            {
+                "address": "서울특별시 영등포구 영등포동 649",
+                "shortAddress": "두산위브아파트",
+                "latitude": 37.5148637,
+                "longitude": 126.9127345
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "석계",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "봉명",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "쌍용",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "아산",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "배방",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "온양온천",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "신창",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "구로",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "가산디지털단지",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "금천구청",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "관악",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "안양",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "명학",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "금정",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "의왕",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "성균관대",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "석수",
+        "steepSlope": [
+            {
+                "address": "서울특별시 금천구 시흥동 964-14",
+                "shortAddress": "강호빌라",
+                "latitude": 37.4366906,
+                "longitude": 126.9051725
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "화서",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "수원",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "독산",
+        "steepSlope": [
+            {
+                "address": "서울특별시 금천구 가산동 703-3",
+                "shortAddress": "가마산로77 앞",
+                "latitude": 37.4658549,
+                "longitude": 126.8864717
+            },
+            {
+                "address": "서울특별시 금천구 독산동 1135",
+                "shortAddress": "백운",
+                "latitude": 37.464658,
+                "longitude": 126.8931236
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "세류",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "병점",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "세마",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "오산대",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "송탄",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "서정리",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "평택",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "성환",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "직산",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "두정",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "천안",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "광명",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "개봉",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "오류동",
+        "steepSlope": [
+            {
+                "address": "서울특별시 구로구 개봉동 335-12",
+                "shortAddress": "동인아파트 후면",
+                "latitude": 37.4929921,
+                "longitude": 126.8490805
+            },
+            {
+                "address": "서울특별시 구로구 오류동 145-92",
+                "shortAddress": "금선사",
+                "latitude": 37.4918962,
+                "longitude": 126.8479974
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "역곡",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "군포",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "당정",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "서동탄",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "부천",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "송내",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "부평",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "백운",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "주안",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "제물포",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "동인천",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "인천",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "구일",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "소사",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "부개",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "간석",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "도원",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "온수",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "중동",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "오산",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "진위",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "동암",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "도화",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "방학",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "도봉",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "도봉산",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "망월사",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "회룡",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "의정부",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "가능",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "양주",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "덕계",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "덕정",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "지행",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "동두천중앙",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "동두천",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "보산",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "종로3가",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "종로5가",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "동대문",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "신설동",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "제기동",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "청량리",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "동묘앞",
+        "steepSlope": [
+            {
+                "address": "서울특별시 종로구 창신동 130-1",
+                "shortAddress": "창신동 130-1",
+                "latitude": 37.5754539,
+                "longitude": 127.0133571
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "소요산",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "지제",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "서울",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 후암동 100-3",
+                "shortAddress": "후암동길 옹벽",
+                "latitude": 37.552439,
+                "longitude": 126.9767349
+            },
+            {
+                "address": "서울특별시 용산구 후암동 426",
+                "shortAddress": "후암동426 뉴후암A",
+                "latitude": 37.5512695,
+                "longitude": 126.9752115
+            },
+            {
+                "address": "서울특별시 용산구 동자동 14-72",
+                "shortAddress": "동자동급경사지",
+                "latitude": 37.5523874,
+                "longitude": 126.9728941
+            },
+            {
+                "address": "서울특별시 중구 남창동 205-202",
+                "shortAddress": "서울 중 남창 N1지구",
+                "latitude": 37.5562368,
+                "longitude": 126.9777843
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 825",
+                "shortAddress": "서울 중구 남대문 N1지구",
+                "latitude": 37.5555084,
+                "longitude": 126.9770131
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 541-1",
+                "shortAddress": "남대문로5가 급경사지",
+                "latitude": 37.5553952,
+                "longitude": 126.9743536
+            }
+        ]
+    },
+    {
+        "line": "01호선",
+        "name": "시청",
+        "steepSlope": []
+    },
+    {
+        "line": "01호선",
+        "name": "종각",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "강변",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "잠실나루",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "잠실",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "잠실새내",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "종합운동장",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "삼성",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "선릉",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "역삼",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "강남",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "교대",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "방배",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서초구 방배동 979-44",
+                "shortAddress": "방배교 옹벽",
+                "latitude": 37.480101,
+                "longitude": 126.992482
+            },
+            {
+                "address": "서울특별시 서초구 방배동 산 23-16",
+                "shortAddress": "서리풀 e-편한세상",
+                "latitude": 37.4843195,
+                "longitude": 126.9994405
+            },
+            {
+                "address": "서울특별시 서초구 방배동 산 43-6",
+                "shortAddress": "방배3",
+                "latitude": 37.4776337,
+                "longitude": 126.9972053
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "사당",
+        "steepSlope": [
+            {
+                "address": "서울특별시 관악구 남현동 602-129",
+                "shortAddress": "서울 관악 남현 N1지구",
+                "latitude": 37.4734319,
+                "longitude": 126.9821141
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "낙성대",
+        "steepSlope": [
+            {
+                "address": "서울특별시 관악구 봉천동 196-12",
+                "shortAddress": "서울 관악 봉천 N2지구",
+                "latitude": 37.474784,
+                "longitude": 126.9642121
+            },
+            {
+                "address": "서울특별시 관악구 봉천동 196-265",
+                "shortAddress": "인헌동 196-265~267",
+                "latitude": 37.4746937,
+                "longitude": 126.96264
+            },
+            {
+                "address": "서울특별시 관악구 봉천동 196-23",
+                "shortAddress": "인헌동 196-23~43",
+                "latitude": 37.4743971,
+                "longitude": 126.9649006
+            },
+            {
+                "address": "서울특별시 관악구 봉천동 196-19",
+                "shortAddress": "인헌동 196-19~22",
+                "latitude": 37.4746897,
+                "longitude": 126.9647924
+            },
+            {
+                "address": "서울특별시 관악구 봉천동 산 66-1",
+                "shortAddress": "행운동 산66-1 주택가",
+                "latitude": 37.4779102,
+                "longitude": 126.9668801
+            },
+            {
+                "address": "서울특별시 동작구 사당동 산 32-81",
+                "shortAddress": "사당동 산 32-81",
+                "latitude": 37.4801998,
+                "longitude": 126.9655009
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "서울대입구",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "봉천",
+        "steepSlope": [
+            {
+                "address": "서울특별시 관악구 신림동 10-622",
+                "shortAddress": "성우아파트",
+                "latitude": 37.4836695,
+                "longitude": 126.9373473
+            },
+            {
+                "address": "서울특별시 관악구 봉천동 산 149-8",
+                "shortAddress": "청룡동 산149-8",
+                "latitude": 37.4811359,
+                "longitude": 126.9366679
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "신림",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "신대방",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "구로디지털단지",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "신도림",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "문래",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "영등포구청",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "용답",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "신정네거리",
+        "steepSlope": [
+            {
+                "address": "서울특별시 양천구 신정동 1194-5",
+                "shortAddress": "신정3동 1194-5",
+                "latitude": 37.5221155,
+                "longitude": 126.8482092
+            },
+            {
+                "address": "서울특별시 양천구 신월동 504-15",
+                "shortAddress": "장수공원 급경사지",
+                "latitude": 37.5228171,
+                "longitude": 126.8490133
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "을지로입구",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "을지로3가",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "을지로4가",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "동대문역사문화공원",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "신당",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "한양대",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성동구 행당동 70-12",
+                "shortAddress": "행당동 70-12 옹벽",
+                "latitude": 37.5562664,
+                "longitude": 127.0413831
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "뚝섬",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "성수",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "건대입구",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "구의",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "당산",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "합정",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "홍대입구",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 창천동 390",
+                "shortAddress": "창천동390(석축)",
+                "latitude": 37.5607498,
+                "longitude": 126.9282984
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "신촌",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 노고산동 12-136",
+                "shortAddress": "노고산동 석축",
+                "latitude": 37.5534401,
+                "longitude": 126.9388562
+            },
+            {
+                "address": "서울특별시 마포구 창전동 438",
+                "shortAddress": "신촌금호아파트",
+                "latitude": 37.5526909,
+                "longitude": 126.9321462
+            },
+            {
+                "address": "서울특별시 마포구 노고산동 12-54",
+                "shortAddress": "노고산동 12-54",
+                "latitude": 37.5539849,
+                "longitude": 126.9402356
+            },
+            {
+                "address": "서울특별시 서대문구 창천동",
+                "shortAddress": "창천동 18-54 옹벽",
+                "latitude": 37.5586,
+                "longitude": 126.9342
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "이대",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 대현동 67-46",
+                "shortAddress": "대현동67-46~52(석축)",
+                "latitude": 37.5581716,
+                "longitude": 126.948363
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "아현",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "충정로",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 충정로3가 32-11",
+                "shortAddress": "충정로3가32-11(옹벽)",
+                "latitude": 37.560834,
+                "longitude": 126.9617115
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "신답",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "까치산",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "시청",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "서초",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "왕십리",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "상왕십리",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중구 신당동 85-549",
+                "shortAddress": "무학봉소공원 급경사지",
+                "latitude": 37.5627903,
+                "longitude": 127.0244097
+            },
+            {
+                "address": "서울특별시 중구 신당동 845",
+                "shortAddress": "한진그랑빌",
+                "latitude": 37.5634796,
+                "longitude": 127.0259366
+            }
+        ]
+    },
+    {
+        "line": "02호선",
+        "name": "대림",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "신설동",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "도림천",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "양천구청",
+        "steepSlope": []
+    },
+    {
+        "line": "02호선",
+        "name": "용두",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "양재",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "매봉",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강남구 도곡동 산 31-1",
+                "shortAddress": "도곡동(76)",
+                "latitude": 37.4894439,
+                "longitude": 127.0441157
+            },
+            {
+                "address": "서울특별시 강남구 도곡동 산 110",
+                "shortAddress": "도곡동(50)",
+                "latitude": 37.4878375,
+                "longitude": 127.0414799
+            },
+            {
+                "address": "서울특별시 강남구 도곡동 산 26-4",
+                "shortAddress": "도곡동(42)",
+                "latitude": 37.4904793,
+                "longitude": 127.0486972
+            },
+            {
+                "address": "서울특별시 강남구 도곡동 산 28-7",
+                "shortAddress": "도곡동(26)",
+                "latitude": 37.4895405,
+                "longitude": 127.0489199
+            },
+            {
+                "address": "서울특별시 강남구 도곡동 산 39-3",
+                "shortAddress": "도곡동(8)",
+                "latitude": 37.4865854,
+                "longitude": 127.0424111
+            },
+            {
+                "address": "서울특별시 강남구 도곡동 산 110",
+                "shortAddress": "도곡동(7)",
+                "latitude": 37.4878375,
+                "longitude": 127.0414799
+            },
+            {
+                "address": "서울특별시 강남구 도곡동 산 31-1",
+                "shortAddress": "도곡근린공원",
+                "latitude": 37.4894439,
+                "longitude": 127.0441157
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "도곡",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "대치",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강남구 대치동 212-12",
+                "shortAddress": "한티근린공원",
+                "latitude": 37.4954857,
+                "longitude": 127.0620931
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "학여울",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "대청",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "일원",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강남구 일원동 산 38-1",
+                "shortAddress": "일원동(44)",
+                "latitude": 37.4847072,
+                "longitude": 127.0791209
+            },
+            {
+                "address": "서울특별시 강남구 일원동 732-3",
+                "shortAddress": "일원동(35)",
+                "latitude": 37.4809225,
+                "longitude": 127.0805121
+            },
+            {
+                "address": "서울특별시 강남구 수서동 749",
+                "shortAddress": "수서동(32)",
+                "latitude": 37.4832589,
+                "longitude": 127.0893803
+            },
+            {
+                "address": "서울특별시 강남구 수서동 749",
+                "shortAddress": "수서동(30)",
+                "latitude": 37.4832589,
+                "longitude": 127.0893803
+            },
+            {
+                "address": "서울특별시 강남구 일원동 128-10",
+                "shortAddress": "일원동(23)",
+                "latitude": 37.4872562,
+                "longitude": 127.0824999
+            },
+            {
+                "address": "서울특별시 강남구 일원동 723-2",
+                "shortAddress": "일원동(16)",
+                "latitude": 37.4831321,
+                "longitude": 127.0791995
+            },
+            {
+                "address": "서울특별시 강남구 일원동 산 38-1",
+                "shortAddress": "일원동(15)",
+                "latitude": 37.4847072,
+                "longitude": 127.0791209
+            },
+            {
+                "address": "서울특별시 강남구 수서동 749",
+                "shortAddress": "수서동(79)",
+                "latitude": 37.4832589,
+                "longitude": 127.0893803
+            },
+            {
+                "address": "서울특별시 강남구 수서동 749",
+                "shortAddress": "수서동(52)",
+                "latitude": 37.4832589,
+                "longitude": 127.0893803
+            },
+            {
+                "address": "서울특별시 강남구 수서동 749",
+                "shortAddress": "수서동(51)",
+                "latitude": 37.4832589,
+                "longitude": 127.0893803
+            },
+            {
+                "address": "서울특별시 강남구 일원동 739",
+                "shortAddress": "청솔빌리지 옹벽",
+                "latitude": 37.4805053,
+                "longitude": 127.0825227
+            },
+            {
+                "address": "서울특별시 강남구 일원동 736-1",
+                "shortAddress": "일원동 736-1",
+                "latitude": 37.4805751,
+                "longitude": 127.0863502
+            },
+            {
+                "address": "서울특별시 강남구 일원동 739-1",
+                "shortAddress": "서울 강남 일원 N1지구",
+                "latitude": 37.4799748,
+                "longitude": 127.0840878
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "수서",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "동대입구",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중구 신당동 826-23",
+                "shortAddress": "신당2동 시설녹지",
+                "latitude": 37.5546964,
+                "longitude": 127.0064045
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "금호",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성동구 금호동3가 1266",
+                "shortAddress": "금호근린공원 절개지",
+                "latitude": 37.549492,
+                "longitude": 127.0190671
+            },
+            {
+                "address": "서울특별시 성동구 금호동4가 1064",
+                "shortAddress": "금호동4가1064옹벽",
+                "latitude": 37.5476683,
+                "longitude": 127.0200503
+            },
+            {
+                "address": "서울특별시 성동구 금호동4가 1062",
+                "shortAddress": "금호동4가 1062 외 2필지(1063-1, 1064) 석축",
+                "latitude": 37.5474921,
+                "longitude": 127.0198853
+            },
+            {
+                "address": "서울특별시 성동구 금호동4가 1418-52",
+                "shortAddress": "금호동1418-52앞옹벽",
+                "latitude": 37.54778,
+                "longitude": 127.01631
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "옥수",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "압구정",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "신사",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강남구 논현동 26",
+                "shortAddress": "논현동(75)",
+                "latitude": 37.5154929,
+                "longitude": 127.0252224
+            },
+            {
+                "address": "서울특별시 강남구 논현동 26",
+                "shortAddress": "논현동(59)",
+                "latitude": 37.5154929,
+                "longitude": 127.0252224
+            },
+            {
+                "address": "서울특별시 강남구 논현동 26",
+                "shortAddress": "논현동(26)",
+                "latitude": 37.5154929,
+                "longitude": 127.0252224
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "잠원",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "고속터미널",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "교대",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "남부터미널",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "경복궁",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "안국",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "종로3가",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "을지로3가",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "지축",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "구파발",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "연신내",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "불광",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "녹번",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 홍은동 461",
+                "shortAddress": "홍은동 461 센트레빌 아파트 옹벽",
+                "latitude": 37.5972741,
+                "longitude": 126.9378412
+            },
+            {
+                "address": "서울특별시 은평구 녹번동 71-43",
+                "shortAddress": "인공비탈",
+                "latitude": 37.5994322,
+                "longitude": 126.9380796
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "홍제",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 홍제동 산 39-18",
+                "shortAddress": "홍제동 산39-18(조한아파트)",
+                "latitude": 37.5888337,
+                "longitude": 126.9387913
+            },
+            {
+                "address": "서울특별시 서대문구 홍제동 331",
+                "shortAddress": "홍제동331홍제현대",
+                "latitude": 37.5890021,
+                "longitude": 126.9414009
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "무악재",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 홍제동 467",
+                "shortAddress": "홍제동467어울림",
+                "latitude": 37.5838197,
+                "longitude": 126.9509717
+            },
+            {
+                "address": "서울특별시 서대문구 홍제동 82",
+                "shortAddress": "홍제동82홍제한양",
+                "latitude": 37.5831805,
+                "longitude": 126.9471289
+            },
+            {
+                "address": "서울특별시 서대문구 홍제동 산 1-112",
+                "shortAddress": "홍제동 산1-112(무악재)",
+                "latitude": 37.579242,
+                "longitude": 126.9534479
+            },
+            {
+                "address": "서울특별시 서대문구 홍제동 산 33-113",
+                "shortAddress": "홍제동 산33-113(모랫재어린이공원)",
+                "latitude": 37.5828247,
+                "longitude": 126.9447161
+            },
+            {
+                "address": "서울특별시 서대문구 홍제동 459-1",
+                "shortAddress": "홍제동 459-1",
+                "latitude": 37.5866393,
+                "longitude": 126.9508366
+            },
+            {
+                "address": "서울특별시 서대문구 홍제동 460-1",
+                "shortAddress": "홍제2동 460-1",
+                "latitude": 37.5838256,
+                "longitude": 126.9516224
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "독립문",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 현저동 210",
+                "shortAddress": "서대문-SH13",
+                "latitude": 37.5714522,
+                "longitude": 126.9560842
+            },
+            {
+                "address": "서울특별시 서대문구 영천동 5-631",
+                "shortAddress": "영천동 5-631(독립문 삼호아파트)",
+                "latitude": 37.5705945,
+                "longitude": 126.9579036
+            },
+            {
+                "address": "서울특별시 서대문구 현저동 200",
+                "shortAddress": "현저동200독립문극동",
+                "latitude": 37.5720399,
+                "longitude": 126.9567762
+            },
+            {
+                "address": "서울특별시 서대문구 영천동 100",
+                "shortAddress": "영천동100독립문삼호",
+                "latitude": 37.5703154,
+                "longitude": 126.9584464
+            },
+            {
+                "address": "서울특별시 종로구 행촌동 41-1",
+                "shortAddress": "대성아파트 옹벽",
+                "latitude": 37.5727244,
+                "longitude": 126.9625981
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "가락시장",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 가락동 102",
+                "shortAddress": "가락한신아파트",
+                "latitude": 37.489685,
+                "longitude": 127.1217367
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "경찰병원",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 가락동 138",
+                "shortAddress": "가락미륭아파트",
+                "latitude": 37.4937996,
+                "longitude": 127.1285974
+            },
+            {
+                "address": "서울특별시 송파구 가락동 140",
+                "shortAddress": "가락쌍용1차아파트",
+                "latitude": 37.495549,
+                "longitude": 127.1281297
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "오금",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 가락동 161-3",
+                "shortAddress": "가락현대5차아파트",
+                "latitude": 37.4995774,
+                "longitude": 127.1310771
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "원당",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "대곡",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "백석",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "마두",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "정발산",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "주엽",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "대화",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "원흥",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "삼송",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "약수",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중구 신당동 826-23",
+                "shortAddress": "신당2동 시설녹지",
+                "latitude": 37.5546964,
+                "longitude": 127.0064045
+            }
+        ]
+    },
+    {
+        "line": "03호선",
+        "name": "충무로",
+        "steepSlope": []
+    },
+    {
+        "line": "03호선",
+        "name": "화정",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "남태령",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "금정",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "당고개",
+        "steepSlope": [
+            {
+                "address": "서울특별시 노원구 상계동 58-13",
+                "shortAddress": "상계2구역 옹벽",
+                "latitude": 37.6732475,
+                "longitude": 127.0800993
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "상계",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "노원",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "창동",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "쌍문",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "수유",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "미아",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강북구 미아동 258-732",
+                "shortAddress": "서울 강북 미아 N1지구",
+                "latitude": 37.6266246,
+                "longitude": 127.0310362
+            },
+            {
+                "address": "서울특별시 강북구 미아동 258-732",
+                "shortAddress": "한일아파트 옹벽",
+                "latitude": 37.6266246,
+                "longitude": 127.0310362
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "미아사거리",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "길음",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 돈암동 15-10",
+                "shortAddress": "돈암동 15-10",
+                "latitude": 37.5997062,
+                "longitude": 127.022808
+            },
+            {
+                "address": "서울특별시 성북구 돈암동 631",
+                "shortAddress": "돈암범양아파트",
+                "latitude": 37.6033518,
+                "longitude": 127.0280206
+            },
+            {
+                "address": "서울특별시 성북구 종암동 81-218",
+                "shortAddress": "종암동 81-218",
+                "latitude": 37.6009551,
+                "longitude": 127.0277622
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "성신여대입구",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 동소문동6가 27-1",
+                "shortAddress": "돈암육교 진입",
+                "latitude": 37.5933719,
+                "longitude": 127.0129992
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "한성대입구",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "혜화",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "동대문",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "동대문역사문화공원",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "충무로",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "명동",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "회현",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중구 남창동 205-202",
+                "shortAddress": "서울 중 남창 N1지구",
+                "latitude": 37.5562368,
+                "longitude": 126.9777843
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 825",
+                "shortAddress": "서울 중구 남대문 N1지구",
+                "latitude": 37.5555084,
+                "longitude": 126.9770131
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 541-1",
+                "shortAddress": "남대문로5가 급경사지",
+                "latitude": 37.5553952,
+                "longitude": 126.9743536
+            },
+            {
+                "address": "서울특별시 중구 회현동1가 147-23",
+                "shortAddress": "회현제2시민아파트",
+                "latitude": 37.5555682,
+                "longitude": 126.9813032
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "서울",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 후암동 100-3",
+                "shortAddress": "후암동길 옹벽",
+                "latitude": 37.552439,
+                "longitude": 126.9767349
+            },
+            {
+                "address": "서울특별시 용산구 후암동 426",
+                "shortAddress": "후암동426 뉴후암A",
+                "latitude": 37.5512695,
+                "longitude": 126.9752115
+            },
+            {
+                "address": "서울특별시 용산구 동자동 14-72",
+                "shortAddress": "동자동급경사지",
+                "latitude": 37.5523874,
+                "longitude": 126.9728941
+            },
+            {
+                "address": "서울특별시 중구 남창동 205-202",
+                "shortAddress": "서울 중 남창 N1지구",
+                "latitude": 37.5562368,
+                "longitude": 126.9777843
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 825",
+                "shortAddress": "서울 중구 남대문 N1지구",
+                "latitude": 37.5555084,
+                "longitude": 126.9770131
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 541-1",
+                "shortAddress": "남대문로5가 급경사지",
+                "latitude": 37.5553952,
+                "longitude": 126.9743536
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "숙대입구",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 갈월동 7-133",
+                "shortAddress": "갈월동 7-133",
+                "latitude": 37.5469428,
+                "longitude": 126.9745044
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "삼각지",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "신용산",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "동작",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 동작동 산 29-2",
+                "shortAddress": "동작동 산 29-2",
+                "latitude": 37.5004575,
+                "longitude": 126.9835693
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "총신대입구",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "사당",
+        "steepSlope": [
+            {
+                "address": "서울특별시 관악구 남현동 602-129",
+                "shortAddress": "서울 관악 남현 N1지구",
+                "latitude": 37.4734319,
+                "longitude": 126.9821141
+            }
+        ]
+    },
+    {
+        "line": "04호선",
+        "name": "경마공원",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "대공원",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "과천",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "정부과천청사",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "인덕원",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "평촌",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "범계",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "선바위",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "산본",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "대야미",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "반월",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "상록수",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "한대앞",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "중앙",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "고잔",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "초지",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "안산",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "신길온천",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "정왕",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "오이도",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "수리산",
+        "steepSlope": []
+    },
+    {
+        "line": "04호선",
+        "name": "이촌",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "종로3가",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "둔촌동",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "올림픽공원",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "방화",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강서구 방화동 816",
+                "shortAddress": "방화6단지급경사지",
+                "latitude": 37.5784524,
+                "longitude": 126.8110099
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "개화산",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강서구 방화동 807",
+                "shortAddress": "방화9단지아파트",
+                "latitude": 37.5748728,
+                "longitude": 126.8075478
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "김포공항",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "송정",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "마곡",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "애오개",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "서대문",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "광화문",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "충정로",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 충정로3가 32-11",
+                "shortAddress": "충정로3가32-11(옹벽)",
+                "latitude": 37.560834,
+                "longitude": 126.9617115
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "왕십리",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "발산",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "우장산",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "화곡",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "까치산",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "신정",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "목동",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "오목교",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "양평",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "영등포구청",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "영등포시장",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "신길",
+        "steepSlope": [
+            {
+                "address": "서울특별시 영등포구 영등포동 649",
+                "shortAddress": "두산위브아파트",
+                "latitude": 37.5148637,
+                "longitude": 126.9127345
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "여의도",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "여의나루",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "마포",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 도화동 550",
+                "shortAddress": "마포삼성아파트",
+                "latitude": 37.5401117,
+                "longitude": 126.9503536
+            },
+            {
+                "address": "서울특별시 마포구 도화동 82",
+                "shortAddress": "도화우성아파트",
+                "latitude": 37.5363595,
+                "longitude": 126.9470653
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "공덕",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 도화동 362-1",
+                "shortAddress": "서울 마포 도화 N1지구",
+                "latitude": 37.5395803,
+                "longitude": 126.9520656
+            },
+            {
+                "address": "서울특별시 마포구 신공덕동 157",
+                "shortAddress": "신공덕1차삼성래미안아파트",
+                "latitude": 37.5423333,
+                "longitude": 126.9561499
+            },
+            {
+                "address": "서울특별시 마포구 도화동 550",
+                "shortAddress": "마포삼성아파트",
+                "latitude": 37.5401117,
+                "longitude": 126.9503536
+            },
+            {
+                "address": "서울특별시 마포구 공덕동 371",
+                "shortAddress": "공덕삼성아파트",
+                "latitude": 37.5465596,
+                "longitude": 126.9511683
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "을지로4가",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "신금호",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성동구 금호동2가 산 9-1",
+                "shortAddress": "금호동 절개지",
+                "latitude": 37.5535652,
+                "longitude": 127.0176226
+            },
+            {
+                "address": "서울특별시 성동구 금호동2가 산 9-1",
+                "shortAddress": "금호산 절개지",
+                "latitude": 37.5535652,
+                "longitude": 127.0176226
+            },
+            {
+                "address": "서울특별시 성동구 금호동1가 1815-3",
+                "shortAddress": "금호동1가 1815-3 옹벽",
+                "latitude": 37.5571326,
+                "longitude": 127.0197861
+            },
+            {
+                "address": "서울특별시 중구 신당동 36-237",
+                "shortAddress": "금호여중앞",
+                "latitude": 37.5578697,
+                "longitude": 127.019449
+            },
+            {
+                "address": "서울특별시 중구 신당동 839-7",
+                "shortAddress": "신당6동 시설녹지",
+                "latitude": 37.5589215,
+                "longitude": 127.0205034
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "행당",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성동구 행당동 산 30-4",
+                "shortAddress": "대현산 절개지",
+                "latitude": 37.5543423,
+                "longitude": 127.030891
+            },
+            {
+                "address": "서울특별시 성동구 행당동 302-17",
+                "shortAddress": "행당동 302-17 석축",
+                "latitude": 37.5596356,
+                "longitude": 127.0301159
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "마장",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성동구 마장동 382-15",
+                "shortAddress": "마장동 382-15 외 1필지(386-10) 암반",
+                "latitude": 37.562965,
+                "longitude": 127.0449171
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "답십리",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "장한평",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "군자",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "아차산",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "광나루",
+        "steepSlope": [
+            {
+                "address": "서울특별시 광진구 광장동 577-2",
+                "shortAddress": "광장동 577-2",
+                "latitude": 37.5450085,
+                "longitude": 127.1009933
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "천호",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "강동",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강동구 성내동 160-45",
+                "shortAddress": "성내동 160-45",
+                "latitude": 37.5363706,
+                "longitude": 127.1299074
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "길동",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "굽은다리",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "명일",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강동구 암사동 418-7",
+                "shortAddress": "도로옹벽(암사동418-7)",
+                "latitude": 37.552431,
+                "longitude": 127.1412932
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "고덕",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "상일동",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강동구 고덕동 217",
+                "shortAddress": "15(고덕천교)",
+                "latitude": 37.5578957,
+                "longitude": 127.1625755
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "방이",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 오금동 2",
+                "shortAddress": "오금대림아파트",
+                "latitude": 37.5102394,
+                "longitude": 127.1291667
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "오금",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 가락동 161-3",
+                "shortAddress": "가락현대5차아파트",
+                "latitude": 37.4995774,
+                "longitude": 127.1310771
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "개롱",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 가락동 176",
+                "shortAddress": "가락삼환아파트",
+                "latitude": 37.4953676,
+                "longitude": 127.1367851
+            },
+            {
+                "address": "서울특별시 송파구 가락동 161-3",
+                "shortAddress": "가락현대5차아파트",
+                "latitude": 37.4995774,
+                "longitude": 127.1310771
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "거여",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 거여동 46",
+                "shortAddress": "거여현대3차아파트",
+                "latitude": 37.4968972,
+                "longitude": 127.1449983
+            },
+            {
+                "address": "서울특별시 송파구 거여동 44",
+                "shortAddress": "거여현대2차아파트",
+                "latitude": 37.4946337,
+                "longitude": 127.1464076
+            }
+        ]
+    },
+    {
+        "line": "05호선",
+        "name": "마천",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "동대문역사문화공원",
+        "steepSlope": []
+    },
+    {
+        "line": "05호선",
+        "name": "청구",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "망원",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "합정",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "상수",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 상수동 1-2",
+                "shortAddress": "독막로 113 옹벽",
+                "latitude": 37.5477742,
+                "longitude": 126.927317
+            },
+            {
+                "address": "서울특별시 마포구 상수동 45",
+                "shortAddress": "96(당인교전한강측)",
+                "latitude": 37.5458953,
+                "longitude": 126.9276924
+            },
+            {
+                "address": "서울특별시 마포구 상수동 322-11",
+                "shortAddress": "96(당인교전좌측)",
+                "latitude": 37.5475229,
+                "longitude": 126.9216486
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "광흥창",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 상수동 1-2",
+                "shortAddress": "독막로 113 옹벽",
+                "latitude": 37.5477742,
+                "longitude": 126.927317
+            },
+            {
+                "address": "서울특별시 마포구 상수동 45",
+                "shortAddress": "96(당인교전한강측)",
+                "latitude": 37.5458953,
+                "longitude": 126.9276924
+            },
+            {
+                "address": "서울특별시 마포구 창전동 437",
+                "shortAddress": "창전삼성아파트",
+                "latitude": 37.5511751,
+                "longitude": 126.9309182
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "대흥",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "버티고개",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 한남동 산 9-23",
+                "shortAddress": "한남동 산9-23",
+                "latitude": 37.5482032,
+                "longitude": 127.004381
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "약수",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중구 신당동 826-23",
+                "shortAddress": "신당2동 시설녹지",
+                "latitude": 37.5546964,
+                "longitude": 127.0064045
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "청구",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "신당",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "응암",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "역촌",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "불광",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "독바위",
+        "steepSlope": [
+            {
+                "address": "서울특별시 은평구 불광동 346-153",
+                "shortAddress": "서울 은평 불광 N1지구",
+                "latitude": 37.6208272,
+                "longitude": 126.9293439
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "연신내",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "구산",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "새절",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "증산",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "디지털미디어시티",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "월드컵경기장",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "마포구청",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "공덕",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 도화동 362-1",
+                "shortAddress": "서울 마포 도화 N1지구",
+                "latitude": 37.5395803,
+                "longitude": 126.9520656
+            },
+            {
+                "address": "서울특별시 마포구 신공덕동 157",
+                "shortAddress": "신공덕1차삼성래미안아파트",
+                "latitude": 37.5423333,
+                "longitude": 126.9561499
+            },
+            {
+                "address": "서울특별시 마포구 도화동 550",
+                "shortAddress": "마포삼성아파트",
+                "latitude": 37.5401117,
+                "longitude": 126.9503536
+            },
+            {
+                "address": "서울특별시 마포구 공덕동 371",
+                "shortAddress": "공덕삼성아파트",
+                "latitude": 37.5465596,
+                "longitude": 126.9511683
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "효창공원앞",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 용문동 38-9",
+                "shortAddress": "효창원로 용문시장방향좌 옹벽",
+                "latitude": 37.536604,
+                "longitude": 126.9572429
+            },
+            {
+                "address": "서울특별시 용산구 효창동 5-711",
+                "shortAddress": "효창동 마포구계 옹벽",
+                "latitude": 37.5413026,
+                "longitude": 126.9570452
+            },
+            {
+                "address": "서울특별시 용산구 용문동 38-161",
+                "shortAddress": "용문동 38-161",
+                "latitude": 37.5376114,
+                "longitude": 126.9563212
+            },
+            {
+                "address": "서울특별시 용산구 용문동 38-38",
+                "shortAddress": "용문동 38-38",
+                "latitude": 37.536801,
+                "longitude": 126.9567602
+            },
+            {
+                "address": "서울특별시 용산구 도원동 25",
+                "shortAddress": "도원삼성아파트옹벽",
+                "latitude": 37.5394571,
+                "longitude": 126.9561172
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "삼각지",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "녹사평",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "이태원",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 한남동 743-28",
+                "shortAddress": "서울 용산 한남 N4지구",
+                "latitude": 37.5368901,
+                "longitude": 126.9975105
+            },
+            {
+                "address": "서울특별시 용산구 이태원동 212-44",
+                "shortAddress": "이태원동 212-44",
+                "latitude": 37.5381781,
+                "longitude": 126.9915346
+            },
+            {
+                "address": "서울특별시 용산구 이태원동 102-15",
+                "shortAddress": "이태원동 102-15",
+                "latitude": 37.5357175,
+                "longitude": 126.9931841
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "한강진",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 한남동 743-28",
+                "shortAddress": "서울 용산 한남 N4지구",
+                "latitude": 37.5368901,
+                "longitude": 126.9975105
+            },
+            {
+                "address": "서울특별시 용산구 한남동 산 10-212",
+                "shortAddress": "서울 용산 한남 N3지구",
+                "latitude": 37.5418548,
+                "longitude": 127.0010238
+            },
+            {
+                "address": "서울특별시 용산구 한남동 산 10-212",
+                "shortAddress": "서울 용산 한남 N2지구",
+                "latitude": 37.5418548,
+                "longitude": 127.0010238
+            },
+            {
+                "address": "서울특별시 용산구 한남동 산 10-57",
+                "shortAddress": "서울 용산 한남 N1지구",
+                "latitude": 37.5436562,
+                "longitude": 127.000895
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "동묘앞",
+        "steepSlope": [
+            {
+                "address": "서울특별시 종로구 창신동 130-1",
+                "shortAddress": "창신동 130-1",
+                "latitude": 37.5754539,
+                "longitude": 127.0133571
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "창신",
+        "steepSlope": [
+            {
+                "address": "서울특별시 종로구 창신동 23-373",
+                "shortAddress": "서울 종로 창신 N1지구",
+                "latitude": 37.5788202,
+                "longitude": 127.0134424
+            },
+            {
+                "address": "서울특별시 종로구 창신동 23-785",
+                "shortAddress": "창신동 23-785",
+                "latitude": 37.5766568,
+                "longitude": 127.0120776
+            },
+            {
+                "address": "서울특별시 종로구 창신동 23-816",
+                "shortAddress": "창신이수아파트옹벽",
+                "latitude": 37.577999,
+                "longitude": 127.0147048
+            },
+            {
+                "address": "서울특별시 종로구 창신동 23-818",
+                "shortAddress": "창신동 23-818",
+                "latitude": 37.5773066,
+                "longitude": 127.0141973
+            },
+            {
+                "address": "서울특별시 종로구 창신동 23-787",
+                "shortAddress": "창신동 23-787",
+                "latitude": 37.577811,
+                "longitude": 127.012638
+            },
+            {
+                "address": "서울특별시 종로구 창신동 23-30",
+                "shortAddress": "창신동 23-30",
+                "latitude": 37.577138,
+                "longitude": 127.0141346
+            },
+            {
+                "address": "서울특별시 종로구 창신동 130-1",
+                "shortAddress": "창신동 130-1",
+                "latitude": 37.5754539,
+                "longitude": 127.0133571
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "보문",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 안암동3가 132-7",
+                "shortAddress": "안암동3가 132-7",
+                "latitude": 37.5860094,
+                "longitude": 127.0237409
+            },
+            {
+                "address": "서울특별시 성북구 안암동3가 54-3",
+                "shortAddress": "대광빌라",
+                "latitude": 37.585394,
+                "longitude": 127.0230266
+            },
+            {
+                "address": "서울특별시 성북구 안암동3가 134-5",
+                "shortAddress": "안암동3가134-5",
+                "latitude": 37.5830454,
+                "longitude": 127.0236688
+            },
+            {
+                "address": "서울특별시 성북구 안암동3가 134-6",
+                "shortAddress": "안암동3가 134-6",
+                "latitude": 37.5829848,
+                "longitude": 127.023505
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "안암",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 안암동3가 132-7",
+                "shortAddress": "안암동3가 132-7",
+                "latitude": 37.5860094,
+                "longitude": 127.0237409
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "고려대",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 종암동 31-36",
+                "shortAddress": "31-36",
+                "latitude": 37.5919421,
+                "longitude": 127.0340383
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "월곡",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "상월곡",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 상월곡동 35-1",
+                "shortAddress": "상월곡동 35-1",
+                "latitude": 37.6066909,
+                "longitude": 127.0480994
+            },
+            {
+                "address": "서울특별시 성북구 상월곡동 101-1",
+                "shortAddress": "월곡동아에코빌아파트",
+                "latitude": 37.6066138,
+                "longitude": 127.0451712
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "돌곶이",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "석계",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "태릉입구",
+        "steepSlope": []
+    },
+    {
+        "line": "06호선",
+        "name": "화랑대",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중랑구 묵동 12",
+                "shortAddress": "신내4단지아파트(3)",
+                "latitude": 37.6177935,
+                "longitude": 127.0845642
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "봉화산",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중랑구 신내동 654",
+                "shortAddress": "신내진로아파트(2)",
+                "latitude": 37.6140976,
+                "longitude": 127.0932999
+            },
+            {
+                "address": "서울특별시 중랑구 신내동 654",
+                "shortAddress": "신내진로아파트(1)",
+                "latitude": 37.6140976,
+                "longitude": 127.0932999
+            }
+        ]
+    },
+    {
+        "line": "06호선",
+        "name": "신내",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중랑구 신내동 317",
+                "shortAddress": "신내데시앙아파트(1)",
+                "latitude": 37.6109282,
+                "longitude": 127.0994663
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "군자",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "강남구청",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "학동",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "논현",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "반포",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "고속터미널",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "내방",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "이수",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "까치울",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "부천종합운동장",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "춘의",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "부평구청",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "사가정",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "용마산",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중랑구 면목동 583-74",
+                "shortAddress": "면목4동 583-74~75",
+                "latitude": 37.576289,
+                "longitude": 127.0876049
+            },
+            {
+                "address": "서울특별시 중랑구 면목동 583-73",
+                "shortAddress": "면목4동 583-73",
+                "latitude": 37.5763841,
+                "longitude": 127.0876337
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "중곡",
+        "steepSlope": [
+            {
+                "address": "서울특별시 광진구 중곡동 176-1",
+                "shortAddress": "중곡동 176-1 석축",
+                "latitude": 37.5668446,
+                "longitude": 127.0885725
+            },
+            {
+                "address": "서울특별시 광진구 중곡동 176-78",
+                "shortAddress": "중곡동176-78 석축",
+                "latitude": 37.5656734,
+                "longitude": 127.0895804
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "어린이대공원",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "남성",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 사당동 162-82",
+                "shortAddress": "옹벽(사당동162-82)",
+                "latitude": 37.4871308,
+                "longitude": 126.9757858
+            },
+            {
+                "address": "서울특별시 동작구 사당동 272-28",
+                "shortAddress": "옹벽(사당동272-28)",
+                "latitude": 37.4830551,
+                "longitude": 126.9706957
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "숭실대입구",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "상도",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 상도동 159-35",
+                "shortAddress": "옹벽(상도동159-35)",
+                "latitude": 37.5003896,
+                "longitude": 126.9487167
+            },
+            {
+                "address": "서울특별시 동작구 상도동 157-22",
+                "shortAddress": "옹벽(상도동157-22)",
+                "latitude": 37.5034067,
+                "longitude": 126.945707
+            },
+            {
+                "address": "서울특별시 동작구 상도동 157-14",
+                "shortAddress": "상도동 157-14",
+                "latitude": 37.5028795,
+                "longitude": 126.9451888
+            },
+            {
+                "address": "서울특별시 동작구 상도동 159-477",
+                "shortAddress": "석축(상도동 159-477)",
+                "latitude": 37.5028077,
+                "longitude": 126.9461447
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "장승배기",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 노량진동 326",
+                "shortAddress": "급경사지(노량진동 326)",
+                "latitude": 37.506387,
+                "longitude": 126.9424685
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "신대방삼거리",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 상도동 343-1",
+                "shortAddress": "상도동 343-1",
+                "latitude": 37.5007112,
+                "longitude": 126.9317949
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "보라매",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 신대방동 364-55",
+                "shortAddress": "석축(신대방364-55)",
+                "latitude": 37.4961576,
+                "longitude": 126.922675
+            },
+            {
+                "address": "서울특별시 동작구 신대방동 364-68",
+                "shortAddress": "옹벽(신대방364-68)",
+                "latitude": 37.495915,
+                "longitude": 126.9230497
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "신풍",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "대림",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "남구로",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "가산디지털단지",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "철산",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "광명사거리",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "천왕",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "온수",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "장암",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "중화",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "상봉",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "면목",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중랑구 면목동 1526",
+                "shortAddress": "남청파인힐아파트",
+                "latitude": 37.5882705,
+                "longitude": 127.0905458
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "건대입구",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "뚝섬유원지",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "청담",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강남구 청담동 63",
+                "shortAddress": "서울 강남 청담 N1지구",
+                "latitude": 37.5215216,
+                "longitude": 127.0493807
+            },
+            {
+                "address": "서울특별시 강남구 청담동 59-28",
+                "shortAddress": "청담동(68)",
+                "latitude": 37.5221446,
+                "longitude": 127.0514479
+            },
+            {
+                "address": "서울특별시 강남구 청담동 65",
+                "shortAddress": "청담동(66)",
+                "latitude": 37.5201372,
+                "longitude": 127.0514268
+            },
+            {
+                "address": "서울특별시 강남구 삼성동 78-4",
+                "shortAddress": "청구타운 아파트 옹벽",
+                "latitude": 37.5197827,
+                "longitude": 127.0583783
+            },
+            {
+                "address": "서울특별시 강남구 청담동 65",
+                "shortAddress": "진흥아파트 옹벽",
+                "latitude": 37.5201372,
+                "longitude": 127.0514268
+            }
+        ]
+    },
+    {
+        "line": "07호선",
+        "name": "도봉산",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "수락산",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "마들",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "노원",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "중계",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "하계",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "공릉",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "태릉입구",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "먹골",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "신중동",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "부천시청",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "상동",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "삼산체육관",
+        "steepSlope": []
+    },
+    {
+        "line": "07호선",
+        "name": "굴포천",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "암사",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강동구 암사동 500-27",
+                "shortAddress": "18(암사지하차도)",
+                "latitude": 37.552167,
+                "longitude": 127.1293289
+            }
+        ]
+    },
+    {
+        "line": "08호선",
+        "name": "천호",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "강동구청",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "몽촌토성",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "잠실",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "신흥",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "수진",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "모란",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "석촌",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "송파",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "가락시장",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 가락동 102",
+                "shortAddress": "가락한신아파트",
+                "latitude": 37.489685,
+                "longitude": 127.1217367
+            }
+        ]
+    },
+    {
+        "line": "08호선",
+        "name": "문정",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 문정동 40-12",
+                "shortAddress": "옹벽(문정동 40-12)",
+                "latitude": 37.4881092,
+                "longitude": 127.1243998
+            },
+            {
+                "address": "서울특별시 송파구 문정동 40-17",
+                "shortAddress": "옹벽(문정동 40-17)",
+                "latitude": 37.4874967,
+                "longitude": 127.1244489
+            },
+            {
+                "address": "서울특별시 송파구 문정동 40-16",
+                "shortAddress": "옹벽(문정동 40-16)",
+                "latitude": 37.4876198,
+                "longitude": 127.1244391
+            },
+            {
+                "address": "서울특별시 송파구 문정동 40-14",
+                "shortAddress": "옹벽(문정동 40-14)",
+                "latitude": 37.4878647,
+                "longitude": 127.1244201
+            },
+            {
+                "address": "서울특별시 송파구 문정동 40-18",
+                "shortAddress": "옹벽(문정동 40-18)",
+                "latitude": 37.4873637,
+                "longitude": 127.124459
+            },
+            {
+                "address": "서울특별시 송파구 가락동 102",
+                "shortAddress": "가락한신아파트",
+                "latitude": 37.489685,
+                "longitude": 127.1217367
+            }
+        ]
+    },
+    {
+        "line": "08호선",
+        "name": "장지",
+        "steepSlope": [
+            {
+                "address": "서울특별시 송파구 문정동 72-3",
+                "shortAddress": "문정건영아파트",
+                "latitude": 37.4816821,
+                "longitude": 127.1257226
+            }
+        ]
+    },
+    {
+        "line": "08호선",
+        "name": "복정",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "산성",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "남한산성입구",
+        "steepSlope": []
+    },
+    {
+        "line": "08호선",
+        "name": "단대오거리",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "석촌",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "올림픽공원",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "선정릉",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "삼성중앙",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "봉은사",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "종합운동장",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "개화",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "김포공항",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "공항시장",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "신방화",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "마곡나루",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "양천향교",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "증미",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "등촌",
+        "steepSlope": [
+            {
+                "address": "서울특별시 양천구 목동 627-8",
+                "shortAddress": "목3동 627-8",
+                "latitude": 37.5481023,
+                "longitude": 126.8698419
+            }
+        ]
+    },
+    {
+        "line": "09호선",
+        "name": "선유도",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "샛강",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "노량진",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 노량진동 205-28",
+                "shortAddress": "노량진동 205-28",
+                "latitude": 37.5119538,
+                "longitude": 126.9466657
+            },
+            {
+                "address": "서울특별시 동작구 노량진동 155-1",
+                "shortAddress": "사육신묘",
+                "latitude": 37.5151453,
+                "longitude": 126.9478613
+            }
+        ]
+    },
+    {
+        "line": "09호선",
+        "name": "흑석",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "구반포",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 동작동 산 29-2",
+                "shortAddress": "동작동 산 29-2",
+                "latitude": 37.5004575,
+                "longitude": 126.9835693
+            }
+        ]
+    },
+    {
+        "line": "09호선",
+        "name": "신반포",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "신논현",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "염창",
+        "steepSlope": [
+            {
+                "address": "서울특별시 양천구 목동 627-8",
+                "shortAddress": "목3동 627-8",
+                "latitude": 37.5481023,
+                "longitude": 126.8698419
+            }
+        ]
+    },
+    {
+        "line": "09호선",
+        "name": "신목동",
+        "steepSlope": [
+            {
+                "address": "서울특별시 양천구 목동 131-41",
+                "shortAddress": "목2동 131-41",
+                "latitude": 37.5445448,
+                "longitude": 126.8808794
+            },
+            {
+                "address": "서울특별시 양천구 목동 131-47",
+                "shortAddress": "목2동 131-47",
+                "latitude": 37.5439439,
+                "longitude": 126.8810608
+            },
+            {
+                "address": "서울특별시 양천구 목동 131-45",
+                "shortAddress": "목2동 131-45",
+                "latitude": 37.5440336,
+                "longitude": 126.8814042
+            },
+            {
+                "address": "서울특별시 양천구 목동 131-29",
+                "shortAddress": "용왕산절개지(131-29)",
+                "latitude": 37.5441134,
+                "longitude": 126.8818859
+            }
+        ]
+    },
+    {
+        "line": "09호선",
+        "name": "당산",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "국회의사당",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "여의도",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "노들",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 본동 485-2",
+                "shortAddress": "서울 동작 본 N1지구",
+                "latitude": 37.5094756,
+                "longitude": 126.9550334
+            },
+            {
+                "address": "서울특별시 동작구 본동 475-1",
+                "shortAddress": "본동 475-1",
+                "latitude": 37.5143461,
+                "longitude": 126.9552268
+            },
+            {
+                "address": "서울특별시 동작구 본동 산 2-14",
+                "shortAddress": "본동 산 2-14",
+                "latitude": 37.5130865,
+                "longitude": 126.9578723
+            }
+        ]
+    },
+    {
+        "line": "09호선",
+        "name": "동작",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동작구 동작동 산 29-2",
+                "shortAddress": "동작동 산 29-2",
+                "latitude": 37.5004575,
+                "longitude": 126.9835693
+            }
+        ]
+    },
+    {
+        "line": "09호선",
+        "name": "고속터미널",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "사평",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "가양",
+        "steepSlope": []
+    },
+    {
+        "line": "09호선",
+        "name": "언주",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "삼동",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "경기광주",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "초월",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "곤지암",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "신둔도예촌",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "이천",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "부발",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "여주",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "세종대왕릉",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "이매",
+        "steepSlope": []
+    },
+    {
+        "line": "경강선",
+        "name": "판교",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "이촌",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "서빙고",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 서빙고동 199-4",
+                "shortAddress": "서빙고로 옹벽",
+                "latitude": 37.520483,
+                "longitude": 126.9910733
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "옥수",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "왕십리",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "청량리",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "중랑",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "상봉",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "망우",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "양원",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "구리",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "도농",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "양정",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "덕소",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "도심",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "팔당",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "운길산",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "양수",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "신원",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "응봉",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성동구 응봉동 269-4",
+                "shortAddress": "응봉산 암벽공원 절개지",
+                "latitude": 37.5484668,
+                "longitude": 127.0307629
+            },
+            {
+                "address": "서울특별시 성동구 응봉동 193-223",
+                "shortAddress": "수도권 경원선2",
+                "latitude": 37.5477892,
+                "longitude": 127.0323327
+            },
+            {
+                "address": "서울특별시 성동구 응봉동 193-223",
+                "shortAddress": "수도권 경원선1",
+                "latitude": 37.5477892,
+                "longitude": 127.0323327
+            },
+            {
+                "address": "서울특별시 성동구 응봉동 275-9",
+                "shortAddress": "응봉동신동아 앞 옹벽",
+                "latitude": 37.5493329,
+                "longitude": 127.029139
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "국수",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "아신",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "오빈",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "양평",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "원덕",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "용문",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "지평",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "서울",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 후암동 100-3",
+                "shortAddress": "후암동길 옹벽",
+                "latitude": 37.552439,
+                "longitude": 126.9767349
+            },
+            {
+                "address": "서울특별시 용산구 후암동 426",
+                "shortAddress": "후암동426 뉴후암A",
+                "latitude": 37.5512695,
+                "longitude": 126.9752115
+            },
+            {
+                "address": "서울특별시 용산구 동자동 14-72",
+                "shortAddress": "동자동급경사지",
+                "latitude": 37.5523874,
+                "longitude": 126.9728941
+            },
+            {
+                "address": "서울특별시 중구 남창동 205-202",
+                "shortAddress": "서울 중 남창 N1지구",
+                "latitude": 37.5562368,
+                "longitude": 126.9777843
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 825",
+                "shortAddress": "서울 중구 남대문 N1지구",
+                "latitude": 37.5555084,
+                "longitude": 126.9770131
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 541-1",
+                "shortAddress": "남대문로5가 급경사지",
+                "latitude": 37.5553952,
+                "longitude": 126.9743536
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "신촌",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 노고산동 12-136",
+                "shortAddress": "노고산동 석축",
+                "latitude": 37.5534401,
+                "longitude": 126.9388562
+            },
+            {
+                "address": "서울특별시 마포구 창전동 438",
+                "shortAddress": "신촌금호아파트",
+                "latitude": 37.5526909,
+                "longitude": 126.9321462
+            },
+            {
+                "address": "서울특별시 마포구 노고산동 12-54",
+                "shortAddress": "노고산동 12-54",
+                "latitude": 37.5539849,
+                "longitude": 126.9402356
+            },
+            {
+                "address": "서울특별시 서대문구 창천동",
+                "shortAddress": "창천동 18-54 옹벽",
+                "latitude": 37.5586,
+                "longitude": 126.9342
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "효창공원앞",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 용문동 38-9",
+                "shortAddress": "효창원로 용문시장방향좌 옹벽",
+                "latitude": 37.536604,
+                "longitude": 126.9572429
+            },
+            {
+                "address": "서울특별시 용산구 효창동 5-711",
+                "shortAddress": "효창동 마포구계 옹벽",
+                "latitude": 37.5413026,
+                "longitude": 126.9570452
+            },
+            {
+                "address": "서울특별시 용산구 용문동 38-161",
+                "shortAddress": "용문동 38-161",
+                "latitude": 37.5376114,
+                "longitude": 126.9563212
+            },
+            {
+                "address": "서울특별시 용산구 용문동 38-38",
+                "shortAddress": "용문동 38-38",
+                "latitude": 37.536801,
+                "longitude": 126.9567602
+            },
+            {
+                "address": "서울특별시 용산구 도원동 25",
+                "shortAddress": "도원삼성아파트옹벽",
+                "latitude": 37.5394571,
+                "longitude": 126.9561172
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "공덕",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 도화동 362-1",
+                "shortAddress": "서울 마포 도화 N1지구",
+                "latitude": 37.5395803,
+                "longitude": 126.9520656
+            },
+            {
+                "address": "서울특별시 마포구 신공덕동 157",
+                "shortAddress": "신공덕1차삼성래미안아파트",
+                "latitude": 37.5423333,
+                "longitude": 126.9561499
+            },
+            {
+                "address": "서울특별시 마포구 도화동 550",
+                "shortAddress": "마포삼성아파트",
+                "latitude": 37.5401117,
+                "longitude": 126.9503536
+            },
+            {
+                "address": "서울특별시 마포구 공덕동 371",
+                "shortAddress": "공덕삼성아파트",
+                "latitude": 37.5465596,
+                "longitude": 126.9511683
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "홍대입구",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 창천동 390",
+                "shortAddress": "창천동390(석축)",
+                "latitude": 37.5607498,
+                "longitude": 126.9282984
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "수색",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "화전",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "강매",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "행신",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "능곡",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "곡산",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "풍산",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "일산",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "탄현",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "운정",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "금릉",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "월롱",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "파주",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "문산",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "서강대",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 노고산동 12-136",
+                "shortAddress": "노고산동 석축",
+                "latitude": 37.5534401,
+                "longitude": 126.9388562
+            },
+            {
+                "address": "서울특별시 마포구 창전동 437",
+                "shortAddress": "창전삼성아파트",
+                "latitude": 37.5511751,
+                "longitude": 126.9309182
+            },
+            {
+                "address": "서울특별시 마포구 창전동 438",
+                "shortAddress": "신촌금호아파트",
+                "latitude": 37.5526909,
+                "longitude": 126.9321462
+            },
+            {
+                "address": "서울특별시 마포구 노고산동 12-54",
+                "shortAddress": "노고산동 12-54",
+                "latitude": 37.5539849,
+                "longitude": 126.9402356
+            },
+            {
+                "address": "서울특별시 마포구 창전동 439",
+                "shortAddress": "신촌태영데시앙아파트",
+                "latitude": 37.5533735,
+                "longitude": 126.9309792
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "백마",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "야당",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "금촌",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "디지털미디어시티",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "대곡",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "한남",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "용산",
+        "steepSlope": []
+    },
+    {
+        "line": "경의선",
+        "name": "회기",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동대문구 휘경동 344",
+                "shortAddress": "수도권 경원선4",
+                "latitude": 37.5882221,
+                "longitude": 127.0550727
+            },
+            {
+                "address": "서울특별시 동대문구 휘경동 344",
+                "shortAddress": "수도권 경원선3",
+                "latitude": 37.5882221,
+                "longitude": 127.0550727
+            },
+            {
+                "address": "서울특별시 동대문구 이문동 311-36",
+                "shortAddress": "이문래미안2차아파트",
+                "latitude": 37.5930401,
+                "longitude": 127.0610037
+            }
+        ]
+    },
+    {
+        "line": "경의선",
+        "name": "가좌",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 연희동 446-165",
+                "shortAddress": "연희동446-165(옹벽)",
+                "latitude": 37.5675107,
+                "longitude": 126.920632
+            }
+        ]
+    },
+    {
+        "line": "경춘선",
+        "name": "광운대",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "청량리",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "회기",
+        "steepSlope": [
+            {
+                "address": "서울특별시 동대문구 휘경동 344",
+                "shortAddress": "수도권 경원선4",
+                "latitude": 37.5882221,
+                "longitude": 127.0550727
+            },
+            {
+                "address": "서울특별시 동대문구 휘경동 344",
+                "shortAddress": "수도권 경원선3",
+                "latitude": 37.5882221,
+                "longitude": 127.0550727
+            },
+            {
+                "address": "서울특별시 동대문구 이문동 311-36",
+                "shortAddress": "이문래미안2차아파트",
+                "latitude": 37.5930401,
+                "longitude": 127.0610037
+            }
+        ]
+    },
+    {
+        "line": "경춘선",
+        "name": "상봉",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "망우",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "신내",
+        "steepSlope": [
+            {
+                "address": "서울특별시 중랑구 신내동 317",
+                "shortAddress": "신내데시앙아파트(1)",
+                "latitude": 37.6109282,
+                "longitude": 127.0994663
+            }
+        ]
+    },
+    {
+        "line": "경춘선",
+        "name": "갈매",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "별내",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "퇴계원",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "사릉",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "평내호평",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "마석",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "대성리",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "청평",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "상천",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "가평",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "굴봉산",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "백양리",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "강촌",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "김유정",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "남춘천",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "금곡",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "천마산",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "춘천",
+        "steepSlope": []
+    },
+    {
+        "line": "경춘선",
+        "name": "중랑",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "김포공항",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "계양",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "마곡나루",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "검암",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "서울",
+        "steepSlope": [
+            {
+                "address": "서울특별시 용산구 후암동 100-3",
+                "shortAddress": "후암동길 옹벽",
+                "latitude": 37.552439,
+                "longitude": 126.9767349
+            },
+            {
+                "address": "서울특별시 용산구 후암동 426",
+                "shortAddress": "후암동426 뉴후암A",
+                "latitude": 37.5512695,
+                "longitude": 126.9752115
+            },
+            {
+                "address": "서울특별시 용산구 동자동 14-72",
+                "shortAddress": "동자동급경사지",
+                "latitude": 37.5523874,
+                "longitude": 126.9728941
+            },
+            {
+                "address": "서울특별시 중구 남창동 205-202",
+                "shortAddress": "서울 중 남창 N1지구",
+                "latitude": 37.5562368,
+                "longitude": 126.9777843
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 825",
+                "shortAddress": "서울 중구 남대문 N1지구",
+                "latitude": 37.5555084,
+                "longitude": 126.9770131
+            },
+            {
+                "address": "서울특별시 중구 남대문로5가 541-1",
+                "shortAddress": "남대문로5가 급경사지",
+                "latitude": 37.5553952,
+                "longitude": 126.9743536
+            }
+        ]
+    },
+    {
+        "line": "공항철도",
+        "name": "공덕",
+        "steepSlope": [
+            {
+                "address": "서울특별시 마포구 도화동 362-1",
+                "shortAddress": "서울 마포 도화 N1지구",
+                "latitude": 37.5395803,
+                "longitude": 126.9520656
+            },
+            {
+                "address": "서울특별시 마포구 신공덕동 157",
+                "shortAddress": "신공덕1차삼성래미안아파트",
+                "latitude": 37.5423333,
+                "longitude": 126.9561499
+            },
+            {
+                "address": "서울특별시 마포구 도화동 550",
+                "shortAddress": "마포삼성아파트",
+                "latitude": 37.5401117,
+                "longitude": 126.9503536
+            },
+            {
+                "address": "서울특별시 마포구 공덕동 371",
+                "shortAddress": "공덕삼성아파트",
+                "latitude": 37.5465596,
+                "longitude": 126.9511683
+            }
+        ]
+    },
+    {
+        "line": "공항철도",
+        "name": "홍대입구",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서대문구 창천동 390",
+                "shortAddress": "창천동390(석축)",
+                "latitude": 37.5607498,
+                "longitude": 126.9282984
+            }
+        ]
+    },
+    {
+        "line": "공항철도",
+        "name": "디지털미디어시티",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "청라국제도시",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "운서",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "공항화물청사",
+        "steepSlope": []
+    },
+    {
+        "line": "공항철도",
+        "name": "영종",
+        "steepSlope": []
+    },
+    {
+        "line": "김포도시철도",
+        "name": "김포공항",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "선릉",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "한티",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "도곡",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "구룡",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강남구 개포동 175-3",
+                "shortAddress": "개포동(77)",
+                "latitude": 37.4870204,
+                "longitude": 127.0590072
+            },
+            {
+                "address": "서울특별시 강남구 개포동 155",
+                "shortAddress": "개포동(10)",
+                "latitude": 37.4857884,
+                "longitude": 127.0634904
+            }
+        ]
+    },
+    {
+        "line": "분당선",
+        "name": "개포동",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강남구 개포동 155",
+                "shortAddress": "개포동(10)",
+                "latitude": 37.4857884,
+                "longitude": 127.0634904
+            }
+        ]
+    },
+    {
+        "line": "분당선",
+        "name": "대모산입구",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "왕십리",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "수서",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "복정",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "서울숲",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "압구정로데오",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "강남구청",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "선정릉",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "가천대",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "태평",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "모란",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "야탑",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "서현",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "수내",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "정자",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "미금",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "이매",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "신갈",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "상갈",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "청명",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "영통",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "망포",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "매탄권선",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "수원시청",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "매교",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "구성",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "청량리",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "보정",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "오리",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "죽전",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "기흥",
+        "steepSlope": []
+    },
+    {
+        "line": "분당선",
+        "name": "수원",
+        "steepSlope": []
+    },
+    {
+        "line": "서해선",
+        "name": "소사",
+        "steepSlope": []
+    },
+    {
+        "line": "서해선",
+        "name": "초지",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "오이도",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "달월",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "월곶",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "소래포구",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "인천논현",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "호구포",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "남동인더스파크",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "원인재",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "연수",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "송도",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "인하대",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "숭의",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "인천",
+        "steepSlope": []
+    },
+    {
+        "line": "수인선",
+        "name": "신포",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "동천",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "수지구청",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "성복",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "상현",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "광교중앙",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "정자",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "미금",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "양재시민의숲",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "판교",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "광교",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "강남",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "양재",
+        "steepSlope": []
+    },
+    {
+        "line": "신분당선",
+        "name": "청계산입구",
+        "steepSlope": [
+            {
+                "address": "서울특별시 서초구 원지동 355-7",
+                "shortAddress": "원지동 355-7",
+                "latitude": 37.445032,
+                "longitude": 127.05643
+            }
+        ]
+    },
+    {
+        "line": "용인경전철",
+        "name": "강남대",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "지석",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "어정",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "동백",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "초당",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "시청.용인대",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "명지대",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "김량장",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "운동장.송담대",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "고진",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "보평",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "둔전",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "삼가",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "전대.에버랜드",
+        "steepSlope": []
+    },
+    {
+        "line": "용인경전철",
+        "name": "기흥",
+        "steepSlope": []
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "북한산우이",
+        "steepSlope": []
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "솔밭공원",
+        "steepSlope": [
+            {
+                "address": "서울특별시 도봉구 쌍문동 524-87",
+                "shortAddress": "쌍문동 우이빌라 옹벽",
+                "latitude": 37.6562762,
+                "longitude": 127.017402
+            }
+        ]
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "419민주묘지",
+        "steepSlope": []
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "가오리",
+        "steepSlope": []
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "삼양사거리",
+        "steepSlope": []
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "솔샘",
+        "steepSlope": [
+            {
+                "address": "서울특별시 강북구 미아동 811",
+                "shortAddress": "두산위브트레지움아파트 옹벽",
+                "latitude": 37.6177687,
+                "longitude": 127.0169376
+            },
+            {
+                "address": "서울특별시 강북구 미아동 1353",
+                "shortAddress": "절개지",
+                "latitude": 37.6179816,
+                "longitude": 127.0126365
+            }
+        ]
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "북한산보국문",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 정릉동 산 15-19",
+                "shortAddress": "산15-19",
+                "latitude": 37.6139823,
+                "longitude": 127.0086323
+            }
+        ]
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "정릉",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 정릉동 109-22",
+                "shortAddress": "정릉2동 109-22~107-32",
+                "latitude": 37.6015559,
+                "longitude": 127.0141009
+            },
+            {
+                "address": "서울특별시 성북구 정릉동 172-10",
+                "shortAddress": "축대",
+                "latitude": 37.6049526,
+                "longitude": 127.014434
+            },
+            {
+                "address": "서울특별시 성북구 정릉동 1020",
+                "shortAddress": "정릉우성아파트",
+                "latitude": 37.6010253,
+                "longitude": 127.0158068
+            },
+            {
+                "address": "서울특별시 성북구 정릉동 1014",
+                "shortAddress": "정릉쌍용스카이아파트",
+                "latitude": 37.5996463,
+                "longitude": 127.0165441
+            }
+        ]
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "성신여대입구",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 동소문동6가 27-1",
+                "shortAddress": "돈암육교 진입",
+                "latitude": 37.5933719,
+                "longitude": 127.0129992
+            }
+        ]
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "보문",
+        "steepSlope": [
+            {
+                "address": "서울특별시 성북구 안암동3가 132-7",
+                "shortAddress": "안암동3가 132-7",
+                "latitude": 37.5860094,
+                "longitude": 127.0237409
+            },
+            {
+                "address": "서울특별시 성북구 안암동3가 54-3",
+                "shortAddress": "대광빌라",
+                "latitude": 37.585394,
+                "longitude": 127.0230266
+            },
+            {
+                "address": "서울특별시 성북구 안암동3가 134-5",
+                "shortAddress": "안암동3가134-5",
+                "latitude": 37.5830454,
+                "longitude": 127.0236688
+            },
+            {
+                "address": "서울특별시 성북구 안암동3가 134-6",
+                "shortAddress": "안암동3가 134-6",
+                "latitude": 37.5829848,
+                "longitude": 127.023505
+            }
+        ]
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "신설동",
+        "steepSlope": []
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "화계",
+        "steepSlope": []
+    },
+    {
+        "line": "우이신설경전철",
+        "name": "삼양",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "동오",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "새말",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "경기도청북부청사",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "효자",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "회룡",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "범골",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "경전철의정부",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "의정부시청",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "흥선",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "의정부중앙",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "곤제",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "어룡",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "발곡",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "송산",
+        "steepSlope": []
+    },
+    {
+        "line": "의정부경전철",
+        "name": "탑석",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "검단사거리",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "인천대공원",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "마전",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "독정",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "검바위",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "서구청",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "가정",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "인천가좌",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "가재울",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "주안국가산단",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "인천시청",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "석천사거리",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "모래내시장",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "만수",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "운연",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "검암",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "가정중앙시장",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "석남",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "서부여성회관",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "주안",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "시민공원",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "석바위시장",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "왕길",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "완정",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "남동구청",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "아시아드경기장",
+        "steepSlope": []
+    },
+    {
+        "line": "인천2호선",
+        "name": "검단오류",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "계양",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "귤현",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "박촌",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "임학",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "계산",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "경인교대입구",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "작전",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "갈산",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "부평구청",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "부평시장",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "부평",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "동수",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "부평삼거리",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "인천시청",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "예술회관",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "인천터미널",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "문학경기장",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "선학",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "신연수",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "원인재",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "동춘",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "동막",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "캠퍼스타운",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "테크노파크",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "지식정보단지",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "인천대입구",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "센트럴파크",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "국제업무지구",
+        "steepSlope": []
+    },
+    {
+        "line": "인천선",
+        "name": "간석오거리",
+        "steepSlope": []
+    }
+]
