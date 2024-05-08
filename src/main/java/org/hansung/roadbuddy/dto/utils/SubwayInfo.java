@@ -1,4 +1,4 @@
-package org.hansung.roadbuddy.dto.rail.utils;
+package org.hansung.roadbuddy.dto.utils;
 
 import com.fasterxml.jackson.annotation.JsonSetter;
 import lombok.*;
