@@ -569,7 +569,7 @@
     },
     {
         "line": "1호선",
-        "station": "서울",
+        "station": "서울역",
         "steepSlope": [
             {
                 "address": "서울특별시 용산구 후암동 100-3",
@@ -1725,7 +1725,7 @@
     },
     {
         "line": "4호선",
-        "station": "서울",
+        "station": "서울역",
         "steepSlope": [
             {
                 "address": "서울특별시 용산구 후암동 100-3",
@@ -3840,7 +3840,7 @@
     },
     {
         "line": "경의중앙선",
-        "station": "서울",
+        "station": "서울역",
         "steepSlope": [
             {
                 "address": "서울특별시 용산구 후암동 100-3",
@@ -4338,7 +4338,7 @@
     },
     {
         "line": "공항철도",
-        "station": "서울",
+        "station": "서울역",
         "steepSlope": [
             {
                 "address": "서울특별시 용산구 후암동 100-3",
@@ -4666,137 +4666,137 @@
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "오이도",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "달월",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "월곶",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "소래포구",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "인천논현",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "호구포",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "남동인더스파크",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "원인재",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "연수",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "송도",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "인하대",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "숭의",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "인천",
         "steepSlope": []
     },
     {
-        "line": "수인.신분당선",
+        "line": "수인.분당선",
         "station": "신포",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "동천",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "수지구청",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "성복",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "상현",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "광교중앙",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "정자",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "미금",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "양재시민의숲",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "판교",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "광교",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "강남",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "양재",
         "steepSlope": []
     },
     {
-        "line": "신신분당선",
+        "line": "신분당선",
         "station": "청계산입구",
         "steepSlope": [
             {

@@ -1,64 +1,50 @@
 package org.hansung.roadbuddy.service;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.hansung.roadbuddy.dto.SteepSlopeDto;
-import org.springframework.beans.factory.annotation.Value;
+import org.hansung.roadbuddy.dto.google.response.googleDirections.Legs;
+import org.hansung.roadbuddy.dto.google.response.googleDirections.Steps;
+import org.hansung.roadbuddy.dto.steepSlope.SteepSlope;
+import org.hansung.roadbuddy.dto.steepSlope.SteepSlopePool;
 import org.springframework.stereotype.Service;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Service
 public class SteepSlopeService {
-    private final HashMap<String, List<SteepSlopeDto>> map = new HashMap<>();
+    private final SteepSlopePool steepSlopePool;
 
-    public SteepSlopeService(@Value("${steepSlopeFilePath}") String filePath) {
-        initializeMapFromFile(filePath); // 파일에서 데이터를 읽어와서 map 초기화
+    public SteepSlopeService(SteepSlopePool steepSlopePool) {
+        this.steepSlopePool = steepSlopePool;
     }
 
-    // 파일에서 데이터를 읽어와서 map을 초기화하는 메서드
-    private void initializeMapFromFile(String filePath) {
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(filePath));
-            StringBuilder jsonBuilder = new StringBuilder();
-            String readLine;
-            while ((readLine = br.readLine()) != null) {
-                jsonBuilder.append(readLine);
+    public Legs updateSteepSlopes(Legs legs) {
+        legs.getSteps().forEach(step -> {
+            if (isSubway(step)) {
+                step.setSteepSlopes(new ArrayList<>());
+                step.getSteepSlopes().addAll(getDepartureSteepSlopeBySubway(step));
+                step.getSteepSlopes().addAll(getArrivalSteepSlopeBySubway(step));
             }
-            br.close();
-
-            ObjectMapper objectMapper = new ObjectMapper();
-            List<Map<String, Object>> dataList = objectMapper.readValue(jsonBuilder.toString(), new TypeReference<List<Map<String, Object>>>() {});
-            for (Map<String, Object> data : dataList) {
-                String line = (String) data.get("line");
-                String station = (String) data.get("name");
-                List<Map<String, Object>> steepSlopeList = (List<Map<String, Object>>) data.get("steepSlope");
-                List<SteepSlopeDto> steepSlopes = new ArrayList<>();
-                for (Map<String, Object> steepSlopeData : steepSlopeList) {
-                    String address = (String) steepSlopeData.get("address");
-                    String shortAddress = (String) steepSlopeData.get("shortAddress");
-                    Double latitude = (Double) steepSlopeData.get("latitude");
-                    Double longitude = (Double) steepSlopeData.get("longitude");
-                    SteepSlopeDto steepSlopeDto = new SteepSlopeDto(address, shortAddress, latitude, longitude);
-                    steepSlopes.add(steepSlopeDto);
-                }
-                String key = line + " " + station;
-                map.put(key, steepSlopes);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        });
+        return legs;
     }
 
     // line과 station에 해당하는 가파른 경사 데이터를 반환하는 메서드
-    public List<SteepSlopeDto> getSteepSlopeBySubway(String line, String station) {
-        String key = line + " " + station;
-        return map.getOrDefault(key, new ArrayList<>());
+    public List<SteepSlope> getDepartureSteepSlopeBySubway(Steps steps) {
+        String line = steps.getTransit_details().getLine().getShort_name();
+        String station = (String) steps.getTransit_details().getDeparture_stop().get("name");
+        System.out.println("line station = " + line + " " + station);
+        return steepSlopePool.get(line, station);
+    }
+
+    public List<SteepSlope> getArrivalSteepSlopeBySubway(Steps steps) {
+        String line = steps.getTransit_details().getLine().getShort_name();
+        String station = (String) steps.getTransit_details().getArrival_stop().get("name");
+        System.out.println("line station = " + line + " " + station);
+        return steepSlopePool.get(line, station);
+    }
+
+    private boolean isSubway(Steps step) {
+        if (!step.getTravel_mode().equals("TRANSIT")) return false;
+        return step.getTransit_details().getLine().getVehicle().getType().equals("SUBWAY");
     }
 }
