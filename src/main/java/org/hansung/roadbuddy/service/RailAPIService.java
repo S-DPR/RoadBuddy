@@ -1,6 +1,7 @@
 package org.hansung.roadbuddy.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.Legs;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.Steps;
@@ -15,8 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class RailAPIService extends GenericAPIService {
@@ -32,9 +32,9 @@ public class RailAPIService extends GenericAPIService {
         this.subwayCodePool = subwayCodePool;
     }
 
-    public RailTransferResDto getRailTransfer(RailTransferReqDto railTransferReqDto) throws JsonProcessingException {
+    public Map getRailTransfer(RailTransferReqDto railTransferReqDto) throws JsonProcessingException {
         setKey(railTransferReqDto);
-        return objectMapper.readValue(sendRequest(railEndpoint, railTransferReqDto), RailTransferResDto.class);
+        return objectMapper.readValue(sendRequest(railEndpoint, railTransferReqDto), Map.class);
     }
 
     public Legs updateRoutesSubwayTransfer(Legs legs) throws JsonProcessingException {
@@ -77,9 +77,29 @@ public class RailAPIService extends GenericAPIService {
                             .chthTgtLn(cTo.getLnCd())
                             .chtnNextStinCd(subwayCodePool.get(nxt).getStationCd())
                             .build();
-                    RailTransferResDto railTransferResDto = getRailTransfer(railTransferReqDto);
-                    System.out.println("railTransferResDto = " + railTransferResDto);
-                    steps.get(i+1).setTransfer_path(railTransferResDto);
+                    TypeReference<List<RailTransferResDto<String>>> typeRef = new TypeReference<>() {};
+                    ArrayList body = (ArrayList) getRailTransfer(railTransferReqDto).getOrDefault("body", new ArrayList<>());
+                    List<RailTransferResDto<String>> items = objectMapper.convertValue(body, typeRef);
+                    Map<String, RailTransferResDto<List<String>>> combine = new HashMap<>();
+                    System.out.println("railTransferRes = " + items.size());
+                    items.forEach(item -> {
+                        String id = item.getImgPath();
+                        combine.putIfAbsent(id, RailTransferResDto.<List<String>>builder()
+                                .chtnMvTpOrdr(item.getChtnMvTpOrdr())
+                                .stMovePath(item.getStMovePath())
+                                .edMovePath(item.getEdMovePath())
+                                .elvtSttCd(item.getElvtSttCd())
+                                .elvtTpCd(item.getElvtTpCd())
+                                .imgPath(item.getImgPath())
+                                .mvContDtl(new ArrayList<>())
+                                .mvPathMgNo(item.getMvPathMgNo())
+                                .build());
+                        combine.get(id).getMvContDtl().add(item.getMvContDtl());
+                    });
+                    System.out.println("combine = " + combine.size());
+                    List<RailTransferResDto<List<String>>> ret = combine.values().stream().toList();
+                    System.out.println("railTransferResDto = " + ret);
+                    steps.get(i+1).setTransfer_path(ret);
                 }
             }
         }
