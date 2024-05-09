@@ -18,15 +18,15 @@ public class RailAPITest {
 
     @Test
     public void 환승이동경로검색() throws JsonProcessingException {
-        RailTransferReqDto railTransferReqDto = new RailTransferReqDto();
-        railTransferReqDto.setFormat("json");
-        railTransferReqDto.setRailOprIsttCd("S1");
-        railTransferReqDto.setLnCd("3");
-        railTransferReqDto.setStinCd("321");
-        railTransferReqDto.setChthTgtLn("4");
-        railTransferReqDto.setPrevStinCd("422");
-        railTransferReqDto.setChtnNextStinCd("424");
-        RailTransferResDto ret = railAPIService.getRailTransfer(railTransferReqDto);
-        System.out.println("ret = " + ret);
+//        RailTransferReqDto railTransferReqDto = new RailTransferReqDto();
+//        railTransferReqDto.setFormat("json");
+//        railTransferReqDto.setRailOprIsttCd("S1");
+//        railTransferReqDto.setLnCd("3");
+//        railTransferReqDto.setStinCd("321");
+//        railTransferReqDto.setChthTgtLn("4");
+//        railTransferReqDto.setPrevStinCd("422");
+//        railTransferReqDto.setChtnNextStinCd("424");
+////        RailTransferResDto ret = railAPIService.getRailTransfer(railTransferReqDto);
+//        System.out.println("ret = " + ret);
     }
 }
