@@ -20,12 +20,14 @@ import org.springframework.stereotype.Service;
 import java.net.http.HttpRequest;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
 public class TMapAPIService extends GenericAPIService {
     private final String apiKey;
     private final String tMapDirectionEndpoint = "https://apis.openapi.sk.com/tmap/routes/pedestrian?version=1&callback=function";
+    private final String tMapDriveDirectionEndpoint = "https://apis.openapi.sk.com/tmap/routes?version=1";
 
     @Autowired
     TMapAPIService(ObjectMapper objectMapper, @Value("${api.key.tmap}") String apiKey) {
@@ -54,13 +56,24 @@ public class TMapAPIService extends GenericAPIService {
 //        return CompletableFuture.completedFuture(objectMapper.readValue(response, TMapDirectionsResDto.class));
 //    }
 
-    public TMapDirectionsResDto getDirection(TMapDirectionReqDto tMapCoordinate) throws JsonProcessingException {
-        setKey(tMapCoordinate);
-        if (cache.containsKey(tMapCoordinate)) return (TMapDirectionsResDto) cache.get(tMapCoordinate);
-        String response = sendRequest(tMapDirectionEndpoint, HttpMethods.POST, createHttpRequestBuilder(), tMapCoordinate);
+    public TMapDirectionsResDto getDirection(TMapDirectionReqDto tMapDirectionReqDto) throws JsonProcessingException {
+        setKey(tMapDirectionReqDto);
+        if (cache.containsKey(tMapDirectionReqDto)) return (TMapDirectionsResDto) cache.get(tMapDirectionReqDto);
+        String response = sendRequest(tMapDirectionEndpoint, HttpMethods.POST, createHttpRequestBuilder(), tMapDirectionReqDto).replaceAll("\\p{Cntrl}", "");
         System.out.println("response = " + response);
         TMapDirectionsResDto ret = objectMapper.readValue(response, TMapDirectionsResDto.class);
-        cache.putIfAbsent(tMapCoordinate, ret);
+        cache.putIfAbsent(tMapDirectionReqDto, ret);
+        return ret;
+    }
+
+    public Map getDriveDirection(TMapDirectionReqDto tMapDirectionReqDto) throws JsonProcessingException {
+        setKey(tMapDirectionReqDto);
+        tMapDirectionReqDto.setSearchOption(0L);
+        if (cache.containsKey(tMapDirectionReqDto)) return (Map) cache.get(tMapDirectionReqDto);
+        String response = sendRequest(tMapDriveDirectionEndpoint, HttpMethods.POST, createHttpRequestBuilder(), tMapDirectionReqDto);
+        System.out.println("response = " + response);
+        Map ret = objectMapper.readValue(response, Map.class);
+        cache.putIfAbsent(tMapDirectionReqDto, ret);
         return ret;
     }
 
