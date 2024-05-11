@@ -3,10 +3,7 @@ package org.hansung.roadbuddy.dto.utils;
 import com.fasterxml.jackson.annotation.JsonSetter;
 import lombok.*;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 @Getter
 @Setter
@@ -28,23 +25,34 @@ public class SubwayInfo {
     }
 
     public List<SubwayInfo> findDistKStationPath(String station, int dist, HashSet<SubwayInfo> vis) {
-        System.out.println("station = " + station);
-        System.out.println("dist = " + dist);
         if (dist == 0) return station.equals(this.station) ? List.of(this) : Collections.emptyList();
         List<SubwayInfo> ret = new ArrayList<>();
         vis.add(this);
-        System.out.println("this = " + this);
-        System.out.println("connect.size() = " + connect.size());
         for (SubwayInfo subwayInfo: connect) {
-            System.out.println("this = " + this);
-            System.out.println("subwayInfo = " + subwayInfo);
-            System.out.println("this.hashCode() = " + this.hashCode());
-            System.out.println("subwayInfo.hashCode() = " + subwayInfo.hashCode());
-            String nxtStation = subwayInfo.getStation();
             if (vis.contains(subwayInfo)) continue;
-            if (subwayInfo.findDistKStationPath(nxtStation, dist-1, vis).isEmpty()) continue;
+            if (subwayInfo.findDistKStationPath(station, dist-1, vis).isEmpty()) continue;
             ret.add(subwayInfo);
         }
         return ret;
+    }
+
+    public int findStationShortestDistance(SubwayInfo destination) {
+        if (!line.equals(destination.getLine())) {
+            throw new RuntimeException(destination.getLine() + " " + line + " 이 둘이 line이 달라서 만나질 못함");
+        }
+        ArrayDeque<SubwayInfo> queue = new ArrayDeque<>();
+        HashMap<SubwayInfo, Integer> vis = new HashMap<>();
+        queue.add(this);
+        vis.put(this, 0);
+        while (!queue.isEmpty()) {
+            SubwayInfo cur = queue.pollFirst();
+            int time = vis.get(cur);
+            for (SubwayInfo nxt: cur.getConnect()) {
+                if (vis.containsKey(nxt)) continue;
+                vis.put(nxt, time+1);
+                queue.add(nxt);
+            }
+        }
+        return vis.get(destination);
     }
 }
