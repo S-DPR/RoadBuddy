@@ -20,9 +20,9 @@ public class SteepSlopeService {
     public Legs updateSteepSlopes(Legs legs) {
         legs.getSteps().forEach(step -> {
             if (isSubway(step)) {
-                step.setSteepSlopes(new ArrayList<>());
-                step.getSteepSlopes().addAll(getDepartureSteepSlopeBySubway(step));
-                step.getSteepSlopes().addAll(getArrivalSteepSlopeBySubway(step));
+                step.setSteep_slope(new ArrayList<>());
+                step.getSteep_slope().addAll(getDepartureSteepSlopeBySubway(step));
+                step.getSteep_slope().addAll(getArrivalSteepSlopeBySubway(step));
             }
         });
         return legs;
