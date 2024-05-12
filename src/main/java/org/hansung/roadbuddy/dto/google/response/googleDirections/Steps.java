@@ -21,8 +21,8 @@ public class Steps {
     private Polyline polyline;
     private RoutesCoordinate start_location;
     private TransmitDetails transit_details;
-    private List<SteepSlope> steep_slope;
-    private List<RailTransferResDto<List<String>>> transfer_path;
+    private List<SteepSlope> steep_slope = new ArrayList<>();
+    private List<RailTransferResDto<List<String>>> transfer_path = new ArrayList<>();
     private String travel_mode;
     private String maneuver;
     @Builder.Default
