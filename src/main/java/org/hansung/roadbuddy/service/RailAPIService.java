@@ -18,6 +18,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+import static org.hansung.roadbuddy.utilService.DtoGetUtils.*;
+
 @Service
 public class RailAPIService extends GenericAPIService {
 
@@ -40,92 +42,97 @@ public class RailAPIService extends GenericAPIService {
     public Legs updateRoutesSubwayTransfer(Legs legs) throws JsonProcessingException {
         List<Steps> steps = legs.getSteps();
         int len = steps.size();
-//        for (int i = 0; i < len-1; i++) {
-//            if (!isSubway(steps.get(i))) continue;
-//            if (!isSubway(steps.get(i+1))) continue;
-//            SubwayCode from = getStationCodeBySteps(steps.get(i));
-//            SubwayCode to = getStationCodeBySteps(steps.get(i+1));
-////            steps.add(i+1, );
-//        }
-//        private String railOprIsttCd; //철도운영기관코드
-//        private String lnCd; //환승 이전 호선
-//        private String stinCd; //환승할 역 코드
-//        private String prevStinCd; //환승 이전역 코드
-//        private String chthTgtLn; //환승대상선
-//        private String chtnNextStinCd; //환승 이후역 코드
         for (int i = 0; i < len-2; i++) {
-            if (!isSubway(steps.get(i))) continue;
-            if (!isWalking(steps.get(i+1))) continue;
-            if (!isSubway(steps.get(i+2))) continue;
-            SubwayInfo from = getSubwayInfoBySteps(steps.get(i));
-            String nxtStation = from.getStation();
-            String nxtLine = steps.get(i+2).getTransit_details().getLine().getShort_name();
-            SubwayInfo to = subwayInfoPool.get(nxtLine, nxtStation);
-            SubwayCode cFrom = subwayCodePool.get(from);
-            SubwayCode cTo = subwayCodePool.get(to);
-            String arrivalStation = (String) steps.get(i+2).getTransit_details().getDeparture_stop().get("name");
+            if (!isTransferSteps(steps, i)) continue;
+
+            // 환승 역 및 호선 추적
+            SubwayInfo transferFrom = subwayInfoPool.getByStepWithArrival(steps.get(i));
+            SubwayInfo transferTo = subwayInfoPool.getByStepWithDeparture(steps.get(i+2));
+
+            // 환승 관련 코드 얻기
+            SubwayCode cFrom = subwayCodePool.get(transferFrom);
+            SubwayCode cTo = subwayCodePool.get(transferTo);
+
+            // 환승으로 도달하는 최종 도착지와 거리
+            SubwayInfo arrivalStation = subwayInfoPool.getByStepWithArrival(steps.get(i+2));
             int dist = getArrivalDist(steps.get(i+2));
-            List<SubwayInfo> toNxt = to.findDistKStationPath(arrivalStation, dist, new HashSet<>());
-            for (SubwayInfo prv: to.getConnect()) {
-                if (to.getConnect().size() > 1 && toNxt.contains(prv)) continue;
-                for (SubwayInfo nxt: toNxt) {
-                    RailTransferReqDto railTransferReqDto = RailTransferReqDto.builder()
-                            .railOprIsttCd(cFrom.getRailCd())
-                            .lnCd(cFrom.getLnCd())
-                            .stinCd(cFrom.getStationCd())
-                            .prevStinCd(subwayCodePool.get(prv).getStationCd())
-                            .chthTgtLn(cTo.getLnCd())
-                            .chtnNextStinCd(subwayCodePool.get(nxt).getStationCd())
-                            .build();
-                    TypeReference<List<RailTransferResDto<String>>> typeRef = new TypeReference<>() {};
-                    ArrayList body = (ArrayList) getRailTransfer(railTransferReqDto).getOrDefault("body", new ArrayList<>());
-                    List<RailTransferResDto<String>> items = objectMapper.convertValue(body, typeRef);
-                    Map<String, RailTransferResDto<List<String>>> combine = new HashMap<>();
-                    System.out.println("railTransferRes = " + items.size());
-                    items.forEach(item -> {
-                        String id = item.getImgPath();
-                        combine.putIfAbsent(id, RailTransferResDto.<List<String>>builder()
-                                .chtnMvTpOrdr(item.getChtnMvTpOrdr())
-                                .stMovePath(item.getStMovePath())
-                                .edMovePath(item.getEdMovePath())
-                                .elvtSttCd(item.getElvtSttCd())
-                                .elvtTpCd(item.getElvtTpCd())
-                                .imgPath(item.getImgPath())
-                                .mvContDtl(new ArrayList<>())
-                                .mvPathMgNo(item.getMvPathMgNo())
-                                .build());
-                        combine.get(id).getMvContDtl().add(item.getMvContDtl());
-                    });
-                    System.out.println("combine = " + combine.size());
-                    List<RailTransferResDto<List<String>>> ret = combine.values().stream().toList();
-                    System.out.println("railTransferResDto = " + ret);
-                    steps.get(i+1).setTransfer_path(ret);
-                }
-            }
+
+            // 어느 방향으로 가야 그 도착지가 나오는지
+            List<SubwayInfo> toNxt = transferTo.findDistKStationPath(arrivalStation, dist, new HashSet<>());
+
+            // i+1번째가 환승할때 필요한 경로이므로 이 부분에 환승 업데이트
+            steps.get(i + 1).setTransfer_path(updateTransferPath(transferTo, toNxt, cFrom, cTo));
         }
         return legs;
     }
 
-    private boolean isSubway(Steps step) {
-        if (!step.getTravel_mode().equals("TRANSIT")) return false;
-        return step.getTransit_details().getLine().getVehicle().getType().equals("SUBWAY");
+    private List<RailTransferResDto<List<String>>> updateTransferPath(SubwayInfo transferTo, List<SubwayInfo> toNxt, SubwayCode cFrom, SubwayCode cTo) throws JsonProcessingException {
+        List<RailTransferResDto<List<String>>> ret = new ArrayList<>();
+        for (SubwayInfo prv: transferTo.getConnect()) {
+            // 첫번째 조건 : 이게 끝 역인지 (리프노드는 간선이 1개)
+            // 두번째 조건 : 현재 prv가 이전역이 아닌 가야하는 방향의 역인지
+            if (transferTo.getConnect().size() > 1 && toNxt.contains(prv)) continue;
+
+            // 현재 역이 이전역이면 목적지로 가는 모든 역에 대해서 쿼리
+            for (SubwayInfo nxt: toNxt) {
+                RailTransferReqDto railTransferReqDto = RailTransferReqDto.builder()
+                        .railOprIsttCd(cFrom.getRailCd())
+                        .lnCd(cFrom.getLnCd())
+                        .stinCd(cFrom.getStationCd())
+                        .prevStinCd(subwayCodePool.get(prv).getStationCd())
+                        .chthTgtLn(cTo.getLnCd())
+                        .chtnNextStinCd(subwayCodePool.get(nxt).getStationCd())
+                        .build();
+
+                // 경로 결과 받기
+                TypeReference<List<RailTransferResDto<String>>> typeRef = new TypeReference<>() {};
+                ArrayList body = (ArrayList) getRailTransfer(railTransferReqDto).getOrDefault("body", new ArrayList<>());
+                List<RailTransferResDto<String>> items = objectMapper.convertValue(body, typeRef);
+
+                // 받은 경로 결과를 클라이언트가 사용하기 쉽게 압축
+                List<RailTransferResDto<List<String>>> combine = combineMvContDtl(items);
+                ret.addAll(combine);
+            }
+        }
+        return ret;
     }
 
-    private boolean isWalking(Steps step) {
-        return step.getTravel_mode().equals("WALKING");
+    private List<RailTransferResDto<List<String>>> combineMvContDtl(List<RailTransferResDto<String>> items) {
+        Map<String, RailTransferResDto<List<String>>> combine = new HashMap<>();
+        items.forEach(item -> {
+            String id = item.getImgPath();
+            combine.putIfAbsent(id, RailTransferResDto.<List<String>>builder()
+                    .chtnMvTpOrdr(item.getChtnMvTpOrdr())
+                    .stMovePath(item.getStMovePath())
+                    .edMovePath(item.getEdMovePath())
+                    .elvtSttCd(item.getElvtSttCd())
+                    .elvtTpCd(item.getElvtTpCd())
+                    .imgPath(item.getImgPath())
+                    .mvContDtl(new ArrayList<>())
+                    .mvPathMgNo(item.getMvPathMgNo())
+                    .build());
+            combine.get(id).getMvContDtl().add(item.getMvContDtl());
+        });
+        return combine.values().stream().toList();
     }
 
-    private String getArrivalStop(Steps steps) {
-        return (String) steps.getTransit_details().getArrival_stop().get("name");
+    private boolean isTransferSteps(List<Steps> steps, int idx) {
+        if (!isSubway(steps.get(idx))) return false;
+        if (!isWalking(steps.get(idx+1))) return false;
+        if (!isSubway(steps.get(idx+2))) return false;
+        return true;
     }
 
     private int getArrivalDist(Steps steps) {
-        return Integer.parseInt(steps.getTransit_details().getNum_stops());
-    }
-
-    private SubwayInfo getSubwayInfoBySteps(Steps steps) {
-        String station = getArrivalStop(steps);
-        String line = steps.getTransit_details().getLine().getShort_name();
-        return subwayInfoPool.get(line, station);
+        String num = steps.getTransit_details().getNum_stops();
+        if (num != null) {
+            return Integer.parseInt(num);
+        }
+        String start = getDepartureStop(steps);
+        String end = getArrivalStop(steps);
+        String line = getLineShortName(steps);
+        SubwayInfo startStation = subwayInfoPool.get(line, start);
+        SubwayInfo destination = subwayInfoPool.get(line, end);
+        return startStation.findStationShortestDistance(destination);
     }
 }
