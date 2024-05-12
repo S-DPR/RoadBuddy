@@ -24,8 +24,8 @@ public class SubwayInfo {
         }
     }
 
-    public List<SubwayInfo> findDistKStationPath(String station, int dist, HashSet<SubwayInfo> vis) {
-        if (dist == 0) return station.equals(this.station) ? List.of(this) : Collections.emptyList();
+    public List<SubwayInfo> findDistKStationPath(SubwayInfo station, int dist, HashSet<SubwayInfo> vis) {
+        if (dist == 0) return station.equals(this) ? List.of(this) : Collections.emptyList();
         List<SubwayInfo> ret = new ArrayList<>();
         vis.add(this);
         for (SubwayInfo subwayInfo: connect) {
