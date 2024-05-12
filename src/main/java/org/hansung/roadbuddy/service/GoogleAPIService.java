@@ -7,11 +7,14 @@ import org.hansung.roadbuddy.dto.google.request.GoogleDirectionReqDto;
 import org.hansung.roadbuddy.dto.google.request.GeocodingReqDto;
 import org.hansung.roadbuddy.dto.google.request.TextSearchReqDto;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.GoogleDirectionResDto;
+import org.hansung.roadbuddy.dto.google.response.googleDirections.Routes;
 import org.hansung.roadbuddy.generic.GenericAPIService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -47,6 +50,26 @@ public class GoogleAPIService extends GenericAPIService {
     public GoogleDirectionResDto getDirection(GoogleDirectionReqDto directionReqDto) throws JsonProcessingException {
         setKey(directionReqDto);
         String response = sendRequest(googleDirectionsEndpoint, directionReqDto);
-        return objectMapper.readValue(response, GoogleDirectionResDto.class);
+        GoogleDirectionResDto googleDirectionResDto = objectMapper.readValue(response, GoogleDirectionResDto.class);
+        delTrain(googleDirectionResDto);
+        return googleDirectionResDto;
+    }
+
+    private void delTrain(GoogleDirectionResDto googleDirectionResDto) {
+        List<Routes> routes = new ArrayList<>();
+        googleDirectionResDto.getRoutes().forEach(route -> {
+            boolean hasTrain = route.getLegs().stream().anyMatch(leg -> {
+                return leg.getSteps().stream().anyMatch(step -> {
+                    return step.getTravel_mode().equals("TRANSIT") &&
+                            step.getTransit_details()
+                                    .getLine()
+                                    .getVehicle()
+                                    .getName()
+                                    .equals("기차");
+                });
+            });
+            if (!hasTrain) routes.add(route);
+        });
+        googleDirectionResDto.setRoutes(routes);
     }
 }
