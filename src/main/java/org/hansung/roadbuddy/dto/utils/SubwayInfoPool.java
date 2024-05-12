@@ -2,7 +2,9 @@ package org.hansung.roadbuddy.dto.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
+import org.hansung.roadbuddy.dto.google.response.googleDirections.Steps;
 import org.hansung.roadbuddy.generic.GenericPool;
+import org.hansung.roadbuddy.utilService.DtoGetUtils;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
@@ -53,5 +55,17 @@ public class SubwayInfoPool extends GenericPool<SubwayInfo, SubwayInfo> {
                 .line(line)
                 .station(station)
                 .build());
+    }
+
+    public SubwayInfo getByStepWithArrival(Steps step) {
+        String station = DtoGetUtils.getArrivalStop(step);
+        String line = DtoGetUtils.getLineShortName(step);
+        return get(line, station);
+    }
+
+    public SubwayInfo getByStepWithDeparture(Steps step) {
+        String station = DtoGetUtils.getDepartureStop(step);
+        String line = DtoGetUtils.getLineShortName(step);
+        return get(line, station);
     }
 }
