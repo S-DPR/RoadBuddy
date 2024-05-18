@@ -20,6 +20,12 @@ public class Legs {
     private RoutesCoordinate start_location;
     private List<Steps> steps;
 
+    public void updateArrivalTime() {
+        long originTime = departure_time.getValue();
+        long moveTime = duration.getValue();
+        arrival_time.setValueAndText(originTime+moveTime);
+    }
+
     public void updateTotalDistance() {
         if (steps == null || steps.isEmpty()) return;
         distance.setValueAndText(steps.stream().mapToLong(i -> {
