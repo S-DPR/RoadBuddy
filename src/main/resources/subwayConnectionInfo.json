@@ -2562,22 +2562,22 @@
     {
         "line": "5호선",
         "station": "영등포구청",
-        "connect": "영등포시장"
+        "connect": "영등포시장역"
     },
     {
         "line": "5호선",
-        "station": "영등포시장",
+        "station": "영등포시장역",
         "connect": "영등포구청"
     },
     {
         "line": "5호선",
-        "station": "영등포시장",
+        "station": "영등포시장역",
         "connect": "신길"
     },
     {
         "line": "5호선",
         "station": "신길",
-        "connect": "영등포시장"
+        "connect": "영등포시장역"
     },
     {
         "line": "5호선",
