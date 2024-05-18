@@ -22,7 +22,7 @@ public class Duration {
         min = min % 60;
 
         if (hour > 0) {
-            this.text = String.format("%d시간\n%d분", hour, min);
+            this.text = String.format("%d시간 %d분", hour, min);
         } else {
             this.text = String.format("%d분", min);
         }
