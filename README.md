@@ -21,6 +21,7 @@
 - 개발 언어: Kotlin, Swift, Java, Python (일부)
 - 개발 도구: Android Studio, XCode, IntelliJ
 - 주요 기술: Spring Boot, AWS
+- 타 플랫폼 GitHub : [Android](https://github.com/songhm7/RoadBuddyAndroid) / [IOS](https://github.com/dpwns1234/RoadBuddy-iOS)
 ---
 ### 🗂️ 시스템 구조도
 ![](https://i.postimg.cc/hPvJQVB8/image.png)
@@ -52,8 +53,6 @@
 ---
 
 ## RoadBuddy 백엔드
-
-타 플랫폼 : [Android](https://github.com/songhm7/RoadBuddyAndroid) / [IOS](https://github.com/dpwns1234)
 
 ---
 
