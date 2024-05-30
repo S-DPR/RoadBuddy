@@ -34,7 +34,6 @@ public class NaverOpenAPIService extends GenericAPIService {
     public PlaceSearchResDto getPlaceSearch(PlaceSearchReqDto placeSearchReqDto) throws JsonProcessingException {
         if (cache.containsKey(placeSearchReqDto)) return (PlaceSearchResDto) cache.get(placeSearchReqDto);
         String response = sendRequest(placeSearchEndpoint, HttpMethods.GET, createHttpRequestBuilder(), placeSearchReqDto);
-        System.out.println("placesearch response = " + response);
         PlaceSearchResDto placeSearchResDto = objectMapper.readValue(response, PlaceSearchResDto.class);
         placeSearchResDto.setCoordinate(placeSearchReqDto.getCoordinate());
         cache.putIfAbsent(placeSearchReqDto, placeSearchResDto);

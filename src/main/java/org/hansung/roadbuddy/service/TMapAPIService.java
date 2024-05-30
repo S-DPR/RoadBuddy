@@ -71,7 +71,6 @@ public class TMapAPIService extends GenericAPIService {
         tMapDirectionReqDto.setSearchOption(0L);
         if (cache.containsKey(tMapDirectionReqDto)) return (Map) cache.get(tMapDirectionReqDto);
         String response = sendRequest(tMapDriveDirectionEndpoint, HttpMethods.POST, createHttpRequestBuilder(), tMapDirectionReqDto);
-        System.out.println("response = " + response);
         Map ret = objectMapper.readValue(response, Map.class);
         cache.putIfAbsent(tMapDirectionReqDto, ret);
         return ret;
@@ -91,6 +90,7 @@ public class TMapAPIService extends GenericAPIService {
                 leg.setSteps(updatedSteps);
                 leg.updateTotalDistance();
                 leg.updateTotalTime();
+                leg.updateArrivalTime();
             });
         });
         return googleDirectionResDto;

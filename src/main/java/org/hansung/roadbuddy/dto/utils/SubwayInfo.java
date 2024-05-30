@@ -38,7 +38,7 @@ public class SubwayInfo {
 
     public int findStationShortestDistance(SubwayInfo destination) {
         if (!line.equals(destination.getLine())) {
-            throw new RuntimeException(destination.getLine() + " " + line + " 이 둘이 line이 달라서 만나질 못함");
+            throw new RuntimeException(destination.getLine() + " " + line + " 둘이 line이 달라서 만나질 못함");
         }
         ArrayDeque<SubwayInfo> queue = new ArrayDeque<>();
         HashMap<SubwayInfo, Integer> vis = new HashMap<>();
@@ -54,5 +54,24 @@ public class SubwayInfo {
             }
         }
         return vis.get(destination);
+    }
+
+    public SubwayInfo findArrivalNextStation(SubwayInfo destination, Integer dist) {
+        if (dist == null) {
+            dist = findStationShortestDistance(destination);
+        }
+        if (destination.connect.size() == 1) {
+            return destination; // 종착역은 다음역이 없다
+        }
+        HashSet<SubwayInfo> vis = new HashSet<>();
+
+        // vis 업데이트
+        findDistKStationPath(destination, dist, vis);
+
+        for (SubwayInfo nxt: destination.connect) {
+            if (vis.contains(nxt)) continue;
+            return nxt; // vis에 없다면, 그녀석이 아마도 그 다음 역일 것이다.
+        }
+        return null;
     }
 }

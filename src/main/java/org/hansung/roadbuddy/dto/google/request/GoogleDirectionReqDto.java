@@ -32,7 +32,7 @@ public class GoogleDirectionReqDto extends GenericRequestDTO {
         map.put("alternatives", alternatives.toString());
         map.put("language", language);
         map.put("departure_time", departure_time);
-//        map.put("departure_time", "1715380424");
+//        map.put("departure_time", "1717214302");
         return map;
     }
 }

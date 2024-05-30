@@ -33,7 +33,7 @@ tbodyId = "gen"
 apiEndPoint = 'https://naveropenapi.apigw.ntruss.com/map-geocode/v2/geocode'
 headers = {
     'Accept': 'application/json',
-    'X-NCP-APIGW-API-KEY-ID': 'p9sxkj6591',
+    'X-NCP-APIGW-API-KEY-ID': '',
     'X-NCP-APIGW-API-KEY': 'olgFrK6W7mFGem0fxWN1zdw4urmZWhWJRqspk8dI'
 }
 

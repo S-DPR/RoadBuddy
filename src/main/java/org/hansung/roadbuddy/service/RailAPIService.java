@@ -60,13 +60,22 @@ public class RailAPIService extends GenericAPIService {
             // 어느 방향으로 가야 그 도착지가 나오는지
             List<SubwayInfo> toNxt = transferTo.findDistKStationPath(arrivalStation, dist, new HashSet<>());
 
+            List<RailTransferResDto<List<String>>> path = updateTransferPath(transferTo, toNxt, cFrom, cTo);
+
+            // 방향 필터링
+            path = filterOppositeDirection(path, steps.get(i));
+
             // i+1번째가 환승할때 필요한 경로이므로 이 부분에 환승 업데이트
-            steps.get(i + 1).setTransfer_path(updateTransferPath(transferTo, toNxt, cFrom, cTo));
+            steps.get(i + 1).setTransfer_path(path);
         }
         return legs;
     }
 
-    private List<RailTransferResDto<List<String>>> updateTransferPath(SubwayInfo transferTo, List<SubwayInfo> toNxt, SubwayCode cFrom, SubwayCode cTo) throws JsonProcessingException {
+    private List<RailTransferResDto<List<String>>> updateTransferPath(
+            SubwayInfo transferTo,
+            List<SubwayInfo> toNxt,
+            SubwayCode cFrom,
+            SubwayCode cTo) throws JsonProcessingException {
         List<RailTransferResDto<List<String>>> ret = new ArrayList<>();
         for (SubwayInfo prv: transferTo.getConnect()) {
             // 첫번째 조건 : 이게 끝 역인지 (리프노드는 간선이 1개)
@@ -114,6 +123,18 @@ public class RailAPIService extends GenericAPIService {
             combine.get(id).getMvContDtl().add(item.getMvContDtl());
         });
         return combine.values().stream().toList();
+    }
+
+    private List<RailTransferResDto<List<String>>> filterOppositeDirection(
+            List<RailTransferResDto<List<String>>> res,
+            Steps steps) {
+        SubwayInfo start = subwayInfoPool.getByStepWithDeparture(steps);
+        SubwayInfo end = subwayInfoPool.getByStepWithArrival(steps);
+        SubwayInfo oppositeDirection = start.findArrivalNextStation(end, null);
+        List<RailTransferResDto<List<String>>> ret = res.stream().filter(i -> {
+            return i.getStMovePath().contains(oppositeDirection.getStation());
+        }).toList();
+        return ret.isEmpty() ? res : ret;
     }
 
     private boolean isTransferSteps(List<Steps> steps, int idx) {
