@@ -25,6 +25,22 @@ import java.util.Map;
 
 @SpringBootTest
 class MapsAPITest {
+    enum 좌표저장소 {
+        한성대학교(37.58284829999999, 127.0105811),
+        석계역(37.6150815, 127.0657675),
+        마곡나루(37.5669356, 126.8265611);
+        private final Coordinate coordinate;
+        좌표저장소(Double lat, Double lon) {
+            this.coordinate = new Coordinate();
+            this.coordinate.setLatitude(lat);
+            this.coordinate.setLongitude(lon);
+        }
+
+        public Coordinate getCoordinate() {
+            return this.coordinate;
+        }
+    }
+
     @Autowired GoogleAPIService googleAPIService;
     @Autowired TMapAPIService tMapAPIService;
 
@@ -99,21 +115,5 @@ class MapsAPITest {
         tMapDirectionReqDto.setStart(좌표저장소.석계역.getCoordinate());
         tMapDirectionReqDto.setEnd(좌표저장소.석계역.getCoordinate());
         System.out.println(tMapAPIService.getDirection(tMapDirectionReqDto));
-    }
-}
-
-enum 좌표저장소 {
-    한성대학교(37.58284829999999, 127.0105811),
-    석계역(37.6150815, 127.0657675),
-    마곡나루(37.5669356, 126.8265611);
-    private final Coordinate coordinate;
-    좌표저장소(Double lat, Double lon) {
-        this.coordinate = new Coordinate();
-        this.coordinate.setLatitude(lat);
-        this.coordinate.setLongitude(lon);
-    }
-
-    public Coordinate getCoordinate() {
-        return this.coordinate;
     }
 }

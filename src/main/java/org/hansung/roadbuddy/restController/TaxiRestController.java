@@ -1,6 +1,7 @@
 package org.hansung.roadbuddy.restController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import io.swagger.v3.oas.annotations.Hidden;
 import org.hansung.roadbuddy.dto.taxi.request.AverageReqDto;
 import org.hansung.roadbuddy.generic.GenericRestController;
 import org.hansung.roadbuddy.service.TaxiAPIService;
@@ -13,6 +14,7 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/taxi")
+@Hidden
 public class TaxiRestController extends GenericRestController {
     private final TaxiAPIService taxiAPIService;
 

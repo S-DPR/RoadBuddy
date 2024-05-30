@@ -58,3 +58,8 @@ RoadBuddy 백엔드는 안드로이드와 iOS 플랫폼에서 API 요청을 대�
 - **경로 보완**: **Google Maps API**에서 대중교통 경로를 받아오고, 한국에서 도보 경로가 표시되지 않는 경우 **TMap의 도보 경로 API**를 활용하여 정보를 보완합니다.
 - **엘리베이터 환승 경로**: 각 경로의 지하철 엘리베이터 환승 경로를 **국가교통부 KRIC 레일포털의 API**에서 받아옵니다. 기존의 API와는 다르게 환승대상역, 현재 선로, 환승대상선 세 정보만으로 받을 수 있게 구성했습니다.
 - **지하철역 주변 급경사지**: 지하철역 반경 500m내 급경사지의 위경도와 주소를 반환합니다. 급경사지의 출처는 **국민안전재난포털**입니다.
+
+### API
+![](https://i.postimg.cc/XqcGW6Tn/image.png)
+![](https://i.postimg.cc/CMjfkbd9/image.png)
+![](https://i.postimg.cc/WbTqntkz/image.png)

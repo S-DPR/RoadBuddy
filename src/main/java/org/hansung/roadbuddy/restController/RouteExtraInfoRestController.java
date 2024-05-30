@@ -1,6 +1,7 @@
 package org.hansung.roadbuddy.restController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import io.swagger.v3.oas.annotations.Hidden;
 import org.hansung.roadbuddy.dto.google.response.googleDirections.Legs;
 import org.hansung.roadbuddy.generic.GenericRestController;
 import org.hansung.roadbuddy.service.RailAPIService;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/subway")
+@Hidden
 public class RouteExtraInfoRestController extends GenericRestController {
 
     private final RailAPIService railAPIService;
