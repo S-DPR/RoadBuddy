@@ -1,20 +1,3 @@
-# RoadBuddy
-
-## RoadBuddy 백엔드
-
-타 플랫폼 : [Android](https://github.com/songhm7/RoadBuddyAndroid) / [IOS](https://github.com/dpwns1234)
-
----
-
-## Overview
- 
-RoadBuddy 백엔드는 안드로이드와 iOS 플랫폼에서 API 요청을 대행하고, 응답을 가공하여 다시 모바일 클라이언트로 전달하는 역할을 합니다.
-
-### 주요 기능
-- **API 중계**: 안드로이드와 iOS에서 직접 API 요청을 보내지 않고, 서버에서 요청을 대행하여 처리합니다.
-- **경로 보완**: **Google Maps API**에서 대중교통 경로를 받아오고, 한국에서 도보 경로가 표시되지 않는 경우 **TMap의 도보 경로 API**를 활용하여 정보를 보완합니다.
-- **엘리베이터 환승 경로**: 각 경로의 지하철 엘리베이터 환승 경로를 **국가교통부 KRIC 레일포털의 API**에서 받아옵니다. 기존의 API와는 다르게 환승대상역, 현재 선로, 환승대상선 세 정보만으로 받을 수 있게 구성했습니다.
-- **지하철역 주변 급경사지**: 지하철역 반경 500m내 급경사지의 위경도와 주소를 반환합니다. 급경사지의 출처는 **국민안전재난포털**입니다.
 ## 🗺️ RoadBuddy
 
 ### ♿ 교통약자를 위한 지도 앱
@@ -65,3 +48,21 @@ RoadBuddy 백엔드는 안드로이드와 iOS 플랫폼에서 API 요청을 대�
 |[김예준](https://github.com/dpwns1234)|[송형민](https://github.com/songhm7)|[서윤혜](https://github.com/YoonhyeSuh)|[추영광](https://github.com/S-DPR)|
 |---|---|---|---|
 |<img src="https://avatars.githubusercontent.com/u/52391722?v=4" class="profile">|<img src="https://avatars.githubusercontent.com/u/47211293?s=48&v=4" class="profile">|<img src="https://avatars.githubusercontent.com/u/106311524?s=64&v=4" class="profile">|<img src="https://avatars.githubusercontent.com/u/108619579?v=4" class="profile">|
+
+---
+
+## RoadBuddy 백엔드
+
+타 플랫폼 : [Android](https://github.com/songhm7/RoadBuddyAndroid) / [IOS](https://github.com/dpwns1234)
+
+---
+
+## Overview
+
+RoadBuddy 백엔드는 안드로이드와 iOS 플랫폼에서 API 요청을 대행하고, 응답을 가공하여 다시 모바일 클라이언트로 전달하는 역할을 합니다.
+
+### 주요 기능
+- **API 중계**: 안드로이드와 iOS에서 직접 API 요청을 보내지 않고, 서버에서 요청을 대행하여 처리합니다.
+- **경로 보완**: **Google Maps API**에서 대중교통 경로를 받아오고, 한국에서 도보 경로가 표시되지 않는 경우 **TMap의 도보 경로 API**를 활용하여 정보를 보완합니다.
+- **엘리베이터 환승 경로**: 각 경로의 지하철 엘리베이터 환승 경로를 **국가교통부 KRIC 레일포털의 API**에서 받아옵니다. 기존의 API와는 다르게 환승대상역, 현재 선로, 환승대상선 세 정보만으로 받을 수 있게 구성했습니다.
+- **지하철역 주변 급경사지**: 지하철역 반경 500m내 급경사지의 위경도와 주소를 반환합니다. 급경사지의 출처는 **국민안전재난포털**입니다.
