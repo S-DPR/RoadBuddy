@@ -39,16 +39,9 @@
 ---
 ### 👩💻 개발자
 
-<style>
-  .profile {
-    width: 128px;
-    height: 128px;
-  }
-</style>
-
-|[김예준](https://github.com/dpwns1234)|[송형민](https://github.com/songhm7)|[서윤혜](https://github.com/YoonhyeSuh)|[추영광](https://github.com/S-DPR)|
+| [김예준](https://github.com/dpwns1234) | [송형민](https://github.com/songhm7) | [서윤혜](https://github.com/YoonhyeSuh) | [추영광](https://github.com/S-DPR) |
 |---|---|---|---|
-|<img src="https://avatars.githubusercontent.com/u/52391722?v=4" class="profile">|<img src="https://avatars.githubusercontent.com/u/47211293?s=48&v=4" class="profile">|<img src="https://avatars.githubusercontent.com/u/106311524?s=64&v=4" class="profile">|<img src="https://avatars.githubusercontent.com/u/108619579?v=4" class="profile">|
+| <img src="https://avatars.githubusercontent.com/u/52391722?v=4" width="128"> | <img src="https://avatars.githubusercontent.com/u/47211293?s=48&v=4" width="128"> | <img src="https://avatars.githubusercontent.com/u/106311524?s=64&v=4" width="128"> | <img src="https://avatars.githubusercontent.com/u/108619579?v=4" width="128"> |
 
 ---
 
