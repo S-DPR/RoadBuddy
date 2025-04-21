@@ -58,9 +58,9 @@ public class SubwayInfo {
 
     public SubwayInfo findArrivalNextStation(SubwayInfo destination, Integer dist) {
         if (dist == null) {
-            dist = findStationShortestDistance(destination);
+            dist = findStationShortestDistance(destination); // dist를 아직 모른다면, dist를 BFS를 통해 알아온다
         }
-        if (destination.connect.size() == 1) {
+        if (destination.connect.size() == 1) { // 리프노드는 연결된 간선이 1개다
             return destination; // 종착역은 다음역이 없다
         }
         HashSet<SubwayInfo> vis = new HashSet<>();
