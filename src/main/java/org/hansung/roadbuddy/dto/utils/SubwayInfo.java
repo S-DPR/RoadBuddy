@@ -70,7 +70,7 @@ public class SubwayInfo {
 
         for (SubwayInfo nxt: destination.connect) {
             if (vis.contains(nxt)) continue;
-            return nxt; // vis에 없다면, 그녀석이 아마도 그 다음 역일 것이다.
+            return nxt; // vis에 없다면, 그 역이 아마도 그 다음 역일 것이다.
         }
         return null;
     }
